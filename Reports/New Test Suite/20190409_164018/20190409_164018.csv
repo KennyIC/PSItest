@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 73.0.3683.86,,2019-04-09 16:40:19,2019-04-09 16:41:00,40.637s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,Login process in PSI,2019-04-09 16:40:20,2019-04-09 16:40:27,7.625s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-09 16:40:20,2019-04-09 16:40:23,3.491s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.86,,2019-04-09 16:40:23,2019-04-09 16:40:27,3.352s,PASSED
+"setText(findTestObject(""Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.86,,2019-04-09 16:40:27,2019-04-09 16:40:27,0.160s,PASSED
+"setEncryptedText(findTestObject(""Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.86,,2019-04-09 16:40:27,2019-04-09 16:40:27,0.173s,PASSED
+"click(findTestObject(""Login/Login Button""))",Chrome 73.0.3683.86,,2019-04-09 16:40:27,2019-04-09 16:40:27,0.079s,PASSED
+"verifyElementClickable(findTestObject(""Login/Verify Button""))",Chrome 73.0.3683.86,,2019-04-09 16:40:27,2019-04-09 16:40:27,0.046s,PASSED
+,,,,,,
+Test Cases/Order,Chrome 73.0.3683.86,,2019-04-09 16:40:27,2019-04-09 16:40:59,32.157s,FAILED
+"click(findTestObject(""Object Repository/Order/New button""))",Chrome 73.0.3683.86,,2019-04-09 16:40:27,2019-04-09 16:40:28,0.120s,PASSED
+"click(findTestObject(""Object Repository/Order/Order button""))",Chrome 73.0.3683.86,,2019-04-09 16:40:28,2019-04-09 16:40:28,0.175s,PASSED
+"click(findTestObject(""Order/Vendor button""))",Chrome 73.0.3683.86,,2019-04-09 16:40:28,2019-04-09 16:40:28,0.096s,PASSED
+"click(findTestObject(""Object Repository/Order/Vendor 2324""))",Chrome 73.0.3683.86,,2019-04-09 16:40:28,2019-04-09 16:40:59,31.530s,FAILED
