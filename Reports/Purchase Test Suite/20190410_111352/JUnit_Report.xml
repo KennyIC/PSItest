@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Purchase Test Suite" time="25" tests="1" failures="1" errors="0">
+   <testsuite name="Purchase Test Suite" tests="1" failures="1" errors="0" time="25" timestamp="2019-04-10 11:13:54" hostname="KennyIC_Chen - KennyIC_Chen.compal.com" id="Test Suites/Purchase Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\Purchase Test Suite\\20190410_111352"/>
+         <property name="logFiles" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\Purchase Test Suite\\20190410_111352\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\Purchase Test Suite\\20190410_111352\\1554866059096.png"/>
+         <property name="hostName" value="KennyIC_Chen - KennyIC_Chen.compal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.109.98.142"/>
+         <property name="sessionId" value="49c2cdb7eda7142f2f263979f2d4dbbd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-04-10 11:13:54 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-04-10 11:13:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-10 11:13:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 11:13:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-10 11:13:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-10 11:13:58 - [TEST_STEP][PASSED] - navigateToUrl("https://psi-azcldap.unicore.com.tw/login"): Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-04-10 11:14:07 - [MESSAGE][PASSED] - Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-04-10 11:14:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-10 11:14:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-10 11:14:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/ID-QWE"), "QWE"): Text 'QWE' is set on object 'Object Repository/Login/ID-QWE'
+
+2019-04-10 11:14:08 - [MESSAGE][PASSED] - Text 'QWE' is set on object 'Object Repository/Login/ID-QWE'
+
+2019-04-10 11:14:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/PW-QWE"), "5opu+sh6ATw="): Text ****** has been set on object 'Object Repository/Login/PW-QWE'
+
+2019-04-10 11:14:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/PW-QWE'
+
+2019-04-10 11:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Button")): Object: 'Object Repository/Login/Login Button' is clicked on
+
+2019-04-10 11:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Button' is clicked on
+
+2019-04-10 11:14:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login/Verify Button")): Object 'Object Repository/Login/Verify Button' is clickable
+
+2019-04-10 11:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Verify Button' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Purchase" classname="Test Cases/Purchase" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-10 11:14:09 - [TEST_CASE][FAILED] - Test Cases/Purchase: Test Cases/Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)
+
+
+2019-04-10 11:14:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase/Purchase button")): Object: 'Object Repository/Purchase/Purchase button' is clicked on
+
+2019-04-10 11:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Purchase button' is clicked on
+
+2019-04-10 11:14:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Add button")): Object: 'Object Repository/Purchase/Add button' is clicked on
+
+2019-04-10 11:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Add button' is clicked on
+
+2019-04-10 11:14:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Vendor button")): Object: 'Object Repository/Purchase/Vendor button' is clicked on
+
+2019-04-10 11:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Vendor button' is clicked on
+
+2019-04-10 11:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Vendor 2324")): Object: 'Object Repository/Purchase/Vendor 2324' is clicked on
+
+2019-04-10 11:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Vendor 2324' is clicked on
+
+2019-04-10 11:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Payment select")): Object: 'Object Repository/Purchase/Payment select' is clicked on
+
+2019-04-10 11:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment select' is clicked on
+
+2019-04-10 11:14:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Purchase/Payment Cash"), "0: 1", true): All options with value '0: 1' are selected in object 'Object Repository/Purchase/Payment Cash'  using regular expression
+
+2019-04-10 11:14:14 - [MESSAGE][PASSED] - All options with value '0: 1' are selected in object 'Object Repository/Purchase/Payment Cash'  using regular expression
+
+2019-04-10 11:14:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Payment date 1")): Object: 'Object Repository/Purchase/Payment date 1' is clicked on
+
+2019-04-10 11:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 1' is clicked on
+
+2019-04-10 11:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase/Payment date 1 next month")): Object: 'Object Repository/Purchase/Payment date 1 next month' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 1 next month' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase/Payment date 1 next month_10")): Object: 'Object Repository/Purchase/Payment date 1 next month_10' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 1 next month_10' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Payment date 2")): Object: 'Object Repository/Purchase/Payment date 2' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 2' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Payment date 2 next month")): Object: 'Object Repository/Purchase/Payment date 2 next month' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 2 next month' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Payment date 2 next month_15")): Object: 'Object Repository/Purchase/Payment date 2 next month_15' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 2 next month_15' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Payment date 3")): Object: 'Object Repository/Purchase/Payment date 3' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 3' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase/Payment date 3 next month")): Object: 'Object Repository/Purchase/Payment date 3 next month' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 3 next month' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase/Payment date 3 next month_20")): Object: 'Object Repository/Purchase/Payment date 3 next month_20' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Payment date 3 next month_20' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Purchase/Invoice select")): Object: 'Object Repository/Purchase/Invoice select' is clicked on
+
+2019-04-10 11:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase/Invoice select' is clicked on
+
+2019-04-10 11:14:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Purchase/Invoice 1"), "3: 4", true): All options with value '3: 4' are selected in object 'Object Repository/Purchase/Invoice 1'  using regular expression
+
+2019-04-10 11:14:18 - [MESSAGE][PASSED] - All options with value '3: 4' are selected in object 'Object Repository/Purchase/Invoice 1'  using regular expression
+
+2019-04-10 11:14:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 11:14:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 11:14:19 - [TEST_STEP][FAILED] - setText(findTestObject("Purchase/Invoice number"), "AB123456"): setText(findTestObject("Purchase/Invoice number"), "AB123456") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)
+
+
+2019-04-10 11:14:19 - [MESSAGE][FAILED] - Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+[[ATTACHMENT|C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\Purchase Test Suite\\20190410_111352\\1554866059096.png]]
+
+2019-04-10 11:14:19 - [MESSAGE][FAILED] - setText(findTestObject("Purchase/Invoice number"), "AB123456") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-10 11:14:09 - [TEST_CASE][FAILED] - Test Cases/Purchase: Test Cases/Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-10 11:13:54 - [TEST_SUITE][FAILED] - Purchase Test Suite: Test Cases/Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-10 11:13:54 - [TEST_SUITE][FAILED] - Purchase Test Suite: Test Cases/Purchase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'AB123456' of object 'Object Repository/Purchase/Invoice number' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KENNYIC_CHEN', ip: '10.109.98.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KENNYI~1.COM\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63026}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 49c2cdb7eda7142f2f263979f2d4dbbd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Purchase.run(Purchase:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554866032893.run(TempTestSuite1554866032893.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

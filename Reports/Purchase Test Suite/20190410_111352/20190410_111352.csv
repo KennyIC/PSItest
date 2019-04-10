@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Purchase Test Suite,Chrome 73.0.3683.86,,2019-04-10 11:13:54,2019-04-10 11:14:20,25.509s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,Login process in PSI,2019-04-10 11:13:54,2019-04-10 11:14:09,14.443s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-10 11:13:55,2019-04-10 11:13:58,3.271s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.86,,2019-04-10 11:13:58,2019-04-10 11:14:07,9.249s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-10 11:14:07,2019-04-10 11:14:08,1.146s,PASSED
+"setText(findTestObject(""Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.86,,2019-04-10 11:14:08,2019-04-10 11:14:08,0.157s,PASSED
+"setEncryptedText(findTestObject(""Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.86,,2019-04-10 11:14:08,2019-04-10 11:14:09,0.162s,PASSED
+"click(findTestObject(""Login/Login Button""))",Chrome 73.0.3683.86,,2019-04-10 11:14:09,2019-04-10 11:14:09,0.081s,PASSED
+"verifyElementClickable(findTestObject(""Login/Verify Button""))",Chrome 73.0.3683.86,,2019-04-10 11:14:09,2019-04-10 11:14:09,0.047s,PASSED
+,,,,,,
+Test Cases/Purchase,Chrome 73.0.3683.86,,2019-04-10 11:14:09,2019-04-10 11:14:19,10.208s,FAILED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:09,2019-04-10 11:14:10,1.026s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Purchase button""))",Chrome 73.0.3683.86,,2019-04-10 11:14:10,2019-04-10 11:14:10,0.117s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:10,2019-04-10 11:14:11,1.002s,PASSED
+"click(findTestObject(""Purchase/Add button""))",Chrome 73.0.3683.86,,2019-04-10 11:14:11,2019-04-10 11:14:11,0.148s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:11,2019-04-10 11:14:12,1.003s,PASSED
+"click(findTestObject(""Purchase/Vendor button""))",Chrome 73.0.3683.86,,2019-04-10 11:14:12,2019-04-10 11:14:12,0.101s,PASSED
+"click(findTestObject(""Purchase/Vendor 2324""))",Chrome 73.0.3683.86,,2019-04-10 11:14:12,2019-04-10 11:14:13,0.612s,PASSED
+"click(findTestObject(""Purchase/Payment select""))",Chrome 73.0.3683.86,,2019-04-10 11:14:13,2019-04-10 11:14:13,0.097s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:13,2019-04-10 11:14:14,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Purchase/Payment Cash""), ""0: 1"", true)",Chrome 73.0.3683.86,,2019-04-10 11:14:14,2019-04-10 11:14:14,0.190s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:14,2019-04-10 11:14:15,1.007s,PASSED
+"click(findTestObject(""Purchase/Payment date 1""))",Chrome 73.0.3683.86,,2019-04-10 11:14:15,2019-04-10 11:14:15,0.136s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Payment date 1 next month""))",Chrome 73.0.3683.86,,2019-04-10 11:14:15,2019-04-10 11:14:16,0.097s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Payment date 1 next month_10""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.097s,PASSED
+"click(findTestObject(""Purchase/Payment date 2""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.111s,PASSED
+"click(findTestObject(""Purchase/Payment date 2 next month""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.088s,PASSED
+"click(findTestObject(""Purchase/Payment date 2 next month_15""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.097s,PASSED
+"click(findTestObject(""Purchase/Payment date 3""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.100s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Payment date 3 next month""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.078s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Payment date 3 next month_20""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.093s,PASSED
+"click(findTestObject(""Purchase/Invoice select""))",Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:16,0.106s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:16,2019-04-10 11:14:17,1.010s,PASSED
+"selectOptionByValue(findTestObject(""Purchase/Invoice 1""), ""3: 4"", true)",Chrome 73.0.3683.86,,2019-04-10 11:14:17,2019-04-10 11:14:18,0.154s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 11:14:18,2019-04-10 11:14:19,1.002s,PASSED
+"setText(findTestObject(""Purchase/Invoice number""), ""AB123456"")",Chrome 73.0.3683.86,,2019-04-10 11:14:19,2019-04-10 11:14:19,0.461s,FAILED

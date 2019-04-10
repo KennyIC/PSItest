@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://psi-azcldap.unicore.com.tw/login')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Login/ID-QWE'), 'QWE')
 
 WebUI.setEncryptedText(findTestObject('Login/PW-QWE'), '5opu+sh6ATw=')

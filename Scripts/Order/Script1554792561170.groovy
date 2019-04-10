@@ -16,7 +16,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Order/New button'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Order/Order button'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Order/Vendor button'))
 
@@ -34,7 +38,7 @@ WebUI.click(findTestObject('Order/TAX select'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Order/TAX1'), '0: 1', true)
 
-WebUI.setText(findTestObject('Object Repository/Order/Note'), 'Testing')
+WebUI.setText(findTestObject('Order/Note'), 'Testing')
 
 WebUI.click(findTestObject('Object Repository/Order/Add item'))
 
@@ -52,9 +56,9 @@ WebUI.setText(findTestObject('Object Repository/Order/Total Price'), '2000')
 
 WebUI.click(findTestObject('Object Repository/Order/Save'))
 
-not_run: WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.acceptAlert()
 
 WebUI.verifyElementClickable(findTestObject('Order/Order button'))
 
