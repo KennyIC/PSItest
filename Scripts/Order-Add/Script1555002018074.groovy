@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/Order/Save'))
 
 WebUI.delay(1)
 
-WebUI.acceptAlert()
+not_run: WebUI.acceptAlert()
 
-WebUI.verifyElementClickable(findTestObject('Order/Order button'))
+not_run: WebUI.verifyElementClickable(findTestObject('Order/Order button'))
 

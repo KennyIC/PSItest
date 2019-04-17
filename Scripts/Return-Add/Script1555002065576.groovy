@@ -13,65 +13,67 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Return/Return button'))
+WebUI.click(findTestObject('Return/Return button'))
 
-WebUI.click(findTestObject('Object Repository/Return/Add button'))
+WebUI.click(findTestObject('Return/Add button'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Return/Vendor button'))
 
-WebUI.click(findTestObject('Object Repository/Return/Vendor 2324'))
+WebUI.click(findTestObject('Return/Vendor 2324'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Return/Payment select'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Return/Payment select'), '0: 1', true)
+WebUI.selectOptionByValue(findTestObject('Return/Payment'), '0: 1', true)
 
-WebUI.click(findTestObject('Object Repository/Return/button__btn btn-link ngb-dp-arrow-btn'))
+WebUI.click(findTestObject('Return/Payment date 1'))
 
-WebUI.click(findTestObject('Object Repository/Return/div_5'))
+WebUI.click(findTestObject('Return/Payment date 1 next month'))
 
-WebUI.click(findTestObject('Object Repository/Return/svg__svg-inline--fa fa-calendar-alt fa-w-14'))
+WebUI.click(findTestObject('Return/Payment date 1 next month 10'))
 
-WebUI.click(findTestObject('Object Repository/Return/button__btn btn-link ngb-dp-arrow-btn'))
+WebUI.click(findTestObject('Return/Payment date 2'))
 
-WebUI.click(findTestObject('Object Repository/Return/div_10'))
+WebUI.click(findTestObject('Return/Payment date 2 next month'))
 
-WebUI.click(findTestObject('Object Repository/Return/path'))
+WebUI.click(findTestObject('Return/Payment date 2 next month 15'))
 
-WebUI.click(findTestObject('Object Repository/Return/span__ngb-dp-navigation-chevron'))
+WebUI.click(findTestObject('Return/Payment date 3'))
 
-WebUI.click(findTestObject('Object Repository/Return/div_15'))
+WebUI.click(findTestObject('Return/Payment date 3 next month'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Return/Payment date 3 next month 20'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Return/Invoice'), '3: 4', true)
+WebUI.click(findTestObject('Return/Invoice select'))
 
-WebUI.setText(findTestObject('Object Repository/Return/Invoice number'), 'AA123456')
+WebUI.selectOptionByValue(findTestObject('Return/Invoice'), '3: 4', true)
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('Return/Invoice number'), 'AA123456')
 
-WebUI.click(findTestObject('Object Repository/Return/Employee Larry'))
+WebUI.click(findTestObject('Return/Empolyee button'))
 
-WebUI.setText(findTestObject('Object Repository/Return/Purchase number'), 'BB87654321')
+WebUI.click(findTestObject('Return/Employee Larry'))
 
-WebUI.setText(findTestObject('Object Repository/Return/Comment'), 'Test')
+WebUI.setText(findTestObject('Return/Purchase number'), 'BB87654321')
 
-WebUI.click(findTestObject('Object Repository/Return/New item button'))
+WebUI.setText(findTestObject('Return/Comment'), 'Test')
 
-WebUI.click(findTestObject('Object Repository/Return/Item IPAD'))
+WebUI.click(findTestObject('Return/New item button'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Return/Item IPAD'))
 
-WebUI.click(findTestObject('Object Repository/Return/Unit change'))
+WebUI.click(findTestObject('Return/Unit button'))
 
-WebUI.setText(findTestObject('Object Repository/Return/Number'), '10')
+WebUI.click(findTestObject('Return/Unit Change'))
 
-WebUI.setText(findTestObject('Object Repository/Return/Price'), '200')
+WebUI.setText(findTestObject('Return/Number'), '10')
 
-WebUI.setText(findTestObject('Object Repository/Return/Total price'), '2000')
+WebUI.setText(findTestObject('Return/Price'), '200')
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('Return/Total price'), '2000')
 
-WebUI.click(findTestObject('Object Repository/Return/Warehouse 111'))
+WebUI.click(findTestObject('Return/Warehouse button'))
 
-WebUI.click(findTestObject('Object Repository/Return/Save'))
+WebUI.click(findTestObject('Return/Warehouse 111'))
+
+WebUI.click(findTestObject('Return/Save'))
 

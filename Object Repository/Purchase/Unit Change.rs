@@ -3,14 +3,18 @@
    <description></description>
    <name>Unit Change</name>
    <tag></tag>
-   <elementGuidId>9c6c47be-327d-4e75-9e96-628279e8b218</elementGuidId>
+   <elementGuidId>1caf4c9d-9e30-450d-8ae4-63968fb1abbe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='DataTables_Table_8']/tbody/tr[2]/td</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '1盒 = 16顆' or . = '1盒 = 16顆')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,17 +35,17 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1箱 = 125顆</value>
+      <value>1盒 = 16顆</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[@class=&quot;sorting_1&quot;]</value>
+      <value>id(&quot;DataTables_Table_3&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;sorting_1&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <value>//table[@id='DataTables_Table_8']/tbody/tr[2]/td</value>

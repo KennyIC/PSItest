@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Purchase Test Suite,Chrome 73.0.3683.86,,2019-04-17 00:55:27,2019-04-17 00:55:48,20.369s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,Login process in PSI,2019-04-17 00:55:28,2019-04-17 00:55:37,9.486s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-17 00:55:29,2019-04-17 00:55:33,4.256s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.86,,2019-04-17 00:55:33,2019-04-17 00:55:35,2.051s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-17 00:55:35,2019-04-17 00:55:36,1.177s,PASSED
+"setText(findTestObject(""Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.86,,2019-04-17 00:55:36,2019-04-17 00:55:36,0.277s,PASSED
+"setEncryptedText(findTestObject(""Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.86,,2019-04-17 00:55:36,2019-04-17 00:55:37,0.288s,PASSED
+"click(findTestObject(""Login/Login Button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:37,2019-04-17 00:55:37,0.145s,PASSED
+"verifyElementClickable(findTestObject(""Login/Verify button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:37,2019-04-17 00:55:37,0.592s,PASSED
+,,,,,,
+Test Cases/Purchase-Add,Chrome 73.0.3683.86,,2019-04-17 00:55:37,2019-04-17 00:55:46,9.086s,PASSED
+"click(findTestObject(""Purchase/Purchase button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:38,2019-04-17 00:55:38,0.176s,PASSED
+"click(findTestObject(""Purchase/Add button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:38,2019-04-17 00:55:38,0.330s,PASSED
+"click(findTestObject(""Purchase/Vendor button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:38,2019-04-17 00:55:39,0.275s,PASSED
+"click(findTestObject(""Purchase/Vendor 2324""))",Chrome 73.0.3683.86,,2019-04-17 00:55:39,2019-04-17 00:55:39,0.710s,PASSED
+"click(findTestObject(""Purchase/Payment select""))",Chrome 73.0.3683.86,,2019-04-17 00:55:39,2019-04-17 00:55:39,0.159s,PASSED
+"selectOptionByValue(findTestObject(""Purchase/Payment Cash""), ""0: 1"", true)",Chrome 73.0.3683.86,,2019-04-17 00:55:39,2019-04-17 00:55:40,0.269s,PASSED
+"click(findTestObject(""Purchase/Payment date 1""))",Chrome 73.0.3683.86,,2019-04-17 00:55:40,2019-04-17 00:55:40,0.191s,PASSED
+"click(findTestObject(""Purchase/Payment date 1 next month""))",Chrome 73.0.3683.86,,2019-04-17 00:55:40,2019-04-17 00:55:40,0.146s,PASSED
+"click(findTestObject(""Purchase/Payment date 1 next month_10""))",Chrome 73.0.3683.86,,2019-04-17 00:55:40,2019-04-17 00:55:40,0.160s,PASSED
+"click(findTestObject(""Purchase/Payment date 2""))",Chrome 73.0.3683.86,,2019-04-17 00:55:40,2019-04-17 00:55:40,0.154s,PASSED
+"click(findTestObject(""Purchase/Payment date 2 next month""))",Chrome 73.0.3683.86,,2019-04-17 00:55:40,2019-04-17 00:55:40,0.135s,PASSED
+"click(findTestObject(""Purchase/Payment date 2 next month_15""))",Chrome 73.0.3683.86,,2019-04-17 00:55:40,2019-04-17 00:55:41,0.167s,PASSED
+"click(findTestObject(""Purchase/Payment date 3""))",Chrome 73.0.3683.86,,2019-04-17 00:55:41,2019-04-17 00:55:41,0.166s,PASSED
+"click(findTestObject(""Purchase/Payment date 3 next month""))",Chrome 73.0.3683.86,,2019-04-17 00:55:41,2019-04-17 00:55:41,0.162s,PASSED
+"click(findTestObject(""Purchase/Payment date 3 next month_20""))",Chrome 73.0.3683.86,,2019-04-17 00:55:41,2019-04-17 00:55:41,0.161s,PASSED
+"click(findTestObject(""Purchase/Invoice select""))",Chrome 73.0.3683.86,,2019-04-17 00:55:41,2019-04-17 00:55:41,0.159s,PASSED
+"selectOptionByValue(findTestObject(""Purchase/Invoice 1""), ""3: 4"", true)",Chrome 73.0.3683.86,,2019-04-17 00:55:41,2019-04-17 00:55:42,0.301s,PASSED
+"click(findTestObject(""Purchase/Employee button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:42,2019-04-17 00:55:42,0.186s,PASSED
+"click(findTestObject(""Purchase/Emplyee Larry""))",Chrome 73.0.3683.86,,2019-04-17 00:55:42,2019-04-17 00:55:43,0.739s,PASSED
+"setText(findTestObject(""Purchase/Note""), ""Test"")",Chrome 73.0.3683.86,,2019-04-17 00:55:43,2019-04-17 00:55:43,0.249s,PASSED
+"setText(findTestObject(""Purchase/Invoice number""), ""AA888888"")",Chrome 73.0.3683.86,,2019-04-17 00:55:43,2019-04-17 00:55:43,0.248s,PASSED
+"click(findTestObject(""Purchase/Add item button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:43,2019-04-17 00:55:43,0.155s,PASSED
+"click(findTestObject(""Purchase/Item IPAD""))",Chrome 73.0.3683.86,,2019-04-17 00:55:43,2019-04-17 00:55:44,0.731s,PASSED
+"click(findTestObject(""Purchase/Unit button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:44,2019-04-17 00:55:44,0.203s,PASSED
+"click(findTestObject(""Purchase/Unit Change""))",Chrome 73.0.3683.86,,2019-04-17 00:55:44,2019-04-17 00:55:45,0.717s,PASSED
+"setText(findTestObject(""Purchase/Qty""), ""10"")",Chrome 73.0.3683.86,,2019-04-17 00:55:45,2019-04-17 00:55:45,0.190s,PASSED
+"setText(findTestObject(""Purchase/Price""), ""200"")",Chrome 73.0.3683.86,,2019-04-17 00:55:45,2019-04-17 00:55:45,0.196s,PASSED
+"setText(findTestObject(""Purchase/Total price""), ""2000"")",Chrome 73.0.3683.86,,2019-04-17 00:55:45,2019-04-17 00:55:45,0.214s,PASSED
+"click(findTestObject(""Purchase/Warehouse button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:45,2019-04-17 00:55:46,0.182s,PASSED
+"click(findTestObject(""Purchase/Warehouse 111""))",Chrome 73.0.3683.86,,2019-04-17 00:55:46,2019-04-17 00:55:46,0.694s,PASSED
+"click(findTestObject(""Purchase/Save""))",Chrome 73.0.3683.86,,2019-04-17 00:55:46,2019-04-17 00:55:46,0.136s,PASSED
+,,,,,,
+Test Cases/Accept and verify,Chrome 73.0.3683.86,,2019-04-17 00:55:46,2019-04-17 00:55:47,0.594s,PASSED
+acceptAlert(),Chrome 73.0.3683.86,,2019-04-17 00:55:47,2019-04-17 00:55:47,0.033s,PASSED
+"verifyElementClickable(findTestObject(""Accept and verify/Verify button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:47,2019-04-17 00:55:47,0.144s,PASSED

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Number</name>
+   <name>Payment date 3 next month 20</name>
    <tag></tag>
-   <elementGuidId>8e78c518-f262-4cf2-a47b-26cf57e980a9</elementGuidId>
+   <elementGuidId>7143981e-b4e1-4470-a52c-d25cc53d2139</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[14]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/input[@class=&quot;form-control form-control-sm ng-valid ng-dirty ng-touched&quot;][count(. | //input[@class = 'form-control form-control-sm ng-valid ng-dirty ng-touched' and @type = 'text']) = count(//input[@class = 'form-control form-control-sm ng-valid ng-dirty ng-touched' and @type = 'text'])]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='日'])[1]/following::div[48]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,57 +17,57 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control-sm ng-valid ng-dirty ng-touched</value>
+      <value>btn-light</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>text</value>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/input[@class=&quot;form-control form-control-sm ng-valid ng-dirty ng-touched&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-return-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-3 input-group&quot;]/ngb-datepicker[@class=&quot;dropdown-menu show&quot;]/div[@class=&quot;ngb-dp-months&quot;]/div[@class=&quot;ngb-dp-month&quot;]/ngb-datepicker-month-view[1]/div[@class=&quot;ngb-dp-week&quot;]/div[@class=&quot;ngb-dp-day&quot;]/div[@class=&quot;btn-light&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[14]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//table[@id='DataTables_Table_8']/tbody/tr/td[5]/input</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='日'])[1]/following::div[48]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='稅額'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::div[49]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='贈品'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發票日期'])[1]/preceding::div[44]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='發票聯式'])[1]/preceding::div[46]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[5]/input</value>
+      <value>//div[5]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>(//input[@name='invoice_number'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Item IPAD</name>
+   <name>Payment date 3 next month</name>
    <tag></tag>
-   <elementGuidId>98a79be8-eeb2-4436-accd-c3a3f2ff838f</elementGuidId>
+   <elementGuidId>366db77f-2686-4dee-9f00-1bdc83694577</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_4']/tbody/tr/td[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,56 +17,44 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>ipad</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ngb-dp-navigation-chevron</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_4&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[2]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-return-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-3 input-group&quot;]/ngb-datepicker[@class=&quot;dropdown-menu show&quot;]/div[@class=&quot;ngb-dp-header bg-light&quot;]/ngb-datepicker-navigation[1]/div[@class=&quot;ngb-dp-arrow right&quot;]/button[@class=&quot;btn btn-link ngb-dp-arrow-btn&quot;]/span[@class=&quot;ngb-dp-navigation-chevron&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//table[@id='DataTables_Table_4']/tbody/tr/td[2]</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='apple01'])[1]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='一'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='單位'])[2]/following::td[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='個'])[1]/preceding::td[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Milk01'])[1]/preceding::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='二'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tbody/tr/td[2]</value>
+      <value>//div[2]/button/span</value>
    </webElementXpaths>
 </WebElementEntity>

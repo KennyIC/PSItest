@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//table[@id='DataTables_Table_6']/tbody/tr/td</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;DataTables_Table_6&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;sorting_1&quot;][count(. | //td[@class = 'sorting_1' and (text() = '111' or . = '111')]) = count(//td[@class = 'sorting_1' and (text() = '111' or . = '111')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +24,7 @@
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>111</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

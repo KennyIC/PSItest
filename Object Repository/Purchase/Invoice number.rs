@@ -3,18 +3,11 @@
    <description></description>
    <name>Invoice number</name>
    <tag></tag>
-   <elementGuidId>0f6997ed-8871-4da1-be6b-a9f68b7b5019</elementGuidId>
+   <elementGuidId>e929efc6-b2a4-4d76-b1c1-e451886eafa8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'form-control form-control-sm']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//input[@type='text'])[7]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;gr__psi-azcldap_unicore_com_tw&quot;]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-list-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-valid ng-touched ng-dirty&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-3&quot;]/input[@class=&quot;form-control form-control-sm&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-list-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-3&quot;]/input[@class=&quot;form-control form-control-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Order Test Suite,Chrome 73.0.3683.86,,2019-04-17 00:55:01,2019-04-17 00:55:24,22.877s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,Login process in PSI,2019-04-17 00:55:01,2019-04-17 00:55:12,10.704s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-17 00:55:02,2019-04-17 00:55:07,4.963s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.86,,2019-04-17 00:55:07,2019-04-17 00:55:10,2.403s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-17 00:55:10,2019-04-17 00:55:11,1.173s,PASSED
+"setText(findTestObject(""Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.86,,2019-04-17 00:55:11,2019-04-17 00:55:11,0.290s,PASSED
+"setEncryptedText(findTestObject(""Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.86,,2019-04-17 00:55:11,2019-04-17 00:55:11,0.358s,PASSED
+"click(findTestObject(""Login/Login Button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:11,2019-04-17 00:55:12,0.168s,PASSED
+"verifyElementClickable(findTestObject(""Login/Verify button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:12,2019-04-17 00:55:12,0.607s,PASSED
+,,,,,,
+Test Cases/Order-Add,Chrome 73.0.3683.86,,2019-04-17 00:55:12,2019-04-17 00:55:22,10.351s,PASSED
+"click(findTestObject(""Object Repository/Order/New button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:13,2019-04-17 00:55:13,0.219s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-17 00:55:13,2019-04-17 00:55:14,1.052s,PASSED
+"click(findTestObject(""Object Repository/Order/Order button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:14,2019-04-17 00:55:14,0.225s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-17 00:55:14,2019-04-17 00:55:15,1.005s,PASSED
+"click(findTestObject(""Order/Vendor button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:15,2019-04-17 00:55:15,0.164s,PASSED
+"click(findTestObject(""Object Repository/Order/Vendor 2324""))",Chrome 73.0.3683.86,,2019-04-17 00:55:15,2019-04-17 00:55:16,0.720s,PASSED
+"click(findTestObject(""Order/Employee button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:16,2019-04-17 00:55:16,0.187s,PASSED
+"click(findTestObject(""Object Repository/Order/Emplyee Larry""))",Chrome 73.0.3683.86,,2019-04-17 00:55:16,2019-04-17 00:55:17,0.726s,PASSED
+"click(findTestObject(""Order/Ship button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:17,2019-04-17 00:55:17,0.142s,PASSED
+"click(findTestObject(""Object Repository/Order/Ship 1""))",Chrome 73.0.3683.86,,2019-04-17 00:55:17,2019-04-17 00:55:18,0.722s,PASSED
+"click(findTestObject(""Order/TAX select""))",Chrome 73.0.3683.86,,2019-04-17 00:55:18,2019-04-17 00:55:18,0.175s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Order/TAX1""), ""0: 1"", true)",Chrome 73.0.3683.86,,2019-04-17 00:55:18,2019-04-17 00:55:18,0.328s,PASSED
+"setText(findTestObject(""Order/Note""), ""Testing"")",Chrome 73.0.3683.86,,2019-04-17 00:55:18,2019-04-17 00:55:19,0.308s,PASSED
+"click(findTestObject(""Object Repository/Order/Add item""))",Chrome 73.0.3683.86,,2019-04-17 00:55:19,2019-04-17 00:55:19,0.211s,PASSED
+"click(findTestObject(""Object Repository/Order/Item IPAD""))",Chrome 73.0.3683.86,,2019-04-17 00:55:19,2019-04-17 00:55:20,0.799s,PASSED
+"click(findTestObject(""Order/Unit button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:20,2019-04-17 00:55:20,0.261s,PASSED
+"click(findTestObject(""Order/Unit Change""))",Chrome 73.0.3683.86,,2019-04-17 00:55:20,2019-04-17 00:55:21,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Order/Qty""), ""10"")",Chrome 73.0.3683.86,,2019-04-17 00:55:21,2019-04-17 00:55:21,0.217s,PASSED
+"setText(findTestObject(""Object Repository/Order/Price""), ""200"")",Chrome 73.0.3683.86,,2019-04-17 00:55:21,2019-04-17 00:55:21,0.209s,PASSED
+"setText(findTestObject(""Object Repository/Order/Total Price""), ""2000"")",Chrome 73.0.3683.86,,2019-04-17 00:55:21,2019-04-17 00:55:21,0.234s,PASSED
+"click(findTestObject(""Object Repository/Order/Save""))",Chrome 73.0.3683.86,,2019-04-17 00:55:21,2019-04-17 00:55:21,0.172s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-17 00:55:21,2019-04-17 00:55:22,1.005s,PASSED
+acceptAlert(),Chrome 73.0.3683.86,,2019-04-17 00:55:22,2019-04-17 00:55:22,0.003s,NOT_RUN
+"verifyElementClickable(findTestObject(""Order/Order button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:22,2019-04-17 00:55:22,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Accept and verify,Chrome 73.0.3683.86,,2019-04-17 00:55:22,2019-04-17 00:55:23,0.580s,PASSED
+acceptAlert(),Chrome 73.0.3683.86,,2019-04-17 00:55:23,2019-04-17 00:55:23,0.047s,PASSED
+"verifyElementClickable(findTestObject(""Accept and verify/Verify button""))",Chrome 73.0.3683.86,,2019-04-17 00:55:23,2019-04-17 00:55:23,0.181s,PASSED

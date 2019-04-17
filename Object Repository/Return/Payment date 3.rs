@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Number</name>
+   <name>Payment date 3</name>
    <tag></tag>
-   <elementGuidId>8e78c518-f262-4cf2-a47b-26cf57e980a9</elementGuidId>
+   <elementGuidId>79d54bbd-78cf-4fa7-9e62-e378ecc3e0a0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[14]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/input[@class=&quot;form-control form-control-sm ng-valid ng-dirty ng-touched&quot;][count(. | //input[@class = 'form-control form-control-sm ng-valid ng-dirty ng-touched' and @type = 'text']) = count(//input[@class = 'form-control form-control-sm ng-valid ng-dirty ng-touched' and @type = 'text'])]</value>
+         <value>//input[@id='paymentDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,11 +20,25 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control-sm ng-valid ng-dirty ng-touched</value>
+      <value>form-control form-control-sm ng-pristine ng-valid ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>paymentDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentDate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,40 +48,40 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/input[@class=&quot;form-control form-control-sm ng-valid ng-dirty ng-touched&quot;]</value>
+      <value>id(&quot;paymentDate&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[14]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//table[@id='DataTables_Table_8']/tbody/tr/td[5]/input</value>
+      <value>//input[@id='paymentDate']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='稅額'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='贈品'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='一'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='二'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[5]/input</value>
+      <value>//div[2]/div[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

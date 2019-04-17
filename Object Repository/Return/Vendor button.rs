@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Number</name>
+   <name>Vendor button</name>
    <tag></tag>
-   <elementGuidId>8e78c518-f262-4cf2-a47b-26cf57e980a9</elementGuidId>
+   <elementGuidId>03d55ab0-ea43-4d3a-b010-12704a5b146b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[14]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/input[@class=&quot;form-control form-control-sm ng-valid ng-dirty ng-touched&quot;][count(. | //input[@class = 'form-control form-control-sm ng-valid ng-dirty ng-touched' and @type = 'text']) = count(//input[@class = 'form-control form-control-sm ng-valid ng-dirty ng-touched' and @type = 'text'])]</value>
+         <value>//input[@name='supplier_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,11 +20,25 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control-sm ng-valid ng-dirty ng-touched</value>
+      <value>form-control form-control-sm ng-pristine ng-invalid ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>supplier_name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>supplier_name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,40 +48,34 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_8&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/input[@class=&quot;form-control form-control-sm ng-valid ng-dirty ng-touched&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-return-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-3&quot;]/input[@class=&quot;form-control form-control-sm ng-pristine ng-invalid ng-touched&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[14]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//table[@id='DataTables_Table_8']/tbody/tr/td[5]/input</value>
+      <value>//input[@name='supplier_name']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='稅額'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='贈品'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[5]/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

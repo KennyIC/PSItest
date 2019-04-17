@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Order Test Suite</name>
+   <name>Return Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,21 +9,21 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>1da306f0-98cc-4c09-aa56-3c0286e5a237</testSuiteGuid>
+   <testSuiteGuid>7fbfd78c-39a2-4bc7-bc7c-e183d3378bfa</testSuiteGuid>
    <testCaseLink>
-      <guid>520edf35-12a6-4b26-ba1c-9b6aedb17207</guid>
+      <guid>ca673a64-c609-4336-9702-ea165ffd50a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>533c0d8b-ce9c-4a7e-be58-c948b554c2ed</guid>
+      <guid>b768bb8e-47e2-46bd-9ce5-bcc68e56945e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Order-Add</testCaseId>
+      <testCaseId>Test Cases/Return-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b65866f-4fa8-4aad-973c-d5e12967a6cf</guid>
+      <guid>8577f9a4-5e20-4892-baa4-380b8686f251</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Accept and verify</testCaseId>
