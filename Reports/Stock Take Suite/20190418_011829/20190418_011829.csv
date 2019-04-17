@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Stock Take Suite,Chrome 73.0.3683.86,,2019-04-18 01:18:33,2019-04-18 01:18:51,18.588s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,Login process in PSI,2019-04-18 01:18:33,2019-04-18 01:18:43,10.264s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-18 01:18:34,2019-04-18 01:18:38,4.710s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.86,,2019-04-18 01:18:38,2019-04-18 01:18:40,2.100s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-18 01:18:40,2019-04-18 01:18:42,1.158s,PASSED
+"setText(findTestObject(""Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.86,,2019-04-18 01:18:42,2019-04-18 01:18:42,0.313s,PASSED
+"setEncryptedText(findTestObject(""Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.86,,2019-04-18 01:18:42,2019-04-18 01:18:42,0.345s,PASSED
+"click(findTestObject(""Login/Login Button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:42,2019-04-18 01:18:42,0.183s,PASSED
+"verifyElementClickable(findTestObject(""Login/Verify button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:42,2019-04-18 01:18:43,0.798s,PASSED
+,,,,,,
+Test Cases/Stock Take-Add,Chrome 73.0.3683.86,,2019-04-18 01:18:43,2019-04-18 01:18:49,5.585s,FAILED
+"click(findTestObject(""Object Repository/Stock take/Stock take button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:44,2019-04-18 01:18:44,0.189s,PASSED
+"click(findTestObject(""Object Repository/Stock take/Add button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:44,2019-04-18 01:18:44,0.367s,PASSED
+"click(findTestObject(""Stock take/Stock take date""))",Chrome 73.0.3683.86,,2019-04-18 01:18:44,2019-04-18 01:18:45,0.417s,PASSED
+"click(findTestObject(""Stock take/Date 18""))",Chrome 73.0.3683.86,,2019-04-18 01:18:45,2019-04-18 01:18:45,0.179s,PASSED
+"click(findTestObject(""Stock take/Employee button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:45,2019-04-18 01:18:45,0.208s,PASSED
+"click(findTestObject(""Object Repository/Stock take/Employee Larry""))",Chrome 73.0.3683.86,,2019-04-18 01:18:45,2019-04-18 01:18:46,0.723s,PASSED
+"click(findTestObject(""Stock take/Warehouse button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:46,2019-04-18 01:18:46,0.181s,PASSED
+"click(findTestObject(""Object Repository/Stock take/Warehouse 111""))",Chrome 73.0.3683.86,,2019-04-18 01:18:46,2019-04-18 01:18:47,0.700s,PASSED
+"click(findTestObject(""Stock take/Class button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:47,2019-04-18 01:18:47,0.279s,PASSED
+"click(findTestObject(""Object Repository/Stock take/Class IPAD""))",Chrome 73.0.3683.86,,2019-04-18 01:18:47,2019-04-18 01:18:48,0.669s,PASSED
+"click(findTestObject(""Object Repository/Stock take/Class ok button""))",Chrome 73.0.3683.86,,2019-04-18 01:18:48,2019-04-18 01:18:48,0.136s,PASSED
+"setText(findTestObject(""Object Repository/Stock take/Note""), ""Testing"")",Chrome 73.0.3683.86,,2019-04-18 01:18:48,2019-04-18 01:18:48,0.409s,PASSED
+"setText(findTestObject(""Stock take/input__form-control form-control-sm ng-untouched ng-pristine ng-valid""), ""600"")",Chrome 73.0.3683.86,,2019-04-18 01:18:48,2019-04-18 01:18:49,0.704s,FAILED
+,,,,,,
+Test Cases/Accept and verify,Chrome 73.0.3683.86,,2019-04-18 01:18:49,2019-04-18 01:18:50,1.488s,FAILED
+acceptAlert(),Chrome 73.0.3683.86,,2019-04-18 01:18:49,2019-04-18 01:18:50,1.157s,FAILED
