@@ -17,13 +17,13 @@ WebUI.click(findTestObject('Return/Return button'))
 
 WebUI.click(findTestObject('Return/Add button'))
 
-WebUI.click(findTestObject('Return/Vendor button'))
+WebUI.click(findTestObject('Return/Customer button'))
 
-WebUI.click(findTestObject('Return/Vendor 2324'))
+WebUI.click(findTestObject('Return/Customer 95230'))
 
-WebUI.click(findTestObject('Return/Payment select'))
+not_run: WebUI.click(findTestObject('Return/Payment select'))
 
-WebUI.selectOptionByValue(findTestObject('Return/Payment'), '0: 1', true)
+not_run: WebUI.selectOptionByValue(findTestObject('Return/Payment'), '0: 1', true)
 
 WebUI.click(findTestObject('Return/Payment date 1'))
 

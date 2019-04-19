@@ -6,6 +6,10 @@
    <elementGuidId>7f3e663f-7f82-4f79-90fe-924994fc712f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'id_payment_method']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='id_payment_method']</value>
       </entry>
@@ -41,14 +45,14 @@
       <value>id_payment_method</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>id_payment_method</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

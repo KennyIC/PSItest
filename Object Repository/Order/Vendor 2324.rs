@@ -6,19 +6,18 @@
    <elementGuidId>0d5c1e22-88dc-485a-804e-1a78b91f3fd1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_9']/tbody/tr/td[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = '仁寶電腦' or . = '仁寶電腦')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

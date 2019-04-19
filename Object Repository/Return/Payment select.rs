@@ -6,8 +6,12 @@
    <elementGuidId>50c98ad4-3b61-4ab7-9408-9666e9d31c56</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'id_payment_method' and @name = 'id_payment_method' and (text() = '現金轉帳月結/未付款' or . = '現金轉帳月結/未付款')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//select[@id='id_payment_method']</value>
+         <value>//select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

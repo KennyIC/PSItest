@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Vendor 2324</name>
+   <name>Customer 95230</name>
    <tag></tag>
    <elementGuidId>f6bb6fb6-161e-45da-844f-c03a9c40065b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_2']/tbody/tr/td[2]</value>
+         <value>//tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

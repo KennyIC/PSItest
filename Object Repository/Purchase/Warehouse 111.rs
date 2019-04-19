@@ -6,15 +6,15 @@
    <elementGuidId>9611dd14-8fcd-4ebb-bfde-2d8ca64cab85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_6']/tbody/tr/td</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;DataTables_Table_6&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;sorting_1&quot;][count(. | //td[@class = 'sorting_1' and (text() = '111' or . = '111')]) = count(//td[@class = 'sorting_1' and (text() = '111' or . = '111')])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/table/tbody/tr/td</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
