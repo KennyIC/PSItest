@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Purchase Test Suite,Chrome 73.0.3683.103,,2019-04-19 16:18:13,2019-04-19 16:20:12,1m - 59.314s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-19 16:18:13,2019-04-19 16:18:24,11.364s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-19 16:18:13,2019-04-19 16:18:16,3.189s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-19 16:18:16,2019-04-19 16:18:22,5.819s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-19 16:18:22,2019-04-19 16:18:23,1.136s,PASSED
+"setText(findTestObject(""Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-19 16:18:23,2019-04-19 16:18:24,0.141s,PASSED
+"setEncryptedText(findTestObject(""Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-19 16:18:24,2019-04-19 16:18:24,0.151s,PASSED
+"click(findTestObject(""Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-19 16:18:24,2019-04-19 16:18:24,0.068s,PASSED
+"verifyElementClickable(findTestObject(""Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-19 16:18:24,2019-04-19 16:18:24,0.571s,PASSED
+,,,,,,
+Test Cases/Purchase-Add,Chrome 73.0.3683.103,,2019-04-19 16:18:24,2019-04-19 16:20:11,1m - 46.204s,FAILED
+"click(findTestObject(""Purchase/Purchase button""))",Chrome 73.0.3683.103,,2019-04-19 16:18:25,2019-04-19 16:18:25,0.094s,PASSED
+"click(findTestObject(""Purchase/Add button""))",Chrome 73.0.3683.103,,2019-04-19 16:18:25,2019-04-19 16:18:25,0.151s,PASSED
+"click(findTestObject(""Purchase/Vendor button""))",Chrome 73.0.3683.103,,2019-04-19 16:18:25,2019-04-19 16:18:25,0.090s,PASSED
+"click(findTestObject(""Purchase/Vendor 2324""))",Chrome 73.0.3683.103,,2019-04-19 16:18:25,2019-04-19 16:18:26,0.690s,PASSED
+"click(findTestObject(""Purchase/Payment select""))",Chrome 73.0.3683.103,,2019-04-19 16:18:26,2019-04-19 16:18:26,0.089s,PASSED
+"selectOptionByValue(findTestObject(""Purchase/Payment Cash""), ""0: 1"", true)",Chrome 73.0.3683.103,,2019-04-19 16:18:26,2019-04-19 16:18:26,0.138s,PASSED
+"click(findTestObject(""Purchase/Payment date 1""))",Chrome 73.0.3683.103,,2019-04-19 16:18:26,2019-04-19 16:18:26,0.113s,PASSED
+"click(findTestObject(""Purchase/Payment date 1 next month""))",Chrome 73.0.3683.103,,2019-04-19 16:18:26,2019-04-19 16:20:11,1m - 44.648s,FAILED
+,,,,,,
+Test Cases/Accept and verify,Chrome 73.0.3683.103,,2019-04-19 16:20:11,2019-04-19 16:20:11,0.871s,FAILED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-19 16:20:11,2019-04-19 16:20:11,0.745s,FAILED

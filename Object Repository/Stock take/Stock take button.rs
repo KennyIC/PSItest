@@ -3,11 +3,11 @@
    <description></description>
    <name>Stock take button</name>
    <tag></tag>
-   <elementGuidId>291719fa-351c-4112-92e2-997dd3e61794</elementGuidId>
+   <elementGuidId>24eea51b-2583-42bb-8438-0098ec4e4ce3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,13 +45,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-sys-flow[1]/div[@class=&quot;myBlock&quot;]/table[@class=&quot;rootDiv&quot;]/tbody[1]/tr[4]/td[@class=&quot;sysflowButtonTd&quot;]/button[@class=&quot;sysflowButton&quot;]</value>
+      <value>/html[@class=&quot;gr__psi-azcldap_unicore_com_tw&quot;]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-sys-flow[1]/div[@class=&quot;myBlock&quot;]/table[@class=&quot;rootDiv&quot;]/tbody[1]/tr[4]/td[@class=&quot;sysflowButtonTd&quot;]/button[@class=&quot;sysflowButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[6]</value>
+      <value>(//button[@type='button'])[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='進貨退出單'])[2]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='銷貨單'])[2]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[5]/button</value>
+      <value>//td[6]/button</value>
    </webElementXpaths>
 </WebElementEntity>

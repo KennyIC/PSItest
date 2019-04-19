@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Stock take/Stock take button'))
+WebUI.click(findTestObject('Stock take/Stock take button'))
 
 WebUI.click(findTestObject('Object Repository/Stock take/Add button'))
 
@@ -37,7 +37,9 @@ WebUI.click(findTestObject('Object Repository/Stock take/Class ok button'))
 
 WebUI.setText(findTestObject('Object Repository/Stock take/Note'), 'Testing')
 
-WebUI.setText(findTestObject('Stock take/Stock number'), '600')
+WebUI.clearText(findTestObject('Stock take/Stock number'))
+
+WebUI.sendKeys(findTestObject('Stock take/Stock number'), '600')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Stock take/Stock take done'), 'Y', true)
 

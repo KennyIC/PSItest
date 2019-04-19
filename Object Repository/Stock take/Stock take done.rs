@@ -6,8 +6,12 @@
    <elementGuidId>aa41cf7f-f733-4441-a5e0-187355a98396</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = '是否' or . = '是否')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_2']/tbody/tr/td[8]/select</value>
+         <value>//td[8]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
