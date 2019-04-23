@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-4 Transfer Test suite,Chrome 73.0.3683.103,,2019-04-23 13:48:55,2019-04-23 13:49:13,18.148s,FAILED
+,,,,,,
+Test Cases/others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-23 13:48:55,2019-04-23 13:49:05,10.162s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 13:48:55,2019-04-23 13:48:59,4.038s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-23 13:48:59,2019-04-23 13:49:03,3.684s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 13:49:03,2019-04-23 13:49:04,1.147s,PASSED
+"setText(findTestObject(""Other/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-23 13:49:04,2019-04-23 13:49:04,0.152s,PASSED
+"setEncryptedText(findTestObject(""Other/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-23 13:49:04,2019-04-23 13:49:04,0.156s,PASSED
+"click(findTestObject(""Other/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-23 13:49:04,2019-04-23 13:49:04,0.082s,PASSED
+"verifyElementClickable(findTestObject(""Other/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-23 13:49:04,2019-04-23 13:49:05,0.590s,PASSED
+,,,,,,
+Test Cases/3-4 Transfer,Chrome 73.0.3683.103,,2019-04-23 13:49:05,2019-04-23 13:49:06,0.964s,FAILED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer button""))",Chrome 73.0.3683.103,,2019-04-23 13:49:05,2019-04-23 13:49:05,0.151s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer note add""))",Chrome 73.0.3683.103,,2019-04-23 13:49:05,2019-04-23 13:49:05,0.162s,PASSED
+click(findTestObject(null)),Chrome 73.0.3683.103,,2019-04-23 13:49:05,2019-04-23 13:49:06,0.443s,FAILED
+,,,,,,
+Test Cases/others/Accept and verify,Chrome 73.0.3683.103,,2019-04-23 13:49:06,2019-04-23 13:49:12,6.133s,FAILED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-23 13:49:06,2019-04-23 13:49:11,5.122s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-23 13:49:11,2019-04-23 13:49:12,0.860s,FAILED

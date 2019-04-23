@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-4 Transfer Test suite,Chrome 73.0.3683.103,,2019-04-23 14:06:13,2019-04-23 14:06:28,14.577s,PASSED
+,,,,,,
+Test Cases/others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-23 14:06:13,2019-04-23 14:06:22,8.858s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 14:06:14,2019-04-23 14:06:17,3.525s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-23 14:06:17,2019-04-23 14:06:20,2.878s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 14:06:20,2019-04-23 14:06:21,1.149s,PASSED
+"setText(findTestObject(""Other/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-23 14:06:21,2019-04-23 14:06:21,0.146s,PASSED
+"setEncryptedText(findTestObject(""Other/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-23 14:06:21,2019-04-23 14:06:21,0.161s,PASSED
+"click(findTestObject(""Other/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:21,2019-04-23 14:06:21,0.085s,PASSED
+"verifyElementClickable(findTestObject(""Other/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:21,2019-04-23 14:06:22,0.562s,PASSED
+,,,,,,
+Test Cases/3-4 Transfer,Chrome 73.0.3683.103,,2019-04-23 14:06:22,2019-04-23 14:06:27,4.542s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:22,2019-04-23 14:06:22,0.106s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer note add""))",Chrome 73.0.3683.103,,2019-04-23 14:06:22,2019-04-23 14:06:23,0.164s,PASSED
+"click(findTestObject(""3-4 Transfer/Transfer employee button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:23,2019-04-23 14:06:23,0.118s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer employee""))",Chrome 73.0.3683.103,,2019-04-23 14:06:23,2019-04-23 14:06:23,0.622s,PASSED
+"setText(findTestObject(""Object Repository/3-4 Transfer/Transfer note""), ""Testing"")",Chrome 73.0.3683.103,,2019-04-23 14:06:23,2019-04-23 14:06:23,0.142s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer item add""))",Chrome 73.0.3683.103,,2019-04-23 14:06:23,2019-04-23 14:06:23,0.084s,PASSED
+"click(findTestObject(""3-4 Transfer/Transfer item add select""))",Chrome 73.0.3683.103,,2019-04-23 14:06:23,2019-04-23 14:06:24,0.673s,PASSED
+"click(findTestObject(""3-4 Transfer/Item unit select button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:24,2019-04-23 14:06:24,0.097s,PASSED
+"click(findTestObject(""3-4 Transfer/Item unit select""))",Chrome 73.0.3683.103,,2019-04-23 14:06:24,2019-04-23 14:06:25,0.603s,PASSED
+"click(findTestObject(""3-4 Transfer/Item warehouse 1 button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:25,2019-04-23 14:06:25,0.102s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Item warehouse 1 select""))",Chrome 73.0.3683.103,,2019-04-23 14:06:25,2019-04-23 14:06:26,0.608s,PASSED
+"click(findTestObject(""3-4 Transfer/Item warehouse 2 button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:26,2019-04-23 14:06:26,0.100s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Item warehouse 2 select""))",Chrome 73.0.3683.103,,2019-04-23 14:06:26,2019-04-23 14:06:26,0.601s,PASSED
+"setText(findTestObject(""Object Repository/3-4 Transfer/Item QTY""), ""1"")",Chrome 73.0.3683.103,,2019-04-23 14:06:26,2019-04-23 14:06:26,0.118s,PASSED
+"setText(findTestObject(""Object Repository/3-4 Transfer/Item Batch number""), ""88888888"")",Chrome 73.0.3683.103,,2019-04-23 14:06:26,2019-04-23 14:06:27,0.147s,PASSED
+"click(findTestObject(""3-4 Transfer/Save button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:27,2019-04-23 14:06:27,0.072s,PASSED
+,,,,,,
+Test Cases/others/Accept and verify,Chrome 73.0.3683.103,,2019-04-23 14:06:27,2019-04-23 14:06:27,0.262s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-23 14:06:27,2019-04-23 14:06:27,0.014s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-23 14:06:27,2019-04-23 14:06:27,0.019s,PASSED
+"verifyElementClickable(findTestObject(""Other/Accept and verify/Verify button""))",Chrome 73.0.3683.103,,2019-04-23 14:06:27,2019-04-23 14:06:27,0.066s,PASSED

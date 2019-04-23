@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-4 Transfer Test suite,Chrome 73.0.3683.103,,2019-04-23 13:50:39,2019-04-23 13:51:09,29.956s,FAILED
+,,,,,,
+Test Cases/others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-23 13:50:40,2019-04-23 13:50:49,9.779s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 13:50:40,2019-04-23 13:50:43,3.442s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-23 13:50:43,2019-04-23 13:50:47,3.880s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 13:50:47,2019-04-23 13:50:48,1.157s,PASSED
+"setText(findTestObject(""Other/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-23 13:50:48,2019-04-23 13:50:48,0.183s,PASSED
+"setEncryptedText(findTestObject(""Other/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-23 13:50:48,2019-04-23 13:50:49,0.165s,PASSED
+"click(findTestObject(""Other/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-23 13:50:49,2019-04-23 13:50:49,0.084s,PASSED
+"verifyElementClickable(findTestObject(""Other/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-23 13:50:49,2019-04-23 13:50:49,0.585s,PASSED
+,,,,,,
+Test Cases/3-4 Transfer,Chrome 73.0.3683.103,,2019-04-23 13:50:49,2019-04-23 13:50:51,1.992s,FAILED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer button""))",Chrome 73.0.3683.103,,2019-04-23 13:50:50,2019-04-23 13:50:50,0.099s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer note add""))",Chrome 73.0.3683.103,,2019-04-23 13:50:50,2019-04-23 13:50:50,0.155s,PASSED
+"click(findTestObject(""3-4 Transfer/Transfer employee button""))",Chrome 73.0.3683.103,,2019-04-23 13:50:50,2019-04-23 13:50:50,0.106s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer employee""))",Chrome 73.0.3683.103,,2019-04-23 13:50:50,2019-04-23 13:50:51,0.691s,PASSED
+"setText(findTestObject(""Object Repository/3-4 Transfer/Transfer note""), ""Testing"")",Chrome 73.0.3683.103,,2019-04-23 13:50:51,2019-04-23 13:50:51,0.153s,PASSED
+"click(findTestObject(""Object Repository/3-4 Transfer/Transfer item add""))",Chrome 73.0.3683.103,,2019-04-23 13:50:51,2019-04-23 13:50:51,0.085s,PASSED
+"click(findTestObject(""3-4 Transfer/Item unit select button""))",Chrome 73.0.3683.103,,2019-04-23 13:50:51,2019-04-23 13:50:51,0.516s,FAILED
+,,,,,,
+Test Cases/others/Accept and verify,Chrome 73.0.3683.103,,2019-04-23 13:50:51,2019-04-23 13:51:09,17.341s,FAILED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-23 13:50:51,2019-04-23 13:50:57,5.135s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-23 13:50:57,2019-04-23 13:51:09,12.089s,FAILED

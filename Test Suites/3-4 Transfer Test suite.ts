@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>3-1 Stock Take Suite</name>
+   <name>3-4 Transfer Test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,21 +9,21 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>da4474cf-f4af-453f-8a27-19db5fa2f67a</testSuiteGuid>
+   <testSuiteGuid>3747426e-2865-4432-bbba-243f4ce37358</testSuiteGuid>
    <testCaseLink>
-      <guid>4b4d78b8-3e27-4493-a4d0-2ce7a673634a</guid>
+      <guid>86699b08-a1b8-4774-aec1-46357ddc671b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/others/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3288f91f-e404-44c2-829b-1e9ad03c80ff</guid>
+      <guid>42d750ba-79c0-43f3-94a5-c22d1c24a125</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3-1 Stock Take-Add</testCaseId>
+      <testCaseId>Test Cases/3-4 Transfer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>daf495a0-118e-4b6f-b20a-1fb3c69a9284</guid>
+      <guid>32fdb4af-783d-4b5d-baa4-d753ac3cb97b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/others/Accept and verify</testCaseId>
