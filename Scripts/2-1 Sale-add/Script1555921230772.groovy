@@ -63,7 +63,7 @@ WebUI.click(findTestObject('2-1 Sale/Sale TAX button'))
 
 WebUI.selectOptionByValue(findTestObject('2-1 Sale/Sale TAX select'), '1: 2', true)
 
-WebUI.setText(findTestObject('2-1 Sale/Sale invoice number'), 'AB123456')
+WebUI.setText(findTestObject('2-1 Sale/Sale invoice number'), GlobalVariable.Invoice_number)
 
 WebUI.setText(findTestObject('2-1 Sale/Sale GUI number'), '12345678')
 
@@ -77,7 +77,7 @@ WebUI.selectOptionByValue(findTestObject('2-1 Sale/Sale dist select'), '9: 17', 
 
 WebUI.setText(findTestObject('2-1 Sale/Sale address'), '瑞光路584號')
 
-WebUI.setText(findTestObject('2-1 Sale/Sale note'), 'Testing')
+WebUI.setText(findTestObject('2-1 Sale/Sale note'), GlobalVariable.Note)
 
 WebUI.click(findTestObject('2-1 Sale/Item add button'))
 

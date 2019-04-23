@@ -47,7 +47,7 @@ WebUI.click(findTestObject('1-3 Return/Invoice select'))
 
 WebUI.selectOptionByValue(findTestObject('1-3 Return/Invoice'), '3: 4', true)
 
-WebUI.setText(findTestObject('1-3 Return/Invoice number'), 'AA123456')
+WebUI.setText(findTestObject('1-3 Return/Invoice number'), GlobalVariable.Invoice_number)
 
 WebUI.click(findTestObject('1-3 Return/Empolyee button'))
 
@@ -55,7 +55,7 @@ WebUI.click(findTestObject('1-3 Return/Employee Larry'))
 
 WebUI.setText(findTestObject('1-3 Return/Purchase number'), 'BB87654321')
 
-WebUI.setText(findTestObject('1-3 Return/Comment'), 'Test')
+WebUI.setText(findTestObject('1-3 Return/Comment'), GlobalVariable.Note)
 
 WebUI.click(findTestObject('1-3 Return/New item button'))
 

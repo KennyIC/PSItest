@@ -15,11 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/3-2 Replenishment/Replenishment button'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/3-2 Replenishment/Replenishment execute button'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('3-2 Replenishment/Employee button'))
 

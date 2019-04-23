@@ -35,7 +35,7 @@ WebUI.click(findTestObject('3-5 Btach number maintain/Item enable'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/3-5 Btach number maintain/Item enable select'), '0: Y', true)
 
-WebUI.setText(findTestObject('Object Repository/3-5 Btach number maintain/Item note'), 'Testing')
+WebUI.setText(findTestObject('Object Repository/3-5 Btach number maintain/Item note'), GlobalVariable.Note)
 
 WebUI.click(findTestObject('Object Repository/3-5 Btach number maintain/Save button'))
 

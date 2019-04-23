@@ -51,9 +51,9 @@ WebUI.click(findTestObject('1-2 Purchase/Employee button'))
 
 WebUI.click(findTestObject('1-2 Purchase/Emplyee Larry'))
 
-WebUI.setText(findTestObject('1-2 Purchase/Note'), 'Test')
+WebUI.setText(findTestObject('1-2 Purchase/Note'), GlobalVariable.Note)
 
-WebUI.setText(findTestObject('1-2 Purchase/Invoice number'), 'AA888888')
+WebUI.setText(findTestObject('1-2 Purchase/Invoice number'), GlobalVariable.Invoice_number)
 
 WebUI.click(findTestObject('1-2 Purchase/Add item button'))
 

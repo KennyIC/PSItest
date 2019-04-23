@@ -21,7 +21,7 @@ WebUI.click(findTestObject('3-4 Transfer/Transfer employee button'))
 
 WebUI.click(findTestObject('Object Repository/3-4 Transfer/Transfer employee'))
 
-WebUI.setText(findTestObject('Object Repository/3-4 Transfer/Transfer note'), 'Testing')
+WebUI.setText(findTestObject('Object Repository/3-4 Transfer/Transfer note'), GlobalVariable.Note)
 
 WebUI.click(findTestObject('Object Repository/3-4 Transfer/Transfer item add'))
 

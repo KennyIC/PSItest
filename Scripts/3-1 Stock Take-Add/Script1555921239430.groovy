@@ -35,7 +35,7 @@ WebUI.click(findTestObject('3-1 Stock take/Class IPAD'))
 
 WebUI.click(findTestObject('3-1 Stock take/Class ok button'))
 
-WebUI.setText(findTestObject('3-1 Stock take/Note'), 'Testing')
+WebUI.setText(findTestObject('3-1 Stock take/Note'), GlobalVariable.Note)
 
 WebUI.clearText(findTestObject('3-1 Stock take/Stock number'))
 

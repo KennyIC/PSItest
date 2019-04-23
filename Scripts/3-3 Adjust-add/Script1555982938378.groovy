@@ -25,7 +25,7 @@ WebUI.click(findTestObject('3-3 Adjuset/Adjust employee button'))
 
 WebUI.click(findTestObject('Object Repository/3-3 Adjuset/Adjust employee'))
 
-WebUI.setText(findTestObject('Object Repository/3-3 Adjuset/input__comments'), 'Testing')
+WebUI.setText(findTestObject('Object Repository/3-3 Adjuset/input__comments'), GlobalVariable.Note)
 
 WebUI.click(findTestObject('Object Repository/3-3 Adjuset/Adjust item button'))
 

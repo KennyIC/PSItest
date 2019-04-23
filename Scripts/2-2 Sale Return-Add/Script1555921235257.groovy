@@ -51,7 +51,7 @@ WebUI.click(findTestObject('2-2 Sale Return/Sale return invoice button'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/2-2 Sale Return/Sale return invoice select'), '1: 2', true)
 
-WebUI.setText(findTestObject('Object Repository/2-2 Sale Return/Sale return invoice number'), 'AB000000')
+WebUI.setText(findTestObject('Object Repository/2-2 Sale Return/Sale return invoice number'), GlobalVariable.Invoice_number)
 
 WebUI.click(findTestObject('2-2 Sale Return/Sale return employee button'))
 
@@ -63,7 +63,7 @@ WebUI.click(findTestObject('2-2 Sale Return/Sale return tax button'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/2-2 Sale Return/Sale return tax select'), '1: 2', true)
 
-WebUI.setText(findTestObject('Object Repository/2-2 Sale Return/Sale return note'), 'testing')
+WebUI.setText(findTestObject('Object Repository/2-2 Sale Return/Sale return note'), GlobalVariable.Note)
 
 WebUI.click(findTestObject('Object Repository/2-2 Sale Return/Item add button'))
 
