@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-2 Replenishment Test Suite,Chrome 73.0.3683.103,,2019-04-23 15:29:18,2019-04-23 15:29:55,36.699s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-23 15:29:18,2019-04-23 15:29:27,9.125s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 15:29:18,2019-04-23 15:29:22,3.475s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-23 15:29:22,2019-04-23 15:29:25,3.200s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 15:29:25,2019-04-23 15:29:26,1.179s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-23 15:29:26,2019-04-23 15:29:26,0.173s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-23 15:29:26,2019-04-23 15:29:27,0.170s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:27,2019-04-23 15:29:27,0.079s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:27,2019-04-23 15:29:27,0.556s,PASSED
+,,,,,,
+Test Cases/3-2 Replenishment-Add,Chrome 73.0.3683.103,,2019-04-23 15:29:27,2019-04-23 15:29:45,18.117s,FAILED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Replenishment button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:27,2019-04-23 15:29:28,0.097s,PASSED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Replenishment execute button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:28,2019-04-23 15:29:28,0.159s,PASSED
+"click(findTestObject(""3-2 Replenishment/Employee button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:28,2019-04-23 15:29:28,0.088s,PASSED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Employee select""))",Chrome 73.0.3683.103,,2019-04-23 15:29:28,2019-04-23 15:29:28,0.599s,PASSED
+"click(findTestObject(""3-2 Replenishment/Ship type button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:28,2019-04-23 15:29:28,0.070s,PASSED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Ship type select""))",Chrome 73.0.3683.103,,2019-04-23 15:29:28,2019-04-23 15:29:29,0.581s,PASSED
+"click(findTestObject(""3-2 Replenishment/Vendor 1 button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:29,2019-04-23 15:29:29,0.105s,PASSED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Vendor 1 select""))",Chrome 73.0.3683.103,,2019-04-23 15:29:29,2019-04-23 15:29:45,16.232s,FAILED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-23 15:29:45,2019-04-23 15:29:54,8.564s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-23 15:29:45,2019-04-23 15:29:45,0.014s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-23 15:29:45,2019-04-23 15:29:46,0.018s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 73.0.3683.103,,2019-04-23 15:29:46,2019-04-23 15:29:54,8.408s,PASSED
