@@ -13,17 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.waitForAlert(5)
 
-WebUI.navigateToUrl('https://psi-azcldap.unicore.com.tw/login')
+WebUI.acceptAlert()
 
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Other/Login/ID-QWE'), 'QWE')
-
-WebUI.setEncryptedText(findTestObject('Other/Login/PW-QWE'), '5opu+sh6ATw=')
-
-WebUI.click(findTestObject('Other/Login/Login Button'))
-
-WebUI.verifyElementClickable(findTestObject('Other/Login/Verify button'))
+WebUI.verifyElementClickable(findTestObject('Others/Accept and verify/Verify button'))
 

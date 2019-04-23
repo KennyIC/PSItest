@@ -14,7 +14,7 @@
       <guid>86699b08-a1b8-4774-aec1-46357ddc671b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/others/Login</testCaseId>
+      <testCaseId>Test Cases/Others/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>42d750ba-79c0-43f3-94a5-c22d1c24a125</guid>
@@ -26,6 +26,6 @@
       <guid>32fdb4af-783d-4b5d-baa4-d753ac3cb97b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/others/Accept and verify</testCaseId>
+      <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
