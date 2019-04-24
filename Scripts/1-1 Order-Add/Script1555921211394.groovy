@@ -12,13 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
 
-class testvalue{
-	int qty = 10;
-	int price = 200;
-	int total_price = qty*price;
-	}
+def time(){
+    def date = new Date()
+    sdf = new SimpleDateFormat("yyyyMMddHHmm")
+    return GlobalVariable.Note + sdf.format(date)
+}
 
 WebUI.click(findTestObject('1-1 Order/New button'))
 
@@ -40,7 +40,7 @@ WebUI.click(findTestObject('1-1 Order/TAX select'))
 
 WebUI.selectOptionByValue(findTestObject('1-1 Order/TAX1'), '0: 1', true)
 
-WebUI.setText(findTestObject('1-1 Order/Note'), GlobalVariable.Note)
+WebUI.setText(findTestObject('1-1 Order/Note'), time())
 
 WebUI.click(findTestObject('1-1 Order/Add item'))
 
@@ -50,11 +50,11 @@ WebUI.click(findTestObject('1-1 Order/Unit button'))
 
 WebUI.click(findTestObject('1-1 Order/Unit Change'))
 
-WebUI.setText(findTestObject('1-1 Order/Qty'), qty)
+WebUI.setText(findTestObject('1-1 Order/Qty'), '10')
 
-WebUI.setText(findTestObject('1-1 Order/Price'), price)
+WebUI.setText(findTestObject('1-1 Order/Price'), '200')
 
-WebUI.setText(findTestObject('1-1 Order/Total Price'), total_price)
+WebUI.setText(findTestObject('1-1 Order/Total Price'), '2000')
 
 WebUI.click(findTestObject('1-1 Order/Save'))
 
@@ -63,4 +63,3 @@ WebUI.delay(1)
 not_run: WebUI.acceptAlert()
 
 not_run: WebUI.verifyElementClickable(findTestObject('1-1 Order/Order button'))
-

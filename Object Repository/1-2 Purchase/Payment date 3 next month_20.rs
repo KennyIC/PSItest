@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-list-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-3 input-group&quot;]/ngb-datepicker[@class=&quot;dropdown-menu show&quot;]/div[@class=&quot;ngb-dp-months&quot;]/div[@class=&quot;ngb-dp-month&quot;]/ngb-datepicker-month-view[1]/div[@class=&quot;ngb-dp-week&quot;]/div[@class=&quot;ngb-dp-day&quot;]/div[@class=&quot;btn-light&quot;][count(. | //div[@class = 'btn-light' and (text() = '20' or . = '20')]) = count(//div[@class = 'btn-light' and (text() = '20' or . = '20')])]</value>
+         <value>//div[(text() = '${xxx}' or . = '${xxx}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[5]/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,10 +35,10 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>20</value>
+      <value>${xxx}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
