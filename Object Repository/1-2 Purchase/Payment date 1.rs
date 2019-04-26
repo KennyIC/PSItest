@@ -6,11 +6,15 @@
    <elementGuidId>091442ff-dfb9-4f82-9b79-b07681c160d5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'checkoutDate']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='dt_expected_checkout']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>checkoutDate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>checkoutDate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

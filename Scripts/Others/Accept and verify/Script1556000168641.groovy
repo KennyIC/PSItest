@@ -19,3 +19,5 @@ WebUI.acceptAlert()
 
 WebUI.verifyElementClickable(findTestObject('Others/Accept and verify/Verify button'))
 
+WebUI.delay(3000)
+

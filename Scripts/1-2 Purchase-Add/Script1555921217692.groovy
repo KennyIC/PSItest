@@ -16,29 +16,20 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 def time(){
 	def date = new Date()
-	sdf = new SimpleDateFormat("yyyyMMddHHmm")
+	sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm")
 	return GlobalVariable.Note + sdf.format(date)
 }
 
-public static Date getLastMonthDay(Calendar calendar) {
-	calendar.set(Calendar.DATE, calendar.getActualMaximum(Calendar.DATE));
-	return calendar.getTime(dd);
-}
 
 def abc(num){
-	def date = new Date()
-	calendar.set(Calendar.DATE, calendar.getActualMaximum(Calendar.DATE))
-	sk2 = date.getDate() + num
-	Calendar calendar
-	sk3 = date.getlastmonthday(calendar)
-	if(sk2 > sk3){
-		sk1 = sk2 - sk3
-		WebUI.click(findTestObject('1-2 Purchase/Payment date 1 next month'))
-		return sk1
-		} else { return sk2} 
+Date today = new Date()
+Date day1 = new Date().plus(num)
+if(day1.format('MM') > today.format('MM')){
+	WebUI.click(findTestObject('1-2 Purchase/Payment date next month'))
+	return day1.format('d')}
+else{
+	return day1.format('d')}
 }
-
-
 
 WebUI.click(findTestObject('1-2 Purchase/Purchase button'))
 
@@ -56,21 +47,21 @@ WebUI.selectOptionByValue(findTestObject('1-2 Purchase/Payment Cash'), '0: 1', t
 
 WebUI.click(findTestObject('1-2 Purchase/Payment date 1'))
 
-//WebUI.click(findTestObject('1-2 Purchase/Payment date 1 next month'))
+//WebUI.click(findTestObject('1-2 Purchase/Payment date next month'))
 
-WebUI.click(findTestObject('1-2 Purchase/Payment date 1 next month_10', [('xxx') : abc(1)]))
+WebUI.click(findTestObject('1-2 Purchase/Payment date 1 next month_10', [('xxx') : abc(5)]))
 
 WebUI.click(findTestObject('1-2 Purchase/Payment date 2'))
 
-//WebUI.click(findTestObject('1-2 Purchase/Payment date 2 next month'))
+//WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('1-2 Purchase/Payment date 2 next month_15', [('xxx') : abc(11)]))
+WebUI.click(findTestObject('1-2 Purchase/Payment date 2 next month_15', [('xxx') : abc(10)]))
 
 WebUI.click(findTestObject('1-2 Purchase/Payment date 3'))
 
-//WebUI.click(findTestObject('1-2 Purchase/Payment date 3 next month'))
+//WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('1-2 Purchase/Payment date 3 next month_20', [('xxx') : abc(21)]))
+WebUI.click(findTestObject('1-2 Purchase/Payment date 3 next month_20', [('xxx') : abc(15)]))
 
 WebUI.click(findTestObject('1-2 Purchase/Invoice select'))
 

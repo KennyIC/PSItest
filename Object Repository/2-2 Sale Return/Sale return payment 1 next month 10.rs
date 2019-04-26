@@ -4,6 +4,12 @@
    <name>Sale return payment 1 next month 10</name>
    <tag></tag>
    <elementGuidId>e1d6b27e-3e11-49ce-bbd5-ce6468e516bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '${xxx}' or . = '${xxx}')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>10</value>
+      <value>${xxx}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

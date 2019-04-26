@@ -4,6 +4,12 @@
    <name>Sale payment 2 next month 15</name>
    <tag></tag>
    <elementGuidId>3d9619ee-0dfd-488e-8335-ab3d10e12387</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '${xxx}' or . = '${xxx}')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>15</value>
+      <value>${xxx}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

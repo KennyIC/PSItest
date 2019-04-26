@@ -6,11 +6,15 @@
    <elementGuidId>e31e66ec-4108-45d0-8386-46b664ab842c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'invoiceDate']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='dt_invoice']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +31,7 @@
       <value>form-control form-control-sm ng-pristine ng-valid ng-touched</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>invoiceDate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

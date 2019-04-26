@@ -6,6 +6,10 @@
    <elementGuidId>841cfd91-c20e-40a2-8134-b98fce28b182</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'comment' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='comment']</value>
       </entry>

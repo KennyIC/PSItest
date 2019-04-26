@@ -6,11 +6,15 @@
    <elementGuidId>2172c2ef-80c8-4d61-84f8-f7666cb9e1e1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'paymentDate']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='dt_expected_payment']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>paymentDate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>paymentDate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

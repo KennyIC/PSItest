@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+2-1 Sale Test Suite,Chrome 73.0.3683.103,,2019-04-25 16:37:20,2019-04-25 16:37:40,19.731s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-25 16:37:20,2019-04-25 16:37:30,9.372s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-25 16:37:20,2019-04-25 16:37:24,3.140s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-25 16:37:24,2019-04-25 16:37:27,3.776s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-25 16:37:27,2019-04-25 16:37:29,1.156s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-25 16:37:29,2019-04-25 16:37:29,0.168s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-25 16:37:29,2019-04-25 16:37:29,0.181s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:29,2019-04-25 16:37:29,0.089s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:29,2019-04-25 16:37:30,0.564s,PASSED
+,,,,,,
+Test Cases/2-1 Sale-add,Chrome 73.0.3683.103,,2019-04-25 16:37:30,2019-04-25 16:37:33,3.442s,FAILED
+"click(findTestObject(""2-1 Sale/Sale button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:30,2019-04-25 16:37:30,0.110s,PASSED
+"click(findTestObject(""2-1 Sale/Sale add button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:30,2019-04-25 16:37:30,0.176s,PASSED
+"click(findTestObject(""2-1 Sale/Sale customer button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:30,2019-04-25 16:37:30,0.100s,PASSED
+"click(findTestObject(""2-1 Sale/Sale customer 95230""))",Chrome 73.0.3683.103,,2019-04-25 16:37:30,2019-04-25 16:37:31,0.608s,PASSED
+"click(findTestObject(""2-1 Sale/Sale date button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:31,2019-04-25 16:37:31,0.106s,PASSED
+"click(findTestObject(""2-1 Sale/Sale date 22""))",Chrome 73.0.3683.103,,2019-04-25 16:37:31,2019-04-25 16:37:31,0.075s,PASSED
+"click(findTestObject(""2-1 Sale/Sale sales button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:31,2019-04-25 16:37:31,0.075s,PASSED
+"click(findTestObject(""2-1 Sale/Sale sales 0001""))",Chrome 73.0.3683.103,,2019-04-25 16:37:31,2019-04-25 16:37:32,0.651s,PASSED
+"click(findTestObject(""2-1 Sale/Sale ship type button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.107s,PASSED
+"selectOptionByValue(findTestObject(""2-1 Sale/Sale ship type select""), ""0: 2"", true)",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.188s,PASSED
+"click(findTestObject(""2-1 Sale/Sale payment type button""))",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.164s,PASSED
+"selectOptionByValue(findTestObject(""2-1 Sale/Sale payment type select""), ""0: 4"", true)",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.158s,PASSED
+"click(findTestObject(""2-1 Sale/Sale payment 1""))",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.096s,PASSED
+"click(findTestObject(""2-1 Sale/Sale payment 1 next month 10"", [""xxx"":abc(5)]))",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.004s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.005s,PASSED
+day1 = Date().plus(num),Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.002s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:32,0.003s,PASSED
+else,Chrome 73.0.3683.103,,2019-04-25 16:37:32,2019-04-25 16:37:33,0.087s,PASSED
+"click(findTestObject(""2-1 Sale/Sale payment 2""))",Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:33,0.088s,PASSED
+"click(findTestObject(""2-1 Sale/Sale payment 2 next month 15"", [""xxx"":abc(10)]))",Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:33,0.003s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:33,0.000s,PASSED
+day1 = Date().plus(num),Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:33,0.001s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:33,0.371s,FAILED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:39,6.028s,FAILED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-25 16:37:33,2019-04-25 16:37:38,5.106s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-25 16:37:38,2019-04-25 16:37:39,0.784s,FAILED
