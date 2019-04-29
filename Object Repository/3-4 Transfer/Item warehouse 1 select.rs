@@ -6,15 +6,15 @@
    <elementGuidId>fb4feb79-94ec-4db7-81aa-de564fb89c82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_5']/tbody/tr[2]/td</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//td[(text() = '111' or . = '111')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_5']/tbody/tr[2]/td</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,6 +4,12 @@
    <name>Sale return date</name>
    <tag></tag>
    <elementGuidId>690acf41-9fca-4ee3-9187-294abb60e72b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '${date}' or . = '${date}')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>22</value>
+      <value>${date}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

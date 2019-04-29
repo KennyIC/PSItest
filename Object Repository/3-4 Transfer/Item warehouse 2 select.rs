@@ -6,15 +6,15 @@
    <elementGuidId>534fd98a-4437-4363-98e2-440c2887862a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_6']/tbody/tr/td</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//td[(text() = '0測試倉庫0' or . = '0測試倉庫0')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_6']/tbody/tr/td</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

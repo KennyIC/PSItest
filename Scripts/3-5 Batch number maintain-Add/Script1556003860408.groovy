@@ -12,7 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.text.SimpleDateFormat as SimpleDateFormat
 
+def time(){
+	def date = new Date()
+	sdf = new SimpleDateFormat("yyyyMMddHHmm")
+	return GlobalVariable.Note + sdf.format(date)
+}
 WebUI.click(findTestObject('Object Repository/3-5 Btach number maintain/Batch maintain button'))
 
 WebUI.click(findTestObject('Object Repository/3-5 Btach number maintain/Batch maintain add button'))
@@ -35,7 +41,7 @@ WebUI.click(findTestObject('3-5 Btach number maintain/Item enable'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/3-5 Btach number maintain/Item enable select'), '0: Y', true)
 
-WebUI.setText(findTestObject('Object Repository/3-5 Btach number maintain/Item note'), GlobalVariable.Note)
+WebUI.setText(findTestObject('Object Repository/3-5 Btach number maintain/Item note'), time())
 
 WebUI.click(findTestObject('Object Repository/3-5 Btach number maintain/Save button'))
 

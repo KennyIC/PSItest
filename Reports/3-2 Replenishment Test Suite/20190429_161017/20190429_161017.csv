@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-2 Replenishment Test Suite,Chrome 73.0.3683.103,,2019-04-29 16:10:19,2019-04-29 16:10:42,22.853s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 16:10:20,2019-04-29 16:10:29,9.132s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 16:10:20,2019-04-29 16:10:23,3.311s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 16:10:23,2019-04-29 16:10:27,3.409s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 16:10:27,2019-04-29 16:10:28,1.136s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 16:10:28,2019-04-29 16:10:28,0.154s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 16:10:28,2019-04-29 16:10:28,0.166s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 16:10:28,2019-04-29 16:10:28,0.084s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 16:10:28,2019-04-29 16:10:29,0.581s,PASSED
+,,,,,,
+Test Cases/3-2 Replenishment-Add - Test,Chrome 73.0.3683.103,,2019-04-29 16:10:29,2019-04-29 16:10:33,3.817s,FAILED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Replenishment button""))",Chrome 73.0.3683.103,,2019-04-29 16:10:29,2019-04-29 16:10:29,0.089s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 16:10:29,2019-04-29 16:10:32,3.030s,PASSED
+"extractInt = getText(findTestObject(""Others/test/div_1-8  8"")).substring(3, 4)",Chrome 73.0.3683.103,,2019-04-29 16:10:32,2019-04-29 16:10:32,0.107s,PASSED
+"logInfo(""XXXXXXXXXXXX"" + extractInt)",Chrome 73.0.3683.103,,2019-04-29 16:10:32,2019-04-29 16:10:32,0.001s,PASSED
+click(findTestObject(null)),Chrome 73.0.3683.103,,2019-04-29 16:10:32,2019-04-29 16:10:33,0.365s,FAILED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 16:10:33,2019-04-29 16:10:42,9.041s,FAILED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 16:10:33,2019-04-29 16:10:36,3.002s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 16:10:36,2019-04-29 16:10:41,5.129s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-29 16:10:41,2019-04-29 16:10:42,0.792s,FAILED

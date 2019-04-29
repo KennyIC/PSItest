@@ -6,11 +6,15 @@
    <elementGuidId>c8999d41-13ff-4238-8b5f-180deca02505</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '${}' or . = '${}')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='日'])[1]/following::div[39]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>18</value>
+      <value>${date}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

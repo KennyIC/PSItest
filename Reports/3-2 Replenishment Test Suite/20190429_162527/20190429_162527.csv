@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-2 Replenishment Test Suite,Chrome 73.0.3683.103,,2019-04-29 16:25:29,2019-04-29 16:25:52,22.671s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 16:25:29,2019-04-29 16:25:38,8.932s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 16:25:29,2019-04-29 16:25:33,3.270s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 16:25:33,2019-04-29 16:25:36,3.247s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 16:25:36,2019-04-29 16:25:37,1.141s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 16:25:37,2019-04-29 16:25:37,0.147s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 16:25:37,2019-04-29 16:25:37,0.141s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 16:25:37,2019-04-29 16:25:37,0.082s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 16:25:37,2019-04-29 16:25:38,0.596s,PASSED
+,,,,,,
+Test Cases/3-2 Replenishment-Add - Test,Chrome 73.0.3683.103,,2019-04-29 16:25:38,2019-04-29 16:25:42,3.884s,FAILED
+"click(findTestObject(""Others/test/Replenishment button""))",Chrome 73.0.3683.103,,2019-04-29 16:25:38,2019-04-29 16:25:38,0.116s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 16:25:38,2019-04-29 16:25:41,3.031s,PASSED
+"extractInt = getText(findTestObject(""Others/test/div_1-8  8""))",Chrome 73.0.3683.103,,2019-04-29 16:25:41,2019-04-29 16:25:42,0.077s,PASSED
+"variable = extractInt.substring(2, 3)",Chrome 73.0.3683.103,,2019-04-29 16:25:42,2019-04-29 16:25:42,0.001s,PASSED
+"logInfo(""XXXXXXXXXXXX"" + variable)",Chrome 73.0.3683.103,,2019-04-29 16:25:42,2019-04-29 16:25:42,0.004s,PASSED
+click(findTestObject(null)),Chrome 73.0.3683.103,,2019-04-29 16:25:42,2019-04-29 16:25:42,0.372s,FAILED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 16:25:42,2019-04-29 16:25:51,9.002s,FAILED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 16:25:42,2019-04-29 16:25:45,3.003s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 16:25:45,2019-04-29 16:25:50,5.125s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-29 16:25:50,2019-04-29 16:25:51,0.753s,FAILED

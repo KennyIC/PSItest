@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-1 Stock Take Test Suite,Chrome 73.0.3683.103,,2019-04-29 11:19:09,2019-04-29 11:19:27,17.829s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 11:19:09,2019-04-29 11:19:18,9.354s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 11:19:09,2019-04-29 11:19:13,3.554s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 11:19:13,2019-04-29 11:19:16,3.444s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 11:19:16,2019-04-29 11:19:17,1.134s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 11:19:17,2019-04-29 11:19:18,0.148s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 11:19:18,2019-04-29 11:19:18,0.158s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:18,2019-04-29 11:19:18,0.074s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:18,2019-04-29 11:19:18,0.554s,PASSED
+,,,,,,
+Test Cases/3-1 Stock Take-Add,Chrome 73.0.3683.103,,2019-04-29 11:19:18,2019-04-29 11:19:22,4.176s,PASSED
+"click(findTestObject(""3-1 Stock take/Stock take button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.114s,PASSED
+"click(findTestObject(""3-1 Stock take/Add button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.174s,PASSED
+"click(findTestObject(""3-1 Stock take/Stock take date""))",Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.275s,PASSED
+"click(findTestObject(""3-1 Stock take/Date 18"", [""date"":today_check()]))",Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.001s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.006s,PASSED
+return today.format(d),Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.097s,PASSED
+"click(findTestObject(""3-1 Stock take/Employee button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:19,0.305s,PASSED
+"click(findTestObject(""3-1 Stock take/Employee Larry""))",Chrome 73.0.3683.103,,2019-04-29 11:19:19,2019-04-29 11:19:20,0.632s,PASSED
+"click(findTestObject(""3-1 Stock take/Warehouse button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:20,2019-04-29 11:19:20,0.094s,PASSED
+"click(findTestObject(""3-1 Stock take/Warehouse 111""))",Chrome 73.0.3683.103,,2019-04-29 11:19:20,2019-04-29 11:19:21,0.673s,PASSED
+"click(findTestObject(""3-1 Stock take/Class button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:21,2019-04-29 11:19:21,0.129s,PASSED
+"click(findTestObject(""3-1 Stock take/Class IPAD""))",Chrome 73.0.3683.103,,2019-04-29 11:19:21,2019-04-29 11:19:21,0.225s,PASSED
+"click(findTestObject(""3-1 Stock take/Class ok button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:21,2019-04-29 11:19:21,0.139s,PASSED
+"setText(findTestObject(""3-1 Stock take/Note""), time())",Chrome 73.0.3683.103,,2019-04-29 11:19:21,2019-04-29 11:19:22,0.129s,PASSED
+date = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.001s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.014s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.279s,PASSED
+"clearText(findTestObject(""3-1 Stock take/Stock number""))",Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.076s,PASSED
+"sendKeys(findTestObject(""3-1 Stock take/Stock number""), ""600"")",Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.068s,PASSED
+"selectOptionByValue(findTestObject(""3-1 Stock take/Stock take done""), ""Y"", true)",Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.156s,PASSED
+"setText(findTestObject(""3-1 Stock take/Stock take IPAD note""), ""-10"")",Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.125s,PASSED
+"selectOptionByValue(findTestObject(""3-1 Stock take/Done select""), ""Y"", true)",Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.151s,PASSED
+"click(findTestObject(""3-1 Stock take/Done""))",Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:22,0.094s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 11:19:22,2019-04-29 11:19:26,3.365s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 11:19:23,2019-04-29 11:19:26,3.028s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 11:19:26,2019-04-29 11:19:26,0.040s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-29 11:19:26,2019-04-29 11:19:26,0.050s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 11:19:26,2019-04-29 11:19:26,0.091s,PASSED

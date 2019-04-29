@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-2 Replenishment Test Suite,Chrome 73.0.3683.103,,2019-04-29 15:04:23,2019-04-29 15:05:13,50.253s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 15:04:23,2019-04-29 15:04:32,8.600s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 15:04:24,2019-04-29 15:04:27,3.471s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 15:04:27,2019-04-29 15:04:30,2.732s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 15:04:30,2019-04-29 15:04:31,1.141s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 15:04:31,2019-04-29 15:04:31,0.150s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 15:04:31,2019-04-29 15:04:31,0.148s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 15:04:31,2019-04-29 15:04:31,0.079s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 15:04:31,2019-04-29 15:04:32,0.558s,PASSED
+,,,,,,
+Test Cases/3-2 Replenishment-Add - Test,Chrome 73.0.3683.103,,2019-04-29 15:04:32,2019-04-29 15:05:04,31.882s,FAILED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Replenishment button""))",Chrome 73.0.3683.103,,2019-04-29 15:04:32,2019-04-29 15:04:32,0.088s,PASSED
+"variable = getText(findTestObject(""Others/test/div_1-8  8""))",Chrome 73.0.3683.103,,2019-04-29 15:04:32,2019-04-29 15:05:04,31.584s,FAILED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 15:05:04,2019-04-29 15:05:13,8.922s,FAILED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 15:05:04,2019-04-29 15:05:07,3.017s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 15:05:07,2019-04-29 15:05:12,5.108s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-29 15:05:12,2019-04-29 15:05:13,0.669s,FAILED

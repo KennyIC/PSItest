@@ -21,7 +21,7 @@ def time(){
 }
 
 
-def abc(num){
+def month_check(num){
 Date today = new Date()
 Date day1 = new Date().plus(num)
 if(day1.format('MM') > today.format('MM')){
@@ -31,6 +31,11 @@ else{
 	return day1.format('d')}
 }
 
+def today_check(){
+	Date today = new Date()
+	return today.format('d')
+}
+	
 WebUI.click(findTestObject('2-1 Sale/Sale button'))
 
 WebUI.click(findTestObject('2-1 Sale/Sale add button'))
@@ -41,7 +46,7 @@ WebUI.click(findTestObject('2-1 Sale/Sale customer 95230'))
 
 WebUI.click(findTestObject('2-1 Sale/Sale date button'))
 
-WebUI.click(findTestObject('2-1 Sale/Sale date 22'))
+WebUI.click(findTestObject('2-1 Sale/Sale date today', [('date') : today_check()]))
 
 WebUI.click(findTestObject('2-1 Sale/Sale sales button'))
 
@@ -59,19 +64,19 @@ WebUI.click(findTestObject('2-1 Sale/Sale payment 1'))
 
 //WebUI.click(findTestObject('2-1 Sale/Sale payment next month'))
 
-WebUI.click(findTestObject('2-1 Sale/Sale payment 1 next month 10', [('xxx') : abc(5)]))
+WebUI.click(findTestObject('2-1 Sale/Sale payment 1 next month 10', [('xxx') : month_check(5)]))
 
 WebUI.click(findTestObject('2-1 Sale/Sale payment 2'))
 
 //WebUI.click(findTestObject('2-1 Sale/Sale payment 2 next month'))
 
-WebUI.click(findTestObject('2-1 Sale/Sale payment 2 next month 15', [('xxx') : abc(10)]))
+WebUI.click(findTestObject('2-1 Sale/Sale payment 2 next month 15', [('xxx') : month_check(10)]))
 
 WebUI.click(findTestObject('2-1 Sale/Sale payment 3'))
 
 //WebUI.click(findTestObject('2-1 Sale/Sale payment 3 next month'))
 
-WebUI.click(findTestObject('2-1 Sale/Sale payment 3 next month 20', [('xxx') : abc(15)]))
+WebUI.click(findTestObject('2-1 Sale/Sale payment 3 next month 20', [('xxx') : month_check(15)]))
 
 WebUI.click(findTestObject('2-1 Sale/Sale invoice number'))
 

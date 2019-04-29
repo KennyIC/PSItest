@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+2-2 Sale return Test Suite,Chrome 73.0.3683.103,,2019-04-29 11:12:25,2019-04-29 11:12:46,21.180s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 11:12:25,2019-04-29 11:12:35,10.084s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 11:12:25,2019-04-29 11:12:28,3.459s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 11:12:28,2019-04-29 11:12:33,4.200s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 11:12:33,2019-04-29 11:12:34,1.170s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 11:12:34,2019-04-29 11:12:34,0.163s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 11:12:34,2019-04-29 11:12:34,0.168s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:34,2019-04-29 11:12:34,0.085s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:34,2019-04-29 11:12:35,0.555s,PASSED
+,,,,,,
+Test Cases/2-2 Sale Return-Add,Chrome 73.0.3683.103,,2019-04-29 11:12:35,2019-04-29 11:12:42,6.880s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:35,2019-04-29 11:12:35,0.127s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Add button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:35,2019-04-29 11:12:35,0.169s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale customer button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:35,2019-04-29 11:12:35,0.110s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale customer 0000""))",Chrome 73.0.3683.103,,2019-04-29 11:12:35,2019-04-29 11:12:36,0.617s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return date button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:36,2019-04-29 11:12:36,0.107s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return date"", [""date"":today_check()]))",Chrome 73.0.3683.103,,2019-04-29 11:12:36,2019-04-29 11:12:36,0.001s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:12:36,2019-04-29 11:12:36,0.007s,PASSED
+return today.format(d),Chrome 73.0.3683.103,,2019-04-29 11:12:36,2019-04-29 11:12:36,0.102s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return payment button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:36,2019-04-29 11:12:36,0.119s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/2-2 Sale Return/Sale return payment select""), ""1: 5"", true)",Chrome 73.0.3683.103,,2019-04-29 11:12:36,2019-04-29 11:12:37,0.181s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return payment 1 button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.091s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return payment 1 next month 10"", [""xxx"":abc(5)]))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.002s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+day1 = Date().plus(num),Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.181s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return payment 2 button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.083s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return payment 2 next month 15"", [""xxx"":abc(10)]))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+day1 = Date().plus(num),Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.139s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return payment 3 button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.117s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return payment 3 next month 20"", [""xxx"":abc(15)]))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+today = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.001s,PASSED
+day1 = Date().plus(num),Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.000s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:37,0.219s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return invoice button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:37,2019-04-29 11:12:38,0.091s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/2-2 Sale Return/Sale return invoice select""), ""1: 2"", true)",Chrome 73.0.3683.103,,2019-04-29 11:12:38,2019-04-29 11:12:38,0.157s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Sale return invoice number""), Invoice_number)",Chrome 73.0.3683.103,,2019-04-29 11:12:38,2019-04-29 11:12:38,0.199s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return employee button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:38,2019-04-29 11:12:38,0.128s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return employee 0000""))",Chrome 73.0.3683.103,,2019-04-29 11:12:38,2019-04-29 11:12:39,0.600s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Sale return bill number""), ""88888888"")",Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.199s,PASSED
+"click(findTestObject(""2-2 Sale Return/Sale return tax button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.145s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/2-2 Sale Return/Sale return tax select""), ""1: 2"", true)",Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.170s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Sale return note""), time())",Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.007s,PASSED
+date = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.000s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyy-MM-dd HH:mm),Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.011s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.249s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Item add button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:39,0.080s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Item good""))",Chrome 73.0.3683.103,,2019-04-29 11:12:39,2019-04-29 11:12:40,0.633s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Item number""), ""2"")",Chrome 73.0.3683.103,,2019-04-29 11:12:40,2019-04-29 11:12:40,0.199s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Item price""), ""300"")",Chrome 73.0.3683.103,,2019-04-29 11:12:40,2019-04-29 11:12:40,0.183s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Item total price""), ""600"")",Chrome 73.0.3683.103,,2019-04-29 11:12:40,2019-04-29 11:12:41,0.159s,PASSED
+"click(findTestObject(""2-2 Sale Return/Item warehouse button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:41,2019-04-29 11:12:41,0.134s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Item warehouse""))",Chrome 73.0.3683.103,,2019-04-29 11:12:41,2019-04-29 11:12:41,0.619s,PASSED
+"setText(findTestObject(""Object Repository/2-2 Sale Return/Item tax""), ""30"")",Chrome 73.0.3683.103,,2019-04-29 11:12:41,2019-04-29 11:12:42,0.164s,PASSED
+"click(findTestObject(""Object Repository/2-2 Sale Return/Sale return save""))",Chrome 73.0.3683.103,,2019-04-29 11:12:42,2019-04-29 11:12:42,0.117s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 11:12:42,2019-04-29 11:12:45,3.365s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 11:12:42,2019-04-29 11:12:45,3.036s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 11:12:45,2019-04-29 11:12:45,0.030s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-29 11:12:45,2019-04-29 11:12:45,0.017s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 11:12:45,2019-04-29 11:12:45,0.081s,PASSED

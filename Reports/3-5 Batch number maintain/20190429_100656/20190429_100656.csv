@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-5 Batch number maintain,Chrome 73.0.3683.103,,2019-04-29 10:06:58,2019-04-29 10:07:12,14.619s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 10:06:58,2019-04-29 10:07:06,8.171s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 10:06:58,2019-04-29 10:07:01,3.178s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 10:07:01,2019-04-29 10:07:04,2.754s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 10:07:04,2019-04-29 10:07:05,1.025s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 10:07:05,2019-04-29 10:07:05,0.142s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 10:07:05,2019-04-29 10:07:05,0.149s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:05,2019-04-29 10:07:05,0.077s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:05,2019-04-29 10:07:06,0.553s,PASSED
+,,,,,,
+Test Cases/3-5 Batch number maintain-Add,Chrome 73.0.3683.103,,2019-04-29 10:07:06,2019-04-29 10:07:08,2.294s,PASSED
+"click(findTestObject(""Object Repository/3-5 Btach number maintain/Batch maintain button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:06,2019-04-29 10:07:06,0.113s,PASSED
+"click(findTestObject(""Object Repository/3-5 Btach number maintain/Batch maintain add button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:06,2019-04-29 10:07:06,0.172s,PASSED
+"click(findTestObject(""3-5 Btach number maintain/Item button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:06,2019-04-29 10:07:07,0.091s,PASSED
+"click(findTestObject(""3-5 Btach number maintain/Item select""))",Chrome 73.0.3683.103,,2019-04-29 10:07:07,2019-04-29 10:07:07,0.664s,PASSED
+"setText(findTestObject(""Object Repository/3-5 Btach number maintain/Item life day""), ""30"")",Chrome 73.0.3683.103,,2019-04-29 10:07:07,2019-04-29 10:07:07,0.134s,PASSED
+"setText(findTestObject(""Object Repository/3-5 Btach number maintain/item batch code""), ""77889900"")",Chrome 73.0.3683.103,,2019-04-29 10:07:07,2019-04-29 10:07:07,0.148s,PASSED
+"click(findTestObject(""3-5 Btach number maintain/item life date""))",Chrome 73.0.3683.103,,2019-04-29 10:07:07,2019-04-29 10:07:08,0.118s,PASSED
+"click(findTestObject(""3-5 Btach number maintain/Item life date next month""))",Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:08,0.085s,PASSED
+"click(findTestObject(""3-5 Btach number maintain/Item life date next month 23""))",Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:08,0.083s,PASSED
+"click(findTestObject(""3-5 Btach number maintain/Item enable""))",Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:08,0.088s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/3-5 Btach number maintain/Item enable select""), ""0: Y"", true)",Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:08,0.169s,PASSED
+"setText(findTestObject(""Object Repository/3-5 Btach number maintain/Item note""), Note)",Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:08,0.153s,PASSED
+"click(findTestObject(""Object Repository/3-5 Btach number maintain/Save button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:08,0.084s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:12,3.278s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 10:07:08,2019-04-29 10:07:11,3.017s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 10:07:11,2019-04-29 10:07:11,0.035s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-29 10:07:11,2019-04-29 10:07:11,0.022s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 10:07:11,2019-04-29 10:07:12,0.058s,PASSED

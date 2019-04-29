@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3-2 Replenishment-Add - Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c852fcab-2e25-46b0-9362-016da010b141</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7e52bc0-898a-4ddc-983f-e51dcfecbf8e</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bceac4d8-79ad-4cc4-a78a-ce0f15285198</id>
+      <masked>false</masked>
+      <name>extractInt</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>fab12149-8ff9-4361-bdf6-091598b50ab8</id>
+      <masked>false</masked>
+      <name>count_number</name>
+   </variable>
+</TestCaseEntity>

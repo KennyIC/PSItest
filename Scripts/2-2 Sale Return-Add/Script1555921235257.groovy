@@ -31,6 +31,10 @@ else{
 	return day1.format('d')}
 }
 
+def today_check(){
+	Date today = new Date()
+	return today.format('d')
+}
 WebUI.click(findTestObject('Object Repository/2-2 Sale Return/Sale return button'))
 
 WebUI.click(findTestObject('Object Repository/2-2 Sale Return/Add button'))
@@ -41,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/2-2 Sale Return/Sale customer 0000
 
 WebUI.click(findTestObject('2-2 Sale Return/Sale return date button'))
 
-WebUI.click(findTestObject('Object Repository/2-2 Sale Return/Sale return date'))
+WebUI.click(findTestObject('Object Repository/2-2 Sale Return/Sale return date', [('date') : today_check()]))
 
 WebUI.click(findTestObject('2-2 Sale Return/Sale return payment button'))
 

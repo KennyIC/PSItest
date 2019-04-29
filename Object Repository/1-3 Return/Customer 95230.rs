@@ -6,11 +6,15 @@
    <elementGuidId>f6bb6fb6-161e-45da-844f-c03a9c40065b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '仁寶電腦' or . = '仁寶電腦')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>仁寶電腦</value>
+      <value>測試專用廠商</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

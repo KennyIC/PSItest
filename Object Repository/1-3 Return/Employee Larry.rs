@@ -6,11 +6,15 @@
    <elementGuidId>34f80200-fd07-47c1-a15f-3b1700b0c7e2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '0測試員工0' or . = '0測試員工0')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//table[@id='DataTables_Table_3']/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>陳建利</value>
+      <value>0測試員工0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

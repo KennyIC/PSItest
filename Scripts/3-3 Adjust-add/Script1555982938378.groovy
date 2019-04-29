@@ -12,7 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.text.SimpleDateFormat as SimpleDateFormat
 
+def time(){
+	def date = new Date()
+	sdf = new SimpleDateFormat("yyyyMMddHHmm")
+	return GlobalVariable.Note + sdf.format(date)
+}
 WebUI.click(findTestObject('Object Repository/3-3 Adjuset/Adjuset button'))
 
 WebUI.click(findTestObject('Object Repository/3-3 Adjuset/Add button'))
@@ -25,7 +31,7 @@ WebUI.click(findTestObject('3-3 Adjuset/Adjust employee button'))
 
 WebUI.click(findTestObject('Object Repository/3-3 Adjuset/Adjust employee'))
 
-WebUI.setText(findTestObject('Object Repository/3-3 Adjuset/input__comments'), GlobalVariable.Note)
+WebUI.setText(findTestObject('Object Repository/3-3 Adjuset/input__comments'), time())
 
 WebUI.click(findTestObject('Object Repository/3-3 Adjuset/Adjust item button'))
 

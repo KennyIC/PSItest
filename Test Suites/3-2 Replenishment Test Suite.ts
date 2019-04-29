@@ -20,7 +20,25 @@
       <guid>e656392b-f7c0-470f-bae4-2ef2d6cc683c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3-2 Replenishment-Add</testCaseId>
+      <testCaseId>Test Cases/3-2 Replenishment-Add - Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7e52bc0-898a-4ddc-983f-e51dcfecbf8e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bceac4d8-79ad-4cc4-a78a-ce0f15285198</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fab12149-8ff9-4361-bdf6-091598b50ab8</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>53e930da-db7a-4f96-ba6b-8335b435817f</guid>

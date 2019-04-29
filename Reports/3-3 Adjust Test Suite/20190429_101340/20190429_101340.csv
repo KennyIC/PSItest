@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-3 Adjust Test Suite,Chrome 73.0.3683.103,,2019-04-29 10:13:42,2019-04-29 10:14:15,32.683s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-29 10:13:42,2019-04-29 10:13:52,9.527s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 10:13:42,2019-04-29 10:13:46,3.314s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-29 10:13:46,2019-04-29 10:13:49,3.735s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-29 10:13:49,2019-04-29 10:13:51,1.163s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-29 10:13:51,2019-04-29 10:13:51,0.189s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-29 10:13:51,2019-04-29 10:13:51,0.166s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:51,2019-04-29 10:13:51,0.080s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:51,2019-04-29 10:13:52,0.587s,PASSED
+,,,,,,
+Test Cases/3-3 Adjust-add,Chrome 73.0.3683.103,,2019-04-29 10:13:52,2019-04-29 10:13:57,4.981s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/Adjuset button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:52,2019-04-29 10:13:52,0.129s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/Add button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:52,2019-04-29 10:13:52,0.148s,PASSED
+"click(findTestObject(""3-3 Adjuset/Adjust type button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:52,2019-04-29 10:13:53,0.638s,PASSED
+"selectOptionByValue(findTestObject(""3-3 Adjuset/Adjust type select""), ""0: 2"", true)",Chrome 73.0.3683.103,,2019-04-29 10:13:53,2019-04-29 10:13:53,0.159s,PASSED
+"click(findTestObject(""3-3 Adjuset/Adjust employee button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:53,2019-04-29 10:13:53,0.204s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/Adjust employee""))",Chrome 73.0.3683.103,,2019-04-29 10:13:53,2019-04-29 10:13:54,0.607s,PASSED
+"setText(findTestObject(""Object Repository/3-3 Adjuset/input__comments""), time())",Chrome 73.0.3683.103,,2019-04-29 10:13:54,2019-04-29 10:13:54,0.007s,PASSED
+date = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-29 10:13:54,2019-04-29 10:13:54,0.007s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 73.0.3683.103,,2019-04-29 10:13:54,2019-04-29 10:13:54,0.010s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 73.0.3683.103,,2019-04-29 10:13:54,2019-04-29 10:13:54,0.226s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/Adjust item button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:54,2019-04-29 10:13:54,0.085s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/item select""))",Chrome 73.0.3683.103,,2019-04-29 10:13:54,2019-04-29 10:13:55,0.622s,PASSED
+"click(findTestObject(""3-3 Adjuset/Item unit button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:55,2019-04-29 10:13:55,0.098s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/item unit""))",Chrome 73.0.3683.103,,2019-04-29 10:13:55,2019-04-29 10:13:55,0.599s,PASSED
+"click(findTestObject(""3-3 Adjuset/item warehouse button""))",Chrome 73.0.3683.103,,2019-04-29 10:13:55,2019-04-29 10:13:55,0.088s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/item warehouse""))",Chrome 73.0.3683.103,,2019-04-29 10:13:55,2019-04-29 10:13:56,0.694s,PASSED
+"setText(findTestObject(""Object Repository/3-3 Adjuset/item qty""), ""10"")",Chrome 73.0.3683.103,,2019-04-29 10:13:56,2019-04-29 10:13:56,0.132s,PASSED
+"setText(findTestObject(""Object Repository/3-3 Adjuset/item price""), ""120"")",Chrome 73.0.3683.103,,2019-04-29 10:13:56,2019-04-29 10:13:56,0.119s,PASSED
+"setText(findTestObject(""Object Repository/3-3 Adjuset/item price 1""), ""150"")",Chrome 73.0.3683.103,,2019-04-29 10:13:56,2019-04-29 10:13:57,0.107s,PASSED
+"click(findTestObject(""Object Repository/3-3 Adjuset/save""))",Chrome 73.0.3683.103,,2019-04-29 10:13:57,2019-04-29 10:13:57,0.085s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-29 10:13:57,2019-04-29 10:14:14,17.329s,FAILED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 10:13:57,2019-04-29 10:14:00,3.019s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-29 10:14:00,2019-04-29 10:14:14,14.157s,FAILED

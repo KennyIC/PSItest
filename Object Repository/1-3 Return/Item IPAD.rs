@@ -6,11 +6,15 @@
    <elementGuidId>0a4ba888-6104-4856-b424-1e3de39a0e30</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '0測試商品0' or . = '0測試商品0')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//table[@id='DataTables_Table_4']/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ipad</value>
+      <value>0測試商品0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

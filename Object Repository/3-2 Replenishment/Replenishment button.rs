@@ -4,6 +4,16 @@
    <name>Replenishment button</name>
    <tag></tag>
    <elementGuidId>a2dfd831-dcad-4704-851a-ce54b85ca8da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = '補貨' or . = '補貨')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

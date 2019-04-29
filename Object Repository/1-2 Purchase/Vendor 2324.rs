@@ -6,16 +6,15 @@
    <elementGuidId>5850838c-9630-4e55-804b-c230f5710711</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_9']/tbody/tr/td[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '仁寶電腦' or . = '仁寶電腦')]</value>
+         <value>//*[(text() = '測試專用廠商' or . = '測試專用廠商')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_9']/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>仁寶電腦</value>
+      <value>測試專用廠商</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

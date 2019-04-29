@@ -12,6 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.text.SimpleDateFormat as SimpleDateFormat
+
+def time(){
+	def date = new Date()
+	sdf = new SimpleDateFormat("yyyyMMddHHmm")
+	return GlobalVariable.Note + sdf.format(date)
+}
 
 WebUI.click(findTestObject('Object Repository/3-4 Transfer/Transfer button'))
 
@@ -21,7 +28,7 @@ WebUI.click(findTestObject('3-4 Transfer/Transfer employee button'))
 
 WebUI.click(findTestObject('Object Repository/3-4 Transfer/Transfer employee'))
 
-WebUI.setText(findTestObject('Object Repository/3-4 Transfer/Transfer note'), GlobalVariable.Note)
+WebUI.setText(findTestObject('Object Repository/3-4 Transfer/Transfer note'), time())
 
 WebUI.click(findTestObject('Object Repository/3-4 Transfer/Transfer item add'))
 
