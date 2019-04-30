@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'dataTables_info']</value>
+         <value>//div[@class = 'dataTables_info' and starts-with(@id, 'DataTables_Table_')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -31,11 +31,11 @@
       <value>dataTables_info</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>DataTables_Table_125_info</value>
+      <value>DataTables_Table_</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

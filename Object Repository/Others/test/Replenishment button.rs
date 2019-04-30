@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = '採購單' or . = '採購單')]</value>
+         <value>//button[@type = 'button' and (text() = '補貨' or . = '補貨')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>採購單</value>
+      <value>補貨</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

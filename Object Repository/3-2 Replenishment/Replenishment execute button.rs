@@ -4,6 +4,16 @@
    <name>Replenishment execute button</name>
    <tag></tag>
    <elementGuidId>09d87945-dc9d-43d3-a499-b89ccedb1103</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = ' 下一步' or . = ' 下一步')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='查詢'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

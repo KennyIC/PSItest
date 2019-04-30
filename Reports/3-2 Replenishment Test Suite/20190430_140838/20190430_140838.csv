@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-2 Replenishment Test Suite,Chrome 73.0.3683.103,,2019-04-30 14:08:40,2019-04-30 14:10:25,1m - 45.355s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-30 14:08:40,2019-04-30 14:10:09,1m - 28.701s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-30 14:08:40,2019-04-30 14:08:44,4.100s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-30 14:08:44,2019-04-30 14:10:06,1m - 22.121s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-30 14:10:06,2019-04-30 14:10:08,1.202s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-30 14:10:08,2019-04-30 14:10:08,0.180s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-30 14:10:08,2019-04-30 14:10:08,0.160s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:08,2019-04-30 14:10:08,0.085s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:08,2019-04-30 14:10:09,0.562s,PASSED
+,,,,,,
+Test Cases/3-2 Replenishment-Add - Test,Chrome 73.0.3683.103,,2019-04-30 14:10:09,2019-04-30 14:10:15,6.722s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-30 14:10:09,2019-04-30 14:10:12,3.022s,PASSED
+"click(findTestObject(""Others/test/Replenishment button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:12,2019-04-30 14:10:12,0.122s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-30 14:10:12,2019-04-30 14:10:15,3.002s,PASSED
+"click(findTestObject(""Object Repository/3-2 Replenishment/Replenishment execute button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.165s,PASSED
+"extractInt = getText(findTestObject(""Others/test/div_1-8  8""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.098s,PASSED
+count_number = extractInt.length(),Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.003s,PASSED
+variable = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.000s,PASSED
+switch (count_number),Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.002s,PASSED
+"for ([count_cycle = 0, count_cycle < variable, (count_cycle++)])",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.001s,PASSED
+"click(findTestObject(""3-2 Replenishment/Employee button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/3-2 Replenishment/Employee select""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.000s,NOT_RUN
+"click(findTestObject(""3-2 Replenishment/Ship type button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/3-2 Replenishment/Ship type select""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.001s,NOT_RUN
+"click(findTestObject(""3-2 Replenishment/Vendor 2 button""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/3-2 Replenishment/Vendor 2 select""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/3-2 Replenishment/Vendor 2 order qty""), ""10"")",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/3-2 Replenishment/Save""))",Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:15,0.000s,NOT_RUN
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:24,9.063s,FAILED
+delay(3),Chrome 73.0.3683.103,,2019-04-30 14:10:15,2019-04-30 14:10:18,3.003s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-04-30 14:10:18,2019-04-30 14:10:24,5.136s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-30 14:10:24,2019-04-30 14:10:24,0.771s,FAILED

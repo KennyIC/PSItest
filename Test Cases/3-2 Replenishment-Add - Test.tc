@@ -6,11 +6,11 @@
    <comment></comment>
    <testCaseGuid>c852fcab-2e25-46b0-9362-016da010b141</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>0</defaultValue>
       <description></description>
       <id>f7e52bc0-898a-4ddc-983f-e51dcfecbf8e</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>variableww</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -25,5 +25,12 @@
       <id>fab12149-8ff9-4361-bdf6-091598b50ab8</id>
       <masked>false</masked>
       <name>count_number</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>844d320e-b4b6-4061-a39e-cb5ce4f8dc02</id>
+      <masked>false</masked>
+      <name>count_cycle</name>
    </variable>
 </TestCaseEntity>

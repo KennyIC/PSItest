@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-2 Replenishment Test Suite,Chrome 73.0.3683.103,,2019-04-30 13:28:19,2019-04-30 13:28:33,13.674s,INCOMPLETE
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-04-30 13:28:19,2019-04-30 13:28:33,13.441s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-30 13:28:20,2019-04-30 13:28:25,5.214s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-04-30 13:28:25,2019-04-30 13:28:31,5.795s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-30 13:28:31,2019-04-30 13:28:32,1.143s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-04-30 13:28:32,2019-04-30 13:28:32,0.158s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-04-30 13:28:32,2019-04-30 13:28:32,0.166s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-04-30 13:28:32,2019-04-30 13:28:32,0.076s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-04-30 13:28:32,2019-04-30 13:28:33,0.553s,PASSED
+,,,,,,
+Test Cases/3-2 Replenishment-Add - Test,Chrome 73.0.3683.103,,2019-04-30 13:28:33,2019-04-30 13:28:33,0.006s,PASSED
