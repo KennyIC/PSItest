@@ -14,59 +14,55 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.delay(3)
-
+String extractInt
+int count_number
+int variable
+int count_cycle
+int a
 WebUI.click(findTestObject('Others/test/Replenishment button'))
 
-WebUI.delay(3)
-//WebUI.delay(3)
+WebUI.delay(1)
+
+extractInt = WebUI.getText(findTestObject('Others/test/div_1-8  8'))
+
+WebUI.delay(1)
+
+//KeywordUtil.logInfo('XXXXXXXXXXXX' + extractInt)
 
 WebUI.click(findTestObject('Object Repository/3-2 Replenishment/Replenishment execute button'))
 
-//variable = WebUI.getText(findTestObject('Others/test/div_1-8  8'))
-//WebUI.getText(findTestObject('Others/test/div_1-8  8')).substring(3, 4)
+WebUI.delay(1)
+count_number = extractInt.length()
 
-String extractInt = WebUI.getText(findTestObject('Others/test/div_1-8  8'))
+if (count_number == 11) {
+    
+	extractInt = substring(10, 11)
 
-//String variable = extractInt.substring(2, 4)
-int variable
-int count_number = extractInt.length()
-variable = extractInt.substring()
-KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
+//    KeywordUtil.logInfo('XXXXXXXXXXXX' + extractInt)
 
-
-switch(count_number) {
-	case 1:
-		count_number == 11
-		variable = extractInt.substring(7, 10)
-		KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
-		break;
-	case 2:
-		count_number == 9
-		variable = extractInt.substring(6, 8)
-		KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
-		break;
- }
-
-
-/*if (count_number == 11) {
-    variable = extractInt.substring(7, 9)
-    KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
 } else {
-    variable = extractInt.substring(6, 7)
-    KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
-}*/
-
-//KeywordUtil.logInfo('XXXXXXXXXXXX' + extractInt.length())
-//WebUI.click(findTestObject(null))
-//WebUI.delay(1)
-
-for(int count_cycle = 0; count_cycle < variable; count_cycle++) {
-	WebUI.click(findTestObject('3-2 Replenishment/Vendor 1 button'))
-	WebUI.click(findTestObject('Object Repository/3-2 Replenishment/Vendor 1 select'))
-	WebUI.setText(findTestObject('Object Repository/3-2 Replenishment/Vendor 1 order qty'), '10')
+	
+	KeywordUtil.logInfo('XXXXXXXXXXXX11-===' + extractInt)
+    
+	a = extractInt.substring(6, 7).toInteger()
+		
+//    KeywordUtil.logInfo('XXXXXXXXXXXX' + a)
 }
 
+WebUI.delay(1)
+
+for (count_cycle = 1; count_cycle < a; count_cycle++) {
+	
+	KeywordUtil.logInfo('XXXXXXXXXXXX11-===' + count_cycle)
+	int www = count_cycle * 8
+    WebUI.click(findTestObject('3-2 Replenishment/Vendor 1 button', [('sss') : www]))
+	
+	
+
+    WebUI.click(findTestObject('Object Repository/3-2 Replenishment/Vendor 1 select'))
+
+    WebUI.setText(findTestObject('Object Repository/3-2 Replenishment/Vendor 1 order qty'), '10')
+}
 
 not_run: WebUI.click(findTestObject('3-2 Replenishment/Employee button'))
 
@@ -84,3 +80,24 @@ not_run: WebUI.setText(findTestObject('Object Repository/3-2 Replenishment/Vendo
 
 not_run: WebUI.click(findTestObject('Object Repository/3-2 Replenishment/Save'))
 
+//variable = WebUI.getText(findTestObject('Others/test/div_1-8  8'))
+//WebUI.getText(findTestObject('Others/test/div_1-8  8')).substring(3, 4)
+//String variable = extractInt.substring(2, 4)
+//int variable = extractInt.substring()
+
+/*switch(variable) {
+	case 1:
+		count_number == 11
+		variable = extractInt.substring(7, 10)
+		KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
+		break;
+	case 2:
+		count_number == 9
+		variable = extractInt.substring(6, 8)
+		KeywordUtil.logInfo('XXXXXXXXXXXX' + variable)
+		break;
+ }*/
+
+//KeywordUtil.logInfo('XXXXXXXXXXXX' + extractInt.length())
+//WebUI.click(findTestObject(null))
+//WebUI.delay(1)

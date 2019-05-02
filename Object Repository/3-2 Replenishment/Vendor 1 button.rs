@@ -6,12 +6,12 @@
    <elementGuidId>9f2a70e6-9a9f-4c46-8697-b26094aee718</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[8]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//input[@class = 'form-control form-control-sm ng-pristine ng-valid ng-touched' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])['${sss}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
