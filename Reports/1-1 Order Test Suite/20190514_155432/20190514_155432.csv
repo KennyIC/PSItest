@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1-1 Order Test Suite,Chrome 73.0.3683.103,,2019-05-14 15:54:33,2019-05-14 15:54:56,22.657s,ERROR
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-05-14 15:54:34,2019-05-14 15:54:45,11.793s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-05-14 15:54:34,2019-05-14 15:54:40,6.143s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-05-14 15:54:40,2019-05-14 15:54:43,3.188s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-05-14 15:54:43,2019-05-14 15:54:44,1.140s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-05-14 15:54:44,2019-05-14 15:54:45,0.151s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-05-14 15:54:45,2019-05-14 15:54:45,0.168s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-05-14 15:54:45,2019-05-14 15:54:45,0.087s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-05-14 15:54:45,2019-05-14 15:54:45,0.610s,PASSED
+,,,,,,
+Test Cases/1-1 Order-Add,Chrome 73.0.3683.103,,2019-05-14 15:54:45,2019-05-14 15:54:46,0.360s,ERROR
+"click(findTestObject(""1-1 Order/Add/New button""))",Chrome 73.0.3683.103,,2019-05-14 15:54:46,2019-05-14 15:54:46,0.103s,PASSED
+"KeywordUtil.logInfo(findTestObject(""1-1 Order/Edit/Select order by note""))",Chrome 73.0.3683.103,,2019-05-14 15:54:46,2019-05-14 15:54:46,0.013s,ERROR
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 73.0.3683.103,,2019-05-14 15:54:46,2019-05-14 15:54:55,9.176s,FAILED
+delay(3),Chrome 73.0.3683.103,,2019-05-14 15:54:46,2019-05-14 15:54:49,3.026s,PASSED
+waitForAlert(5),Chrome 73.0.3683.103,,2019-05-14 15:54:49,2019-05-14 15:54:54,5.117s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-05-14 15:54:54,2019-05-14 15:54:55,0.848s,FAILED
+,,,,,,
+Test Cases/1-1 Order-Edit,Chrome 73.0.3683.103,,2019-05-14 15:54:55,2019-05-14 15:54:55,0.417s,ERROR
+"click(findTestObject(""Object Repository/1-1 Order/Edit/Sort by order no""))",Chrome 73.0.3683.103,,2019-05-14 15:54:55,2019-05-14 15:54:55,0.123s,PASSED
+"click(findTestObject(""Object Repository/1-1 Order/Edit/Sort by order no""))",Chrome 73.0.3683.103,,2019-05-14 15:54:55,2019-05-14 15:54:55,0.069s,PASSED
+logInfo(Time),Chrome 73.0.3683.103,,2019-05-14 15:54:55,2019-05-14 15:54:55,0.019s,PASSED
+"logInfo(findTestObject(""1-1 Order/Edit/Select order by note""))",Chrome 73.0.3683.103,,2019-05-14 15:54:55,2019-05-14 15:54:55,0.010s,ERROR
