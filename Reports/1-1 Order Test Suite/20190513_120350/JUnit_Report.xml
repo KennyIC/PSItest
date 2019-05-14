@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1-1 Order Test Suite" time="23" tests="2" failures="0" errors="1">
+   <testsuite name="1-1 Order Test Suite" tests="2" failures="0" errors="1" time="23" timestamp="2019-05-13 12:03:52" hostname="KennyIC_Chen - KennyIC_Chen.compal.com" id="Test Suites/1-1 Order Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\1-1 Order Test Suite\\20190513_120350"/>
+         <property name="logFiles" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\1-1 Order Test Suite\\20190513_120350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KennyIC_Chen - KennyIC_Chen.compal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.109.98.148"/>
+         <property name="sessionId" value="98d228a09fc727849c636c9fe796649b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Others/Login" classname="Test Cases/Others/Login" status="PASSED">
+         <system-out><![CDATA[2019-05-13 12:03:52 - [TEST_CASE][PASSED] - Test Cases/Others/Login: Test Cases/Others/Login
+
+2019-05-13 12:03:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 12:03:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 12:03:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-13 12:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 12:03:57 - [TEST_STEP][PASSED] - navigateToUrl("https://psi-azcldap.unicore.com.tw/login"): Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-05-13 12:04:06 - [MESSAGE][PASSED] - Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-05-13 12:04:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-13 12:04:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-13 12:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Others/Login/ID-QWE"), "QWE"): Text 'QWE' is set on object 'Object Repository/Others/Login/ID-QWE'
+
+2019-05-13 12:04:07 - [MESSAGE][PASSED] - Text 'QWE' is set on object 'Object Repository/Others/Login/ID-QWE'
+
+2019-05-13 12:04:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Others/Login/PW-QWE"), "5opu+sh6ATw="): Text ****** has been set on object 'Object Repository/Others/Login/PW-QWE'
+
+2019-05-13 12:04:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Others/Login/PW-QWE'
+
+2019-05-13 12:04:07 - [TEST_STEP][PASSED] - click(findTestObject("Others/Login/Login Button")): Object: 'Object Repository/Others/Login/Login Button' is clicked on
+
+2019-05-13 12:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Others/Login/Login Button' is clicked on
+
+2019-05-13 12:04:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Others/Login/Verify button")): Object 'Object Repository/Others/Login/Verify button' is clickable
+
+2019-05-13 12:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/Others/Login/Verify button' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1-1 Order-Add - Copy" classname="Test Cases/1-1 Order-Add - Copy" status="PASSED">
+         <system-out><![CDATA[2019-05-13 12:04:08 - [TEST_CASE][PASSED] - Test Cases/1-1 Order-Add - Copy: Test Cases/1-1 Order-Add - Copy
+
+2019-05-13 12:04:08 - [TEST_STEP][PASSED] - var1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-05-13 12:04:08 - [TEST_STEP][PASSED] - var1 = 20: null
+
+2019-05-13 12:04:08 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/New button")): Object: 'Object Repository/1-1 Order/New button' is clicked on
+
+2019-05-13 12:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/New button' is clicked on
+
+2019-05-13 12:04:09 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Order button")): Object: 'Object Repository/1-1 Order/Order button' is clicked on
+
+2019-05-13 12:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Order button' is clicked on
+
+2019-05-13 12:04:09 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Vendor button")): Object: 'Object Repository/1-1 Order/Vendor button' is clicked on
+
+2019-05-13 12:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Vendor button' is clicked on
+
+2019-05-13 12:04:09 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Vendor 2324")): Object: 'Object Repository/1-1 Order/Vendor 2324' is clicked on
+
+2019-05-13 12:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Vendor 2324' is clicked on
+
+2019-05-13 12:04:10 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Employee button")): Object: 'Object Repository/1-1 Order/Employee button' is clicked on
+
+2019-05-13 12:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Employee button' is clicked on
+
+2019-05-13 12:04:10 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Emplyee Larry")): Object: 'Object Repository/1-1 Order/Emplyee Larry' is clicked on
+
+2019-05-13 12:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Emplyee Larry' is clicked on
+
+2019-05-13 12:04:10 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Ship button")): Object: 'Object Repository/1-1 Order/Ship button' is clicked on
+
+2019-05-13 12:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Ship button' is clicked on
+
+2019-05-13 12:04:10 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Ship 1")): Object: 'Object Repository/1-1 Order/Ship 1' is clicked on
+
+2019-05-13 12:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Ship 1' is clicked on
+
+2019-05-13 12:04:11 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/TAX select")): Object: 'Object Repository/1-1 Order/TAX select' is clicked on
+
+2019-05-13 12:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/TAX select' is clicked on
+
+2019-05-13 12:04:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1-1 Order/TAX1"), "0: 1", true): All options with value '0: 1' are selected in object 'Object Repository/1-1 Order/TAX1'  using regular expression
+
+2019-05-13 12:04:11 - [MESSAGE][PASSED] - All options with value '0: 1' are selected in object 'Object Repository/1-1 Order/TAX1'  using regular expression
+
+2019-05-13 12:04:11 - [TEST_STEP][PASSED] - setText(findTestObject("1-1 Order/Note"), time()): null
+
+2019-05-13 12:04:11 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-05-13 12:04:11 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm): null
+
+2019-05-13 12:04:11 - [TEST_STEP][PASSED] - return (internal.GlobalVariable.Note + sdf.format(date)): Text 'Testing   201905131204' is set on object 'Object Repository/1-1 Order/Note'
+
+2019-05-13 12:04:12 - [MESSAGE][PASSED] - Text 'Testing   201905131204' is set on object 'Object Repository/1-1 Order/Note'
+
+2019-05-13 12:04:12 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Add item")): Object: 'Object Repository/1-1 Order/Add item' is clicked on
+
+2019-05-13 12:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Add item' is clicked on
+
+2019-05-13 12:04:12 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Item IPAD")): Object: 'Object Repository/1-1 Order/Item IPAD' is clicked on
+
+2019-05-13 12:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Item IPAD' is clicked on
+
+2019-05-13 12:04:12 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Unit button")): Object: 'Object Repository/1-1 Order/Unit button' is clicked on
+
+2019-05-13 12:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Unit button' is clicked on
+
+2019-05-13 12:04:13 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Unit Change")): Object: 'Object Repository/1-1 Order/Unit Change' is clicked on
+
+2019-05-13 12:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Unit Change' is clicked on
+
+2019-05-13 12:04:13 - [TEST_STEP][PASSED] - setText(findTestObject("1-1 Order/Qty"), "10"): Text '10' is set on object 'Object Repository/1-1 Order/Qty'
+
+2019-05-13 12:04:13 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/1-1 Order/Qty'
+
+2019-05-13 12:04:13 - [TEST_STEP][PASSED] - setText(findTestObject("1-1 Order/Price"), "200"): Text '200' is set on object 'Object Repository/1-1 Order/Price'
+
+2019-05-13 12:04:14 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/1-1 Order/Price'
+
+2019-05-13 12:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("1-1 Order/Total Price"), "2000"): Text '2000' is set on object 'Object Repository/1-1 Order/Total Price'
+
+2019-05-13 12:04:14 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/1-1 Order/Total Price'
+
+2019-05-13 12:04:14 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Save")): Object: 'Object Repository/1-1 Order/Save' is clicked on
+
+2019-05-13 12:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Save' is clicked on
+
+2019-05-13 12:04:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-13 12:04:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-13 12:04:15 - [TEST_STEP][NOT_RUN] - acceptAlert(): NOT_RUN: acceptAlert()
+
+2019-05-13 12:04:15 - [MESSAGE][NOT_RUN] - NOT_RUN: acceptAlert()
+
+2019-05-13 12:04:15 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("1-1 Order/Order button")): NOT_RUN: verifyElementClickable(findTestObject("1-1 Order/Order button"))
+
+2019-05-13 12:04:15 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("1-1 Order/Order button"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="ERROR">
+         <error type="ERROR" message="Test Cases/New Test Case FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-13 12:04:15 - [TEST_CASE][ERROR] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)
+
+
+2019-05-13 12:04:15 - [TEST_STEP][ERROR] - callTestCase(1-1 Order-Add - Copy("var1")): callTestCase(1-1 Order-Add - Copy("var1")) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)
+
+
+2019-05-13 12:04:15 - [MESSAGE][ERROR] - callTestCase(1-1 Order-Add - Copy("var1")) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-13 12:04:15 - [TEST_CASE][ERROR] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-13 12:03:52 - [TEST_SUITE][ERROR] - 1-1 Order Test Suite: Test Cases/New Test Case FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-13 12:03:52 - [TEST_SUITE][ERROR] - 1-1 Order Test Suite: Test Cases/New Test Case FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1557710125060.1-1 Order-Add - Copy() is applicable for argument types: (java.lang.String) values: [var1]
+	at New Test Case.run(New Test Case:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557720230150.run(TempTestSuite1557720230150.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

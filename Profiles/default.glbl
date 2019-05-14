@@ -6,12 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Testing   '</initValue>
+      <initValue>'Testing'</initValue>
       <name>Note</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'AB-12345678'</initValue>
       <name>Invoice_number</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Time</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

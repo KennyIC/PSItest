@@ -14,52 +14,59 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time(){
-    def date = new Date()
-    sdf = new SimpleDateFormat("yyyyMMddHHmm")
-    return GlobalVariable.Note + sdf.format(date)
-}
+WebUI.click(findTestObject('1-1 Order/Add/New button'))
 
-WebUI.click(findTestObject('1-1 Order/New button'))
+WebUI.click(findTestObject('1-1 Order/Add/Order button'))
 
-WebUI.click(findTestObject('1-1 Order/Order button'))
+WebUI.click(findTestObject('1-1 Order/Add/Vendor button'))
 
-WebUI.click(findTestObject('1-1 Order/Vendor button'))
+WebUI.click(findTestObject('1-1 Order/Add/Vendor 2324'))
 
-WebUI.click(findTestObject('1-1 Order/Vendor 2324'))
+WebUI.click(findTestObject('1-1 Order/Add/Employee button'))
 
-WebUI.click(findTestObject('1-1 Order/Employee button'))
+WebUI.click(findTestObject('1-1 Order/Add/Emplyee Larry'))
 
-WebUI.click(findTestObject('1-1 Order/Emplyee Larry'))
+WebUI.click(findTestObject('1-1 Order/Add/Ship button'))
 
-WebUI.click(findTestObject('1-1 Order/Ship button'))
+WebUI.click(findTestObject('1-1 Order/Add/Ship 1'))
 
-WebUI.click(findTestObject('1-1 Order/Ship 1'))
+WebUI.click(findTestObject('1-1 Order/Add/TAX select'))
 
-WebUI.click(findTestObject('1-1 Order/TAX select'))
+WebUI.selectOptionByValue(findTestObject('1-1 Order/Add/TAX1'), '0: 1', true)
 
-WebUI.selectOptionByValue(findTestObject('1-1 Order/TAX1'), '0: 1', true)
+WebUI.setText(findTestObject('1-1 Order/Add/Note'), time())
 
-WebUI.setText(findTestObject('1-1 Order/Note'), time())
+WebUI.click(findTestObject('1-1 Order/Add/Add item'))
 
-WebUI.click(findTestObject('1-1 Order/Add item'))
+WebUI.click(findTestObject('1-1 Order/Add/Item IPAD'))
 
-WebUI.click(findTestObject('1-1 Order/Item IPAD'))
+WebUI.click(findTestObject('1-1 Order/Add/Unit button'))
 
-WebUI.click(findTestObject('1-1 Order/Unit button'))
+WebUI.click(findTestObject('1-1 Order/Add/Unit Change'))
 
-WebUI.click(findTestObject('1-1 Order/Unit Change'))
+WebUI.setText(findTestObject('1-1 Order/Add/Qty'), '10')
 
-WebUI.setText(findTestObject('1-1 Order/Qty'), '10')
+WebUI.setText(findTestObject('1-1 Order/Add/Price'), '200')
 
-WebUI.setText(findTestObject('1-1 Order/Price'), '200')
+WebUI.setText(findTestObject('1-1 Order/Add/Total Price'), '2000')
 
-WebUI.setText(findTestObject('1-1 Order/Total Price'), '2000')
-
-WebUI.click(findTestObject('1-1 Order/Save'))
+WebUI.click(findTestObject('1-1 Order/Add/Save'))
 
 WebUI.delay(1)
 
 not_run: WebUI.acceptAlert()
 
-not_run: WebUI.verifyElementClickable(findTestObject('1-1 Order/Order button'))
+not_run: WebUI.verifyElementClickable(findTestObject('1-1 Order/Add/Order button'))
+
+
+
+def time() {
+    def date = new Date()
+
+    sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+    GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+    return GlobalVariable.Time
+}
+

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1-1 Order Test Suite,Chrome 73.0.3683.103,,2019-05-13 17:13:19,2019-05-13 17:13:35,15.979s,ERROR
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-05-13 17:13:19,2019-05-13 17:13:34,14.775s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-05-13 17:13:19,2019-05-13 17:13:26,7.321s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-05-13 17:13:26,2019-05-13 17:13:31,5.039s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-05-13 17:13:31,2019-05-13 17:13:33,1.156s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-05-13 17:13:33,2019-05-13 17:13:33,0.158s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-05-13 17:13:33,2019-05-13 17:13:33,0.152s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-05-13 17:13:33,2019-05-13 17:13:33,0.084s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-05-13 17:13:33,2019-05-13 17:13:34,0.557s,PASSED
+,,,,,,
+Test Cases/1-1 Order-Add - Copy,Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.225s,ERROR
+var2 = 20,Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.011s,PASSED
+"println(""GlobalVariable.var1"")",Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.000s,PASSED
+"println(""123"")",Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.000s,PASSED
+"println(""var2"")",Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.000s,PASSED
+"KeywordUtil.logInfo(""GlobalVariable.var1"")",Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.015s,ERROR
+,,,,,,
+Test Cases/New Test Case,Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.147s,ERROR
+println(var1),Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.012s,PASSED
+KeywordUtil.logInfo(var1),Chrome 73.0.3683.103,,2019-05-13 17:13:34,2019-05-13 17:13:34,0.000s,ERROR

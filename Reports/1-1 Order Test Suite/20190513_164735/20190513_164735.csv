@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1-1 Order Test Suite,Chrome 73.0.3683.103,,2019-05-13 16:47:38,2019-05-13 16:47:54,16.514s,ERROR
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-05-13 16:47:38,2019-05-13 16:47:53,15.014s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-05-13 16:47:38,2019-05-13 16:47:44,6.043s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-05-13 16:47:44,2019-05-13 16:47:51,6.528s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-05-13 16:47:51,2019-05-13 16:47:52,1.147s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-05-13 16:47:52,2019-05-13 16:47:52,0.149s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-05-13 16:47:52,2019-05-13 16:47:52,0.158s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-05-13 16:47:52,2019-05-13 16:47:52,0.079s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-05-13 16:47:52,2019-05-13 16:47:53,0.553s,PASSED
+,,,,,,
+Test Cases/1-1 Order-Add - Copy,Chrome 73.0.3683.103,,2019-05-13 16:47:53,2019-05-13 16:47:53,0.208s,ERROR
+println(var1),Chrome 73.0.3683.103,,2019-05-13 16:47:53,2019-05-13 16:47:53,0.009s,ERROR
+,,,,,,
+Test Cases/New Test Case,Chrome 73.0.3683.103,,2019-05-13 16:47:53,2019-05-13 16:47:54,0.401s,ERROR
+"println(""var1"")",Chrome 73.0.3683.103,,2019-05-13 16:47:53,2019-05-13 16:47:53,0.002s,PASSED
+KeywordUtil.logInfo(var1),Chrome 73.0.3683.103,,2019-05-13 16:47:53,2019-05-13 16:47:54,0.267s,ERROR

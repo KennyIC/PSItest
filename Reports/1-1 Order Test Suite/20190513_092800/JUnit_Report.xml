@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1-1 Order Test Suite" time="15" tests="3" failures="0" errors="0">
+   <testsuite name="1-1 Order Test Suite" tests="3" failures="0" errors="0" time="15" timestamp="2019-05-13 09:28:02" hostname="KennyIC_Chen - KennyIC_Chen.compal.com" id="Test Suites/1-1 Order Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\1-1 Order Test Suite\\20190513_092800"/>
+         <property name="logFiles" value="C:\\Users\\KennyIC_chen.COMPAL\\git\\PSItest\\Reports\\1-1 Order Test Suite\\20190513_092800\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KennyIC_Chen - KennyIC_Chen.compal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.109.98.148"/>
+         <property name="sessionId" value="7c070daf3b45f4f65a7e9ac1e4b81fef"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Others/Login" classname="Test Cases/Others/Login" status="PASSED">
+         <system-out><![CDATA[2019-05-13 09:28:03 - [TEST_CASE][PASSED] - Test Cases/Others/Login: Test Cases/Others/Login
+
+2019-05-13 09:28:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-13 09:28:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-13 09:28:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-13 09:28:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-13 09:28:07 - [TEST_STEP][PASSED] - navigateToUrl("https://psi-azcldap.unicore.com.tw/login"): Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-05-13 09:28:13 - [MESSAGE][PASSED] - Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-05-13 09:28:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-13 09:28:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-13 09:28:14 - [TEST_STEP][PASSED] - setText(findTestObject("Others/Login/ID-QWE"), "QWE"): Text 'QWE' is set on object 'Object Repository/Others/Login/ID-QWE'
+
+2019-05-13 09:28:14 - [MESSAGE][PASSED] - Text 'QWE' is set on object 'Object Repository/Others/Login/ID-QWE'
+
+2019-05-13 09:28:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Others/Login/PW-QWE"), "5opu+sh6ATw="): Text ****** has been set on object 'Object Repository/Others/Login/PW-QWE'
+
+2019-05-13 09:28:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Others/Login/PW-QWE'
+
+2019-05-13 09:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Others/Login/Login Button")): Object: 'Object Repository/Others/Login/Login Button' is clicked on
+
+2019-05-13 09:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Others/Login/Login Button' is clicked on
+
+2019-05-13 09:28:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Others/Login/Verify button")): Object 'Object Repository/Others/Login/Verify button' is clickable
+
+2019-05-13 09:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/Others/Login/Verify button' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1-1 Order-Add - Copy" classname="Test Cases/1-1 Order-Add - Copy" status="PASSED">
+         <system-out><![CDATA[2019-05-13 09:28:15 - [TEST_CASE][PASSED] - Test Cases/1-1 Order-Add - Copy: Test Cases/1-1 Order-Add - Copy
+
+2019-05-13 09:28:15 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/New button")): Object: 'Object Repository/1-1 Order/New button' is clicked on
+
+2019-05-13 09:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/New button' is clicked on
+
+2019-05-13 09:28:15 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Order button")): Object: 'Object Repository/1-1 Order/Order button' is clicked on
+
+2019-05-13 09:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Order button' is clicked on
+
+2019-05-13 09:28:16 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Vendor button")): Object: 'Object Repository/1-1 Order/Vendor button' is clicked on
+
+2019-05-13 09:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Vendor button' is clicked on
+
+2019-05-13 09:28:16 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Vendor 2324")): Object: 'Object Repository/1-1 Order/Vendor 2324' is clicked on
+
+2019-05-13 09:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Vendor 2324' is clicked on
+
+2019-05-13 09:28:16 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Employee button")): Object: 'Object Repository/1-1 Order/Employee button' is clicked on
+
+2019-05-13 09:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Employee button' is clicked on
+
+2019-05-13 09:28:16 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Emplyee Larry")): Object: 'Object Repository/1-1 Order/Emplyee Larry' is clicked on
+
+2019-05-13 09:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Emplyee Larry' is clicked on
+
+2019-05-13 09:28:17 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Ship button")): Object: 'Object Repository/1-1 Order/Ship button' is clicked on
+
+2019-05-13 09:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Ship button' is clicked on
+
+2019-05-13 09:28:17 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/Ship 1")): Object: 'Object Repository/1-1 Order/Ship 1' is clicked on
+
+2019-05-13 09:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/Ship 1' is clicked on
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - click(findTestObject("1-1 Order/TAX select")): Object: 'Object Repository/1-1 Order/TAX select' is clicked on
+
+2019-05-13 09:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1-1 Order/TAX select' is clicked on
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1-1 Order/TAX1"), "0: 1", true): All options with value '0: 1' are selected in object 'Object Repository/1-1 Order/TAX1'  using regular expression
+
+2019-05-13 09:28:18 - [MESSAGE][PASSED] - All options with value '0: 1' are selected in object 'Object Repository/1-1 Order/TAX1'  using regular expression
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - setText(findTestObject("1-1 Order/Note"), time()): null
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm): null
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - return (internal.GlobalVariable.Note + sdf.format(date)): Text 'Testing   201905130928' is set on object 'Object Repository/1-1 Order/Note'
+
+2019-05-13 09:28:18 - [MESSAGE][PASSED] - Text 'Testing   201905130928' is set on object 'Object Repository/1-1 Order/Note'
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - var1 = "sample value": null
+
+2019-05-13 09:28:18 - [TEST_STEP][PASSED] - return var1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2019-05-13 09:28:18 - [TEST_CASE][PASSED] - Test Cases/New Test Case: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-13 09:28:02 - [TEST_SUITE][INCOMPLETE] - 1-1 Order Test Suite: null]]></system-out>
+      <system-err><![CDATA[2019-05-13 09:28:02 - [TEST_SUITE][INCOMPLETE] - 1-1 Order Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

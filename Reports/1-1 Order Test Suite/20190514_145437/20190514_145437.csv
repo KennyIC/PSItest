@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1-1 Order Test Suite,Chrome 73.0.3683.103,,2019-05-14 14:54:39,2019-05-14 14:55:07,28.204s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 73.0.3683.103,Login process in PSI,2019-05-14 14:54:39,2019-05-14 14:54:56,17.248s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-05-14 14:54:39,2019-05-14 14:54:49,10.003s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 73.0.3683.103,,2019-05-14 14:54:49,2019-05-14 14:54:54,4.748s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-05-14 14:54:54,2019-05-14 14:54:55,1.135s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 73.0.3683.103,,2019-05-14 14:54:55,2019-05-14 14:54:55,0.179s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 73.0.3683.103,,2019-05-14 14:54:55,2019-05-14 14:54:56,0.191s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 73.0.3683.103,,2019-05-14 14:54:56,2019-05-14 14:54:56,0.081s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 73.0.3683.103,,2019-05-14 14:54:56,2019-05-14 14:54:56,0.594s,PASSED
+,,,,,,
+Test Cases/1-1 Order-Add - Copy,Chrome 73.0.3683.103,,2019-05-14 14:54:56,2019-05-14 14:55:00,3.724s,PASSED
+"vark = ""aaa""",Chrome 73.0.3683.103,,2019-05-14 14:54:56,2019-05-14 14:54:56,0.000s,PASSED
+"click(findTestObject(""1-1 Order/New button""))",Chrome 73.0.3683.103,,2019-05-14 14:54:56,2019-05-14 14:54:57,0.112s,PASSED
+"click(findTestObject(""1-1 Order/Order button""))",Chrome 73.0.3683.103,,2019-05-14 14:54:57,2019-05-14 14:54:57,0.169s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-05-14 14:54:57,2019-05-14 14:55:00,3.026s,PASSED
+"setText(findTestObject(""1-1 Order/Note""), Invoice_number)",Chrome 73.0.3683.103,,2019-05-14 14:55:00,2019-05-14 14:55:00,0.193s,PASSED
+Invoice_number = Invoice_number + vark,Chrome 73.0.3683.103,,2019-05-14 14:55:00,2019-05-14 14:55:00,0.001s,PASSED
+,,,,,,
+Test Cases/New Test Case,Chrome 73.0.3683.103,,2019-05-14 14:55:00,2019-05-14 14:55:06,6.325s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-05-14 14:55:00,2019-05-14 14:55:03,3.002s,PASSED
+"setText(findTestObject(""1-1 Order/Note""), Invoice_number)",Chrome 73.0.3683.103,,2019-05-14 14:55:03,2019-05-14 14:55:03,0.159s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-05-14 14:55:03,2019-05-14 14:55:06,3.002s,PASSED
