@@ -28,4 +28,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>598afea0-b99b-4cd0-a4e7-9522e9088f27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1 In/1-2 Purchase/1-2 Purchase-Edit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5e8fd469-f73d-48e1-b90f-e1672c9769c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

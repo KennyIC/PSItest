@@ -14,84 +14,88 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time(){
-	def date = new Date()
-	sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm")
-	return GlobalVariable.Note + sdf.format(date)
-}
-
-
-def abc(num){
-Date today = new Date()
-Date day1 = new Date().plus(num)
-if(day1.format('MM') > today.format('MM')){
-	WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date next month'))
-	return day1.format('d')}
-else{
-	return day1.format('d')}
-}
-
-WebUI.click(findTestObject('1 In/1-2 Purchase/Purchase button'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Purchase button'))
 
 WebUI.callTestCase(findTestCase('Others/Get Today'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Add button'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Add button'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Vendor button'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Vendor button'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Vendor 2324'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Vendor 2324'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment select'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment select'))
 
-WebUI.selectOptionByValue(findTestObject('1 In/1-2 Purchase/Payment Cash'), '0: 1', true)
+WebUI.selectOptionByValue(findTestObject('1 In/1-2 Purchase/Add/Payment Cash'), '0: 1', true)
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date 1'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 1'))
 
-//WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date next month'))
+//WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 1 next month_10', [('xxx') : abc(5)]))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date 1 next month_10', [('xxx') : abc(5)]))
-
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date 2'))
-
-//WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date 2 next month_15', [('xxx') : abc(10)]))
-
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date 3'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 2'))
 
 //WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 2 next month_15', [('xxx') : abc(10)]))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Payment date 3 next month_20', [('xxx') : abc(15)]))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 3'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Invoice select'))
+//WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 3 next month_20', [('xxx') : abc(15)]))
 
-WebUI.selectOptionByValue(findTestObject('1 In/1-2 Purchase/Invoice 1'), '3: 4', true)
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Invoice select'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Employee button'))
+WebUI.selectOptionByValue(findTestObject('1 In/1-2 Purchase/Add/Invoice 1'), '3: 4', true)
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Emplyee Larry'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Employee button'))
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Note'), time())
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Emplyee Larry'))
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Invoice number'), GlobalVariable.Invoice_number)
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Note'), time())
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Add item button'))
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Invoice number'), GlobalVariable.Invoice_number)
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Item IPAD'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Add item button'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Unit button'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Item IPAD'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Unit Change'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Unit button'))
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Qty'), '10')
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Unit Change'))
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Price'), '200')
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Qty'), '10')
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Total price'), '2000')
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Price'), '200')
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Warehouse button'))
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Total price'), '2000')
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Warehouse 111'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Warehouse button'))
 
-WebUI.click(findTestObject('1 In/1-2 Purchase/Save'))
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Warehouse 111'))
+
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Save'))
+
+def time() {
+    def date = new Date()
+
+    sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+    GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+    return GlobalVariable.Time
+}
+
+def abc(def num) {
+    Date today = new Date()
+
+    Date day1 = new Date().plus(num)
+
+    if (day1.format('MM') > today.format('MM')) {
+        WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
+
+        return day1.format('d')
+    } else {
+        return day1.format('d')
+    }
+}
 

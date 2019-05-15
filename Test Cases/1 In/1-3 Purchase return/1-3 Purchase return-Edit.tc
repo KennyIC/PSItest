@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1-1 Order-Add</name>
+   <name>1-3 Purchase return-Edit</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a3843daf-050e-4dc5-ae29-599020f8eff8</testCaseGuid>
+   <testCaseGuid>19c47dec-45f6-4315-80a0-c7e84029a20c</testCaseGuid>
 </TestCaseEntity>
