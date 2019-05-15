@@ -20,7 +20,7 @@
       <guid>42d750ba-79c0-43f3-94a5-c22d1c24a125</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3-4 Transfer-Add</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-4 Transfer/3-4 Transfer-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>32fdb4af-783d-4b5d-baa4-d753ac3cb97b</guid>

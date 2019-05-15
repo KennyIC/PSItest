@@ -20,7 +20,7 @@
       <guid>533c0d8b-ce9c-4a7e-be58-c948b554c2ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1-1 Order-Add</testCaseId>
+      <testCaseId>Test Cases/1 In/1-1 Order/1-1 Order-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9b65866f-4fa8-4aad-973c-d5e12967a6cf</guid>
@@ -32,6 +32,6 @@
       <guid>9aec45f5-4113-4f82-908a-f0c9322f183f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1-1 Order-Edit</testCaseId>
+      <testCaseId>Test Cases/1 In/1-1 Order/1-1 Order-Edit</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

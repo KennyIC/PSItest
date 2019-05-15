@@ -20,7 +20,7 @@
       <guid>f749e82d-0853-464c-841f-3f3ed382f9dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1-2 Purchase-Add</testCaseId>
+      <testCaseId>Test Cases/1 In/1-2 Purchase/1-2 Purchase-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f08a471b-8b85-4441-93b8-f59a60dfbe78</guid>

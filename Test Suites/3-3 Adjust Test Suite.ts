@@ -20,7 +20,7 @@
       <guid>291fcefd-fdc5-415c-8acb-8a9c17377d34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3-3 Adjust-add</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8709ba75-3f89-4844-96a7-53c4503aaabc</guid>

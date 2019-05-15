@@ -20,7 +20,7 @@
       <guid>e5d66367-08bd-4608-8556-6a0c155a8b7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3-5 Batch number maintain-Add</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-5 Batch number maintain/3-5 Batch number maintain-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>05b6482b-d5c8-48ec-bd9f-efa1c81cf9a5</guid>

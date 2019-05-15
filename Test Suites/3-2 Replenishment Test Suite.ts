@@ -20,7 +20,7 @@
       <guid>e656392b-f7c0-470f-bae4-2ef2d6cc683c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3-2 Replenishment-Add - Test</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-2 Replenishment-Add - Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
