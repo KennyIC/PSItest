@@ -6,8 +6,12 @@
    <elementGuidId>e887198d-6940-4c83-896b-2eac15043fcd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[9]/input</value>
+         <value>(//input[@type='text'])[25]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

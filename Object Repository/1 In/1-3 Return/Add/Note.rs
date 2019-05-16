@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Comment</name>
+   <name>Note</name>
    <tag></tag>
-   <elementGuidId>841cfd91-c20e-40a2-8134-b98fce28b182</elementGuidId>
+   <elementGuidId>07e14705-c7a2-46c1-9a2d-6e7f911003fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@name = 'comment' and @type = 'text']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@name='comment']</value>
+         <value>//div[6]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control-sm ng-untouched ng-valid ng-dirty</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>comment</value>
+      <value>form-control form-control-sm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,13 +38,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-return-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-11&quot;]/input[@class=&quot;form-control form-control-sm ng-untouched ng-valid ng-dirty&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-home[1]/main[@class=&quot;testborder-main&quot;]/div[@class=&quot;main-content&quot;]/app-order-list-detail[1]/div[@class=&quot;myBlock&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;form-group row text-right&quot;]/div[@class=&quot;col-11&quot;]/input[@class=&quot;form-control form-control-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@name='comment']</value>
+      <value>(//input[@type='text'])[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

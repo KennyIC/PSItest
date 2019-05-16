@@ -19,7 +19,7 @@ WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Sort button b
 
 String XXX = GlobalVariable.Time
 
-WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Select Note', [('xxx') : XXX]))
+WebUI.click(findTestObject('1 In/1-3 Return/Edit/Select Purchase Return by note', [('xxx') : XXX]))
 
 WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Edit button'))
 
@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/1 In/1-3 Return/Edit/Number text
 
 WebUI.setText(findTestObject('Object Repository/1 In/1-3 Return/Edit/Total price text'), '5')
 
-WebUI.click(findTestObject('Object Repository/1 In/1-3 Purchase/Edit/Warehouse button'))
+WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Warehouse button'))
 
 WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Warehouse select'))
 

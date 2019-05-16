@@ -14,27 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time() {
-    def date = new Date()
-
-    sdf = new SimpleDateFormat('yyyyMMddHHmm')
-
-    GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
-
-    return GlobalVariable.Time
-}
-
-
-def abc(num){
-Date today = new Date()
-Date day1 = new Date().plus(num)
-if(day1.format('MM') > today.format('MM')){
-	WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date next month'))
-	return day1.format('d')}
-else{
-	return day1.format('d')}
-}
-
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Return button'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Add button'))
@@ -74,7 +53,7 @@ WebUI.click(findTestObject('1 In/1-3 Return/Add/Employee Larry'))
 
 WebUI.setText(findTestObject('1 In/1-3 Return/Add/Purchase number'), 'BB87654321')
 
-WebUI.setText(findTestObject('1 In/1-3 Return/Add/Comment'), time())
+WebUI.setText(findTestObject('1 In/1-3 Return/Add/Note'), time())
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/New item button'))
 
@@ -95,3 +74,28 @@ WebUI.click(findTestObject('1 In/1-3 Return/Add/Warehouse button'))
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Warehouse 111'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Save'))
+
+def time() {
+    def date = new Date()
+
+    sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+    GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+    return GlobalVariable.Time
+}
+
+def abc(def num) {
+    Date today = new Date()
+
+    Date day1 = new Date().plus(num)
+
+    if (day1.format('MM') > today.format('MM')) {
+        WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date next month'))
+
+        return day1.format('d')
+    } else {
+        return day1.format('d')
+    }
+}
+
