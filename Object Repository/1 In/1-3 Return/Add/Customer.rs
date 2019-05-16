@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Customer 95230</name>
+   <name>Customer</name>
    <tag></tag>
    <elementGuidId>f6bb6fb6-161e-45da-844f-c03a9c40065b</elementGuidId>
    <selectorCollection>

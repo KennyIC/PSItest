@@ -20,7 +20,7 @@ WebUI.click(findTestObject('1 In/1-3 Return/Add/Add button'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Customer button'))
 
-WebUI.click(findTestObject('1 In/1-3 Return/Add/Customer 95230'))
+WebUI.click(findTestObject('1 In/1-3 Return/Add/Customer'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment select'))
 
