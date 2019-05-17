@@ -14,111 +14,127 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time(){
-	def date = new Date()
-	sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm")
-	return GlobalVariable.Note + sdf.format(date)
-}
+def time() {
+    def date = new Date()
+
+    sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+    GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+    return GlobalVariable.Time
+	
+	}
 
 
 def month_check(num){
-Date today = new Date()
-Date day1 = new Date().plus(num)
-if(day1.format('MM') > today.format('MM')){
-	WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment next month'))
-	return day1.format('d')}
-else{
-	return day1.format('d')}
-}
+	
+	Date today = new Date()
+	
+	Date day1 = new Date().plus(num)
+	
+	if(day1.format('MM') > today.format('MM')){
+	
+		WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment next month'))
+		
+		return day1.format('d')}
+	
+	else{
+	
+		return day1.format('d')}
+	
+	}
 
 def today_check(){
+
 	Date today = new Date()
-	return today.format('d')
-}
 	
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale button'))
+	return today.format('d')
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale add button'))
+	}
+	
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale customer button'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale add button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale customer 95230'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale customer button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale date button'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale customer 95230'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale date today', [('date') : today_check()]))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale date button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale sales button'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale date today', [('date') : today_check()]))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale sales 0001'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale sales button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale ship type button'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale sales 0001'))
 
-WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/Sale ship type select'), '0: 2', true)
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale ship type button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment type button'))
+WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale ship type select'), '0: 2', true)
 
-WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/Sale payment type select'), '0: 4', true)
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment type button'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 1'))
+WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment type select'), '0: 4', true)
 
-//WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment next month'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 1'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 1 next month 10', [('xxx') : month_check(5)]))
+//WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment next month'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 2'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 1 next month 10', [('xxx') : month_check(5)]))
 
-//WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 2 next month'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 2'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 2 next month 15', [('xxx') : month_check(10)]))
+//WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 2 next month'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 3'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 2 next month 15', [('xxx') : month_check(10)]))
 
-//WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 3 next month'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 3'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale payment 3 next month 20', [('xxx') : month_check(15)]))
+//WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 3 next month'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale invoice number'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale payment 3 next month 20', [('xxx') : month_check(15)]))
 
-WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/Sale invoice select'), '3: 4', true)
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale invoice number'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale TAX button'))
+WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale invoice select'), '3: 4', true)
 
-WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/Sale TAX select'), '1: 2', true)
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale TAX button'))
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Sale invoice number'), GlobalVariable.Invoice_number)
+WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale TAX select'), '1: 2', true)
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Sale GUI number'), '12345678')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale invoice number'), GlobalVariable.Invoice_number)
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale contact window button'))
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale GUI number'), '12345678')
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale contact window 0001'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale contact window button'))
 
-WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/Sale city select'), '1: 2', true)
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale contact window 0001'))
 
-WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/Sale dist select'), '9: 17', true)
+WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale city select'), '1: 2', true)
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Sale address'), '瑞光路584號')
+WebUI.selectOptionByValue(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale dist select'), '9: 17', true)
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Sale note'), time())
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale address'), '瑞光路584號')
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Item add button'))
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale note'), time())
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Item ipad'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item add button'))
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Item number'), '2')
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item ipad'))
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Item price'), '300')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item number'), '2')
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Item total price'), '600')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item price'), '300')
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Item discount'), '0.9')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item total price'), '600')
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Item warehouse button'))
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item discount'), '0.9')
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Item warehouse 0testwarehous0'))
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item warehouse button'))
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Item note'), 'item testing')
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item warehouse 0testwarehous0'))
 
-WebUI.click(findTestObject('2 Out/2-1 Sale/Sale save button'))
+WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item note'), 'item testing')
+
+WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale save button'))
 

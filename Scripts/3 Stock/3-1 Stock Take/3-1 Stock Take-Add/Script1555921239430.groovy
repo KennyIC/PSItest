@@ -14,16 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time(){
-	def date = new Date()
-	sdf = new SimpleDateFormat("yyyyMMddHHmm")
-	return GlobalVariable.Note + sdf.format(date)
-}
-
-def today_check(){
-	Date today = new Date()
-	return today.format('d')
-}
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Stock take button'))
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Add button'))
@@ -48,7 +38,12 @@ WebUI.click(findTestObject('3 Stock/3-1 Stock take/Class ok button'))
 
 WebUI.setText(findTestObject('3 Stock/3-1 Stock take/Note'), time())
 
-WebUI.clearText(findTestObject('3 Stock/3-1 Stock take/Stock number'))
+//WebUI.clearText(findTestObject('3 Stock/3-1 Stock take/Stock number'))
+WebUI.doubleClick(findTestObject('3 Stock/3-1 Stock take/Stock number'))
+
+WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/Stock number'), Keys.chord(Keys.DELETE))
+
+WebUI.delay(10)
 
 WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/Stock number'), '600')
 
@@ -59,4 +54,18 @@ WebUI.setText(findTestObject('3 Stock/3-1 Stock take/Stock take IPAD note'), '-1
 WebUI.selectOptionByValue(findTestObject('3 Stock/3-1 Stock take/Done select'), 'Y', true)
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Done'))
+
+def time() {
+    def date = new Date()
+
+    sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+    return GlobalVariable.Note + sdf.format(date)
+}
+
+def today_check() {
+    Date today = new Date()
+
+    return today.format('d')
+}
 
