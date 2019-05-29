@@ -13,15 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.Keys as Keys
+import java.lang.Integer as Integer
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Stock take button'))
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Add button'))
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Stock take date'))
-
+WebUI.delay(5)
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Date 18', [('date') : today_check()]))
-
+WebUI.delay(5)
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Employee button'))
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Employee Larry'))
@@ -38,20 +41,31 @@ WebUI.click(findTestObject('3 Stock/3-1 Stock take/Class ok button'))
 
 WebUI.setText(findTestObject('3 Stock/3-1 Stock take/Note'), time())
 
-//WebUI.clearText(findTestObject('3 Stock/3-1 Stock take/Stock number'))
-WebUI.doubleClick(findTestObject('3 Stock/3-1 Stock take/Stock number'))
+def qqq
+
+qqq = WebUI.getAttribute(findTestObject('3 Stock/3-1 Stock take/Stock number'), 'value')
+
+qqq = qqq.replaceAll(',', '')
+
+int kkk = qqq.toInteger()
+
+kkk = (kkk - 10)
+
+KeywordUtil.logInfo('XXXXXXXXXXXX' + kkk)
+
+WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/Stock number'), Keys.chord(Keys.CONTROL, 'a'))
 
 WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/Stock number'), Keys.chord(Keys.DELETE))
 
-WebUI.delay(10)
-
-WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/Stock number'), '600')
+WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/Stock number'), kkk.toString())
 
 WebUI.selectOptionByValue(findTestObject('3 Stock/3-1 Stock take/Stock take done'), 'Y', true)
 
 WebUI.setText(findTestObject('3 Stock/3-1 Stock take/Stock take IPAD note'), '-10')
 
 WebUI.selectOptionByValue(findTestObject('3 Stock/3-1 Stock take/Done select'), 'Y', true)
+
+WebUI.delay(30)
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/Done'))
 
@@ -64,6 +78,7 @@ def time() {
 }
 
 def today_check() {
+	
     Date today = new Date()
 
     return today.format('d')
