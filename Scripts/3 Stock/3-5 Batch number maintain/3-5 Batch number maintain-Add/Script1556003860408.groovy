@@ -14,34 +14,54 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time(){
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Batch maintain button'))
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Batch maintain add button'))
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item button'))
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item select'))
+
+WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item life day'), '30')
+
+WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/item batch code'), time())
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/item life date'))
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item life date next month 23', [('xxx') : abc(0)]))
+
+//WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item life date next month'))
+
+//WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item life date next month 23'))
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item enable'))
+
+WebUI.selectOptionByValue(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item enable select'), '0: Y', true)
+
+WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item note'), time())
+
+WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Save button'))
+
+def time() {
 	def date = new Date()
-	sdf = new SimpleDateFormat("yyyyMMddHHmm")
-	return GlobalVariable.Note + sdf.format(date)
+
+	sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+	GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+	return GlobalVariable.Time
 }
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Batch maintain button'))
 
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Batch maintain add button'))
+def abc(def num) {
+	Date today = new Date()
 
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Item button'))
+	Date day1 = new Date().plus(num)
 
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Item select'))
+	if (day1.format('MM') > today.format('MM')) {
+		WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
 
-WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/Item life day'), '30')
-
-WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/item batch code'), '77889900')
-
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/item life date'))
-
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Item life date next month'))
-
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Item life date next month 23'))
-
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Item enable'))
-
-WebUI.selectOptionByValue(findTestObject('3 Stock/3-5 Btach number maintain/Item enable select'), '0: Y', true)
-
-WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/Item note'), time())
-
-WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/Save button'))
-
+		return day1.format('d')
+	} else {
+		return day1.format('d')
+	}
+}

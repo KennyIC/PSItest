@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-1 Stock Take Test Suite,Chrome 74.0.3729.169,,2019-06-05 10:23:03,2019-06-05 10:23:29,25.746s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-06-05 10:23:04,2019-06-05 10:23:19,14.400s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-05 10:23:07,2019-06-05 10:23:12,5.333s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-06-05 10:23:12,2019-06-05 10:23:15,3.127s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-05 10:23:15,2019-06-05 10:23:16,1.257s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-06-05 10:23:16,2019-06-05 10:23:17,0.397s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-06-05 10:23:17,2019-06-05 10:23:17,0.439s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:17,2019-06-05 10:23:18,0.622s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:18,2019-06-05 10:23:19,0.597s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-add,Chrome 74.0.3729.169,,2019-06-05 10:23:19,2019-06-05 10:23:25,6.631s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:19,2019-06-05 10:23:19,0.255s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Add button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:19,2019-06-05 10:23:20,0.486s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take date""))",Chrome 74.0.3729.169,,2019-06-05 10:23:20,2019-06-05 10:23:21,0.887s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Date 18"", [""date"":today_check()]))",Chrome 74.0.3729.169,,2019-06-05 10:23:21,2019-06-05 10:23:21,0.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-06-05 10:23:21,2019-06-05 10:23:21,0.007s,PASSED
+return today.format(d),Chrome 74.0.3729.169,,2019-06-05 10:23:21,2019-06-05 10:23:21,0.216s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Employee button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:21,2019-06-05 10:23:21,0.181s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Employee Larry""))",Chrome 74.0.3729.169,,2019-06-05 10:23:21,2019-06-05 10:23:22,0.775s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Warehouse button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:22,2019-06-05 10:23:22,0.153s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Warehouse 111""))",Chrome 74.0.3729.169,,2019-06-05 10:23:22,2019-06-05 10:23:23,0.731s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Class button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:23,2019-06-05 10:23:23,0.270s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Class IPAD""))",Chrome 74.0.3729.169,,2019-06-05 10:23:23,2019-06-05 10:23:24,0.685s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Class ok button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.113s,PASSED
+"setText(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Note""), time())",Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.007s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.000s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.010s,PASSED
+Time = Note + sdf.format(date),Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.022s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.341s,PASSED
+qqq = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.001s,PASSED
+"qqq = getAttribute(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), ""value"")",Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.055s,PASSED
+"qqq = qqq.replaceAll("","", """")",Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.004s,PASSED
+kkk = qqq.toInteger(),Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.002s,PASSED
+kkk = kkk - 10,Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.001s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), Keys.chord(CONTROL, ""a""))",Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:24,0.089s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), Keys.chord(DELETE))",Chrome 74.0.3729.169,,2019-06-05 10:23:24,2019-06-05 10:23:25,0.054s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), kkk.toString())",Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:25,0.068s,PASSED
+"selectOptionByValue(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take done""), ""Y"", true)",Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:25,0.158s,PASSED
+"setText(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take IPAD note""), ""-10"")",Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:25,0.135s,PASSED
+"selectOptionByValue(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Done select""), ""Y"", true)",Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:25,0.155s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Done""))",Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:25,0.121s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:26,1.328s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-06-05 10:23:25,2019-06-05 10:23:26,1.020s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-06-05 10:23:26,2019-06-05 10:23:26,0.020s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-06-05 10:23:26,2019-06-05 10:23:26,0.019s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:26,2019-06-05 10:23:26,0.084s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-edit,Chrome 74.0.3729.169,,2019-06-05 10:23:26,2019-06-05 10:23:28,1.368s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Sort by no""))",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.096s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Sort by no""))",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.046s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.000s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Select by note"", [""xxx"":XXX]))",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.054s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.068s,PASSED
+qqq = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.000s,PASSED
+"qqq = getAttribute(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit number""), ""value"")",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.532s,PASSED
+"qqq = qqq.replaceAll("","", """")",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.000s,PASSED
+kkk = qqq.toInteger(),Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.000s,PASSED
+kkk = kkk - 10,Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:27,0.000s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit number""), Keys.chord(CONTROL, ""a""))",Chrome 74.0.3729.169,,2019-06-05 10:23:27,2019-06-05 10:23:28,0.042s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit number""), Keys.chord(DELETE))",Chrome 74.0.3729.169,,2019-06-05 10:23:28,2019-06-05 10:23:28,0.032s,PASSED
+"setText(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit number""), kkk.toString())",Chrome 74.0.3729.169,,2019-06-05 10:23:28,2019-06-05 10:23:28,0.079s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit note""), Keys.chord(CONTROL, ""a""))",Chrome 74.0.3729.169,,2019-06-05 10:23:28,2019-06-05 10:23:28,0.044s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit note""), Keys.chord(DELETE))",Chrome 74.0.3729.169,,2019-06-05 10:23:28,2019-06-05 10:23:28,0.031s,PASSED
+"setText(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit note""), ""-20"")",Chrome 74.0.3729.169,,2019-06-05 10:23:28,2019-06-05 10:23:28,0.061s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - edit/Save button""))",Chrome 74.0.3729.169,,2019-06-05 10:23:28,2019-06-05 10:23:28,0.076s,PASSED

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3-2 Replenishment Test Suite" time="182" tests="1" failures="2" errors="0">
+   <testsuite name="3-2 Replenishment Test Suite" tests="1" failures="2" errors="0" time="182" timestamp="2019-05-30 15:09:22" hostname="KennyIC_Chen - Larry_Chen.compal.com" id="Test Suites/3-2 Replenishment Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914"/>
+         <property name="logFiles" value="D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\execution0.log"/>
+         <property name="attachments" value="D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\1559200334293.png, D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\1559200342954.png, D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\1559200343310.png"/>
+         <property name="hostName" value="KennyIC_Chen - Larry_Chen.compal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="10.109.102.145"/>
+         <property name="sessionId" value="4c18a184c0e0599df2025a592fe288c8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Others/Login" classname="Test Cases/Others/Login" status="PASSED">
+         <system-out><![CDATA[2019-05-30 15:09:22 - [TEST_CASE][PASSED] - Test Cases/Others/Login: Test Cases/Others/Login
+
+2019-05-30 15:09:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-30 15:09:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-30 15:09:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-30 15:09:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-30 15:09:25 - [TEST_STEP][PASSED] - navigateToUrl("https://psi-azcldap.unicore.com.tw/login"): Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-05-30 15:09:30 - [MESSAGE][PASSED] - Navigate to 'https://psi-azcldap.unicore.com.tw/login' successfully
+
+2019-05-30 15:09:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-30 15:09:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-30 15:09:31 - [TEST_STEP][PASSED] - setText(findTestObject("Others/Login/ID-QWE"), "QWE"): Text 'QWE' is set on object 'Object Repository/Others/Login/ID-QWE'
+
+2019-05-30 15:09:31 - [MESSAGE][PASSED] - Text 'QWE' is set on object 'Object Repository/Others/Login/ID-QWE'
+
+2019-05-30 15:09:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Others/Login/PW-QWE"), "5opu+sh6ATw="): Text ****** has been set on object 'Object Repository/Others/Login/PW-QWE'
+
+2019-05-30 15:09:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Others/Login/PW-QWE'
+
+2019-05-30 15:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Others/Login/Login Button")): Object: 'Object Repository/Others/Login/Login Button' is clicked on
+
+2019-05-30 15:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Others/Login/Login Button' is clicked on
+
+2019-05-30 15:09:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Others/Login/Verify button")): Object 'Object Repository/Others/Login/Verify button' is clickable
+
+2019-05-30 15:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Others/Login/Verify button' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3 Stock/3-2 Replenishment-Add - Test" classname="Test Cases/3 Stock/3-2 Replenishment-Add - Test" status="FAILED">
+         <failure type="FAILED" message="Test Cases/3 Stock/3-2 Replenishment-Add - Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-30 15:09:32 - [TEST_CASE][FAILED] - Test Cases/3 Stock/3-2 Replenishment-Add - Test: Test Cases/3 Stock/3-2 Replenishment-Add - Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - extractInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - count_number = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - variable = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - count_cycle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Others/test/Replenishment button")): Object: 'Object Repository/Others/test/Replenishment button' is clicked on
+
+2019-05-30 15:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Others/test/Replenishment button' is clicked on
+
+2019-05-30 15:09:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-30 15:09:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 15:09:34 - [TEST_STEP][PASSED] - extractInt = getText(findTestObject("Others/test/div_1-8  8")): Text of object 'Object Repository/Others/test/div_1-8  8' is: '1-8 共 8 筆'
+
+2019-05-30 15:09:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Others/test/div_1-8  8' is: '1-8 共 8 筆'
+
+2019-05-30 15:09:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-30 15:09:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 15:09:35 - [TEST_STEP][PASSED] - click(findTestObject("3 Stock/3-2 Replenishment/3-2 Replenishment-add/Replenishment execute button")): Object: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Replenishment execute button' is clicked on
+
+2019-05-30 15:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Replenishment execute button' is clicked on
+
+2019-05-30 15:09:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-30 15:09:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 15:09:36 - [TEST_STEP][PASSED] - count_number = extractInt.length(): null
+
+2019-05-30 15:09:36 - [TEST_STEP][PASSED] - if (count_number == 11): null
+
+2019-05-30 15:09:36 - [TEST_STEP][PASSED] - else: null
+
+2019-05-30 15:09:36 - [TEST_STEP][PASSED] - logInfo("XXXXXXXXXXXX11-===" + extractInt): XXXXXXXXXXXX11-===1-8 共 8 筆
+
+2019-05-30 15:09:36 - [MESSAGE][INFO] - XXXXXXXXXXXX11-===1-8 共 8 筆
+
+2019-05-30 15:09:36 - [TEST_STEP][PASSED] - a = substring(6, 7).toInteger(): null
+
+2019-05-30 15:09:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-30 15:09:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 15:09:37 - [TEST_STEP][FAILED] - for ([count_cycle = 1, count_cycle < a, (count_cycle++)]): for ([count_cycle = 1, count_cycle < a, (count_cycle++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+
+
+2019-05-30 15:09:37 - [TEST_STEP][PASSED] - logInfo("XXXXXXXXXXXX11-===" + count_cycle): XXXXXXXXXXXX11-===1
+
+2019-05-30 15:09:37 - [MESSAGE][INFO] - XXXXXXXXXXXX11-===1
+
+2019-05-30 15:09:37 - [TEST_STEP][PASSED] - www = count_cycle * 8: null
+
+2019-05-30 15:09:37 - [TEST_STEP][PASSED] - click(findTestObject("3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 button", ["sss":www])): Object: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 button' is clicked on
+
+2019-05-30 15:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 button' is clicked on
+
+2019-05-30 15:09:37 - [TEST_STEP][FAILED] - click(findTestObject("3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select")): for ([count_cycle = 1, count_cycle < a, (count_cycle++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+
+
+2019-05-30 15:12:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-30 15:12:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+[[ATTACHMENT|D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\1559200334293.png]]
+
+2019-05-30 15:12:14 - [MESSAGE][FAILED] - for ([count_cycle = 1, count_cycle < a, (count_cycle++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-30 15:09:32 - [TEST_CASE][FAILED] - Test Cases/3 Stock/3-2 Replenishment-Add - Test: Test Cases/3 Stock/3-2 Replenishment-Add - Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Others/Accept and verify" classname="Test Cases/Others/Accept and verify" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Others/Accept and verify FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Accept and verify.run(Accept and verify:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-30 15:12:14 - [TEST_CASE][FAILED] - Test Cases/Others/Accept and verify: Test Cases/Others/Accept and verify FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Accept and verify.run(Accept and verify:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+
+
+2019-05-30 15:12:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-30 15:12:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 15:12:17 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+2019-05-30 15:12:22 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2019-05-30 15:12:22 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Accept and verify.run(Accept and verify:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)
+
+
+2019-05-30 15:12:23 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\1559200342954.png]]
+
+2019-05-30 15:12:23 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+[[ATTACHMENT|D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Reports\\3-2 Replenishment Test Suite\\20190530_150914\\1559200343310.png]]
+
+2019-05-30 15:12:23 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Accept and verify.run(Accept and verify:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-30 15:12:14 - [TEST_CASE][FAILED] - Test Cases/Others/Accept and verify: Test Cases/Others/Accept and verify FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at Accept and verify.run(Accept and verify:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-30 15:09:22 - [TEST_SUITE][FAILED] - 3-2 Replenishment Test Suite: Test Cases/3 Stock/3-2 Replenishment-Add - Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-30 15:09:22 - [TEST_SUITE][FAILED] - 3-2 Replenishment Test Suite: Test Cases/3 Stock/3-2 Replenishment-Add - Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select' located by 'By.xpath: //td[(text() = '測試專用廠商' or . = '測試專用廠商')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at 3-2 Replenishment-Add - Test.run(3-2 Replenishment-Add - Test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559200154695.run(TempTestSuite1559200154695.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

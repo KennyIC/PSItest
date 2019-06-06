@@ -13,42 +13,56 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.Keys as Keys
+import java.lang.Integer as Integer
 
-def time(){
-	def date = new Date()
-	sdf = new SimpleDateFormat("yyyyMMddHHmm")
-	return GlobalVariable.Note + sdf.format(date)
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer button'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer note add'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer employee button'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer employee'))
+
+WebUI.setText(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer note'), time())
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer item add'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer item add select'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item unit select button'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item unit select'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 1 button'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 1 select'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 2 button'))
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 2 select'))
+
+WebUI.setText(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item QTY'), '1')
+
+not_run: WebUI.setText(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item Batch number'), '88888888')
+
+WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Save button'))
+
+def time() {
+	
+    def date = new Date()
+
+    sdf = new SimpleDateFormat('yyyyMMddHHmm')
+	
+	GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+    return GlobalVariable.Note + sdf.format(date)
 }
 
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Transfer button'))
+def today_check() {
+	
+    Date today = new Date()
 
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Transfer note add'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Transfer employee button'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Transfer employee'))
-
-WebUI.setText(findTestObject('3 Stock/3-4 Transfer/Transfer note'), time())
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Transfer item add'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Transfer item add select'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Item unit select button'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Item unit select'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Item warehouse 1 button'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Item warehouse 1 select'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Item warehouse 2 button'))
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Item warehouse 2 select'))
-
-WebUI.setText(findTestObject('3 Stock/3-4 Transfer/Item QTY'), '1')
-
-WebUI.setText(findTestObject('3 Stock/3-4 Transfer/Item Batch number'), '88888888')
-
-WebUI.click(findTestObject('3 Stock/3-4 Transfer/Save button'))
-
+    return today.format('d')
+}

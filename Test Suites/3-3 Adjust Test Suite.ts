@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7de36977-9691-46df-970b-cfd955094205</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-edit</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-1 Stock Take Test Suite,Chrome 74.0.3729.169,,2019-05-30 09:26:08,2019-05-30 09:29:08,3m - 0.198s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-05-30 09:26:08,2019-05-30 09:26:18,10.067s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-30 09:26:08,2019-05-30 09:26:11,3.086s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-05-30 09:26:11,2019-05-30 09:26:16,4.654s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-30 09:26:16,2019-05-30 09:26:17,1.137s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-05-30 09:26:17,2019-05-30 09:26:17,0.132s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-05-30 09:26:17,2019-05-30 09:26:17,0.179s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-05-30 09:26:17,2019-05-30 09:26:17,0.074s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-05-30 09:26:17,2019-05-30 09:26:18,0.574s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-Add,Chrome 74.0.3729.169,,2019-05-30 09:26:18,2019-05-30 09:28:58,2m - 40.319s,FAILED
+"click(findTestObject(""3 Stock/3-1 Stock take/Stock take button""))",Chrome 74.0.3729.169,,2019-05-30 09:26:18,2019-05-30 09:26:18,0.082s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/Add button""))",Chrome 74.0.3729.169,,2019-05-30 09:26:18,2019-05-30 09:26:18,0.126s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/Stock take date""))",Chrome 74.0.3729.169,,2019-05-30 09:26:18,2019-05-30 09:26:18,0.162s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-30 09:26:18,2019-05-30 09:26:20,2.018s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/Date 18"", [""date"":today_check()]))",Chrome 74.0.3729.169,,2019-05-30 09:26:20,2019-05-30 09:26:20,0.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-05-30 09:26:20,2019-05-30 09:26:20,0.019s,PASSED
+return today.format(d),Chrome 74.0.3729.169,,2019-05-30 09:26:20,2019-05-30 09:28:58,2m - 37.754s,FAILED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-05-30 09:28:58,2019-05-30 09:29:07,9.014s,FAILED
+delay(3),Chrome 74.0.3729.169,,2019-05-30 09:28:58,2019-05-30 09:29:01,3.004s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-05-30 09:29:01,2019-05-30 09:29:06,5.118s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-05-30 09:29:06,2019-05-30 09:29:07,0.787s,FAILED

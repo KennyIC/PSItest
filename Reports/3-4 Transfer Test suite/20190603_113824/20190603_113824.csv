@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-4 Transfer Test suite,Chrome 74.0.3729.169,,2019-06-03 11:38:25,2019-06-03 11:38:41,16.385s,ERROR
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-06-03 11:38:25,2019-06-03 11:38:33,7.674s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-03 11:38:25,2019-06-03 11:38:29,3.149s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-06-03 11:38:29,2019-06-03 11:38:31,2.277s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-03 11:38:31,2019-06-03 11:38:32,1.149s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-06-03 11:38:32,2019-06-03 11:38:32,0.136s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-06-03 11:38:32,2019-06-03 11:38:32,0.126s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:32,2019-06-03 11:38:32,0.067s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:32,2019-06-03 11:38:33,0.543s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-4 Transfer/3-4 Transfer-Add,Chrome 74.0.3729.169,,2019-06-03 11:38:33,2019-06-03 11:38:37,4.196s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:33,2019-06-03 11:38:33,0.085s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer note add""))",Chrome 74.0.3729.169,,2019-06-03 11:38:33,2019-06-03 11:38:33,0.129s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer employee button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:33,2019-06-03 11:38:33,0.094s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer employee""))",Chrome 74.0.3729.169,,2019-06-03 11:38:33,2019-06-03 11:38:34,0.589s,PASSED
+"setText(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer note""), time())",Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:34,0.003s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:34,0.005s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:34,0.008s,PASSED
+Time = Note + sdf.format(date),Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:34,0.015s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:34,0.277s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer item add""))",Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:34,0.084s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Transfer item add select""))",Chrome 74.0.3729.169,,2019-06-03 11:38:34,2019-06-03 11:38:35,0.624s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item unit select button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:35,2019-06-03 11:38:35,0.082s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item unit select""))",Chrome 74.0.3729.169,,2019-06-03 11:38:35,2019-06-03 11:38:36,0.574s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 1 button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:36,2019-06-03 11:38:36,0.068s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 1 select""))",Chrome 74.0.3729.169,,2019-06-03 11:38:36,2019-06-03 11:38:36,0.574s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 2 button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:36,2019-06-03 11:38:36,0.067s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item warehouse 2 select""))",Chrome 74.0.3729.169,,2019-06-03 11:38:36,2019-06-03 11:38:37,0.605s,PASSED
+"setText(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item QTY""), ""1"")",Chrome 74.0.3729.169,,2019-06-03 11:38:37,2019-06-03 11:38:37,0.094s,PASSED
+"setText(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Item Batch number""), ""88888888"")",Chrome 74.0.3729.169,,2019-06-03 11:38:37,2019-06-03 11:38:37,0.001s,NOT_RUN
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-add/Save button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:37,2019-06-03 11:38:37,0.079s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-06-03 11:38:37,2019-06-03 11:38:40,3.242s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-03 11:38:37,2019-06-03 11:38:40,3.018s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-06-03 11:38:40,2019-06-03 11:38:40,0.033s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-06-03 11:38:40,2019-06-03 11:38:40,0.027s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:40,2019-06-03 11:38:40,0.062s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-4 Transfer/3-4 Transfer-Edit,Chrome 74.0.3729.169,,2019-06-03 11:38:40,2019-06-03 11:38:41,0.455s,ERROR
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-edit/Sort by number""))",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.060s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-edit/Sort by number""))",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.049s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.001s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-edit/Select by note"", [""xxx"":XXX]))",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.060s,PASSED
+"click(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-edit/Edit button""))",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.074s,PASSED
+qqq = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.000s,PASSED
+"qqq = getAttribute(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-edit/number""), ""value"")",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.052s,PASSED
+"qqq = qqq.replaceAll("","", """")",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.002s,PASSED
+kkk = qqq.toInteger(),Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.000s,PASSED
+kkk = kkk + 10,Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.000s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-4 Transfer/3-4 Transfer-edit/number""), Keys.chord(CONTROL, ""a""))",Chrome 74.0.3729.169,,2019-06-03 11:38:41,2019-06-03 11:38:41,0.009s,ERROR

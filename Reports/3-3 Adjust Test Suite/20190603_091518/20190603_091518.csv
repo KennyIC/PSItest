@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-3 Adjust Test Suite,Chrome 74.0.3729.169,,2019-06-03 09:15:20,2019-06-03 09:18:14,2m - 54.139s,FAILED
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-06-03 09:15:20,2019-06-03 09:15:28,8.296s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-03 09:15:20,2019-06-03 09:15:23,3.330s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-06-03 09:15:23,2019-06-03 09:15:26,2.673s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-06-03 09:15:26,2019-06-03 09:15:27,1.149s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-06-03 09:15:27,2019-06-03 09:15:27,0.155s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-06-03 09:15:27,2019-06-03 09:15:28,0.147s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:28,2019-06-03 09:15:28,0.066s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:28,2019-06-03 09:15:28,0.546s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-add,Chrome 74.0.3729.169,,2019-06-03 09:15:28,2019-06-03 09:15:33,4.383s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjuset button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:28,2019-06-03 09:15:28,0.086s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Add button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:28,2019-06-03 09:15:29,0.142s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust type button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:29,2019-06-03 09:15:29,0.606s,PASSED
+"selectOptionByValue(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust type select""), ""0: 2"", true)",Chrome 74.0.3729.169,,2019-06-03 09:15:29,2019-06-03 09:15:29,0.143s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust employee button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:29,2019-06-03 09:15:29,0.074s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust employee""))",Chrome 74.0.3729.169,,2019-06-03 09:15:29,2019-06-03 09:15:30,0.585s,PASSED
+"setText(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/input__comments""), time())",Chrome 74.0.3729.169,,2019-06-03 09:15:30,2019-06-03 09:15:30,0.005s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-06-03 09:15:30,2019-06-03 09:15:30,0.005s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-06-03 09:15:30,2019-06-03 09:15:30,0.009s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 74.0.3729.169,,2019-06-03 09:15:30,2019-06-03 09:15:30,0.225s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust item button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:30,2019-06-03 09:15:30,0.066s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item select""))",Chrome 74.0.3729.169,,2019-06-03 09:15:30,2019-06-03 09:15:31,0.618s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/Item unit button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:31,2019-06-03 09:15:31,0.093s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item unit""))",Chrome 74.0.3729.169,,2019-06-03 09:15:31,2019-06-03 09:15:32,0.583s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item warehouse button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:32,2019-06-03 09:15:32,0.073s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item warehouse""))",Chrome 74.0.3729.169,,2019-06-03 09:15:32,2019-06-03 09:15:32,0.594s,PASSED
+"setText(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item qty""), ""10"")",Chrome 74.0.3729.169,,2019-06-03 09:15:32,2019-06-03 09:15:32,0.085s,PASSED
+"setText(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item price""), ""120"")",Chrome 74.0.3729.169,,2019-06-03 09:15:32,2019-06-03 09:15:32,0.102s,PASSED
+"setText(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/item price 1""), ""150"")",Chrome 74.0.3729.169,,2019-06-03 09:15:32,2019-06-03 09:15:32,0.102s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-add/save""))",Chrome 74.0.3729.169,,2019-06-03 09:15:32,2019-06-03 09:15:33,0.062s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-06-03 09:15:33,2019-06-03 09:15:36,3.273s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-03 09:15:33,2019-06-03 09:15:36,3.035s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:15:36,0.015s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:15:36,0.040s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:15:36,0.068s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-edit,Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:18:13,2m - 37.205s,FAILED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-edit/Sort by number""))",Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:15:36,0.065s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-edit/Sort by number""))",Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:15:36,0.075s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:15:36,0.001s,PASSED
+"click(findTestObject(""3 Stock/3-3 Adjuset/3-3 Adjuset-edit/Select by note"", [""xxx"":XXX]))",Chrome 74.0.3729.169,,2019-06-03 09:15:36,2019-06-03 09:18:13,2m - 36.889s,FAILED

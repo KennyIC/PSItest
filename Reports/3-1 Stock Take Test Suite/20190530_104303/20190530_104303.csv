@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-1 Stock Take Test Suite,Chrome 74.0.3729.169,,2019-05-30 10:43:04,2019-05-30 10:43:20,15.632s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-05-30 10:43:04,2019-05-30 10:43:12,7.754s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-30 10:43:04,2019-05-30 10:43:08,3.220s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-05-30 10:43:08,2019-05-30 10:43:10,2.291s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-30 10:43:10,2019-05-30 10:43:11,1.135s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-05-30 10:43:11,2019-05-30 10:43:11,0.133s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-05-30 10:43:11,2019-05-30 10:43:11,0.125s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:11,2019-05-30 10:43:11,0.073s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:11,2019-05-30 10:43:12,0.543s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-add,Chrome 74.0.3729.169,,2019-05-30 10:43:12,2019-05-30 10:43:16,3.695s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:12,2019-05-30 10:43:12,0.081s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Add button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:12,2019-05-30 10:43:12,0.137s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take date""))",Chrome 74.0.3729.169,,2019-05-30 10:43:12,2019-05-30 10:43:13,0.245s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Date 18"", [""date"":today_check()]))",Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:13,0.000s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:13,0.004s,PASSED
+return today.format(d),Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:13,0.098s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Employee button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:13,0.105s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Employee Larry""))",Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:13,0.610s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Warehouse button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:13,0.097s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Warehouse 111""))",Chrome 74.0.3729.169,,2019-05-30 10:43:13,2019-05-30 10:43:14,0.602s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Class button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:14,2019-05-30 10:43:14,0.076s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Class IPAD""))",Chrome 74.0.3729.169,,2019-05-30 10:43:14,2019-05-30 10:43:15,0.618s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Class ok button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.060s,PASSED
+"setText(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Note""), time())",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.002s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.000s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.008s,PASSED
+Time = Note + sdf.format(date),Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.013s,PASSED
+return (internal.GlobalVariable.Note + sdf.format(date)),Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.176s,PASSED
+qqq = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.000s,PASSED
+"qqq = getAttribute(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), ""value"")",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.030s,PASSED
+"qqq = qqq.replaceAll("","", """")",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.002s,PASSED
+kkk = qqq.toInteger(),Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.000s,PASSED
+kkk = kkk - 10,Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.001s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), Keys.chord(CONTROL, ""a""))",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.052s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), Keys.chord(DELETE))",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.032s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock number""), kkk.toString())",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.048s,PASSED
+"selectOptionByValue(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take done""), ""Y"", true)",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.116s,PASSED
+"setText(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Stock take IPAD note""), ""-10"")",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:15,0.083s,PASSED
+"selectOptionByValue(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Done select""), ""Y"", true)",Chrome 74.0.3729.169,,2019-05-30 10:43:15,2019-05-30 10:43:16,0.107s,PASSED
+"click(findTestObject(""3 Stock/3-1 Stock take/3-1 Stock take - add/Done""))",Chrome 74.0.3729.169,,2019-05-30 10:43:16,2019-05-30 10:43:16,0.053s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-05-30 10:43:16,2019-05-30 10:43:19,3.250s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-30 10:43:16,2019-05-30 10:43:19,3.021s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-05-30 10:43:19,2019-05-30 10:43:19,0.016s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-05-30 10:43:19,2019-05-30 10:43:19,0.015s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-05-30 10:43:19,2019-05-30 10:43:19,0.088s,PASSED

@@ -14,42 +14,56 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time(){
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjuset button'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Add button'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust type button'))
+
+WebUI.selectOptionByValue(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust type select'), '0: 2', true)
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust employee button'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust employee'))
+
+WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/input__comments'), time())
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Adjust item button'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item select'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/Item unit button'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item unit'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item warehouse button'))
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item warehouse'))
+
+WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item qty'), '10')
+
+WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item price'), '120')
+
+WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item price 1'), '150')
+
+WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/save'))
+
+def time() {
+	
 	def date = new Date()
-	sdf = new SimpleDateFormat("yyyyMMddHHmm")
+
+	sdf = new SimpleDateFormat('yyyyMMddHHmm')
+	
+	GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
 	return GlobalVariable.Note + sdf.format(date)
 }
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Adjuset button'))
 
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Add button'))
+def today_check() {
+	
+	Date today = new Date()
 
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Adjust type button'))
-
-WebUI.selectOptionByValue(findTestObject('3 Stock/3-3 Adjuset/Adjust type select'), '0: 2', true)
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Adjust employee button'))
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Adjust employee'))
-
-WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/input__comments'), time())
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Adjust item button'))
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/item select'))
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/Item unit button'))
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/item unit'))
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/item warehouse button'))
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/item warehouse'))
-
-WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/item qty'), '10')
-
-WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/item price'), '120')
-
-WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/item price 1'), '150')
-
-WebUI.click(findTestObject('3 Stock/3-3 Adjuset/save'))
+	return today.format('d')
+}
 
