@@ -22,6 +22,10 @@ WebUI.click(findTestObject('1 In/1-1 Order/Add/Vendor button'))
 
 WebUI.click(findTestObject('1 In/1-1 Order/Add/Vendor 2324'))
 
+WebUI.click(findTestObject('1 In/1-1 Order/Add/OrderDate'))
+
+WebUI.click(findTestObject('1 In/1-1 Order/Add/Payment date 1 next month 10', [('xxx') : abc(0)]))
+
 WebUI.click(findTestObject('1 In/1-1 Order/Add/Employee button'))
 
 WebUI.click(findTestObject('1 In/1-1 Order/Add/Emplyee Larry'))
@@ -58,8 +62,6 @@ not_run: WebUI.acceptAlert()
 
 not_run: WebUI.verifyElementClickable(findTestObject('1 In/1-1 Order/Add/Order button'))
 
-
-
 def time() {
     def date = new Date()
 
@@ -70,3 +72,16 @@ def time() {
     return GlobalVariable.Time
 }
 
+def abc(def num) {
+	Date today = new Date()
+
+	Date day1 = new Date().plus(num)
+
+	if (day1.format('MM') > today.format('MM')) {
+		WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
+
+		return day1.format('d')
+	} else {
+		return day1.format('d')
+	}
+}

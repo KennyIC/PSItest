@@ -24,18 +24,20 @@ WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Vendor button'))
 
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Vendor 2324'))
 
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Purchase date'))
+
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 1 next month_10', [('xxx') : abc(0)]))
+
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment select'))
 
 WebUI.selectOptionByValue(findTestObject('1 In/1-2 Purchase/Add/Payment Cash'), '0: 1', true)
 
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 1'))
 
-//WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 1 next month_10', [('xxx') : abc(5)]))
 
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 2'))
 
-//WebUI.click(findTestObject('null'))
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 2 next month_15', [('xxx') : abc(10)]))
 
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 3'))

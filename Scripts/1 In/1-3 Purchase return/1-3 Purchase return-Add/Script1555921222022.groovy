@@ -22,6 +22,10 @@ WebUI.click(findTestObject('1 In/1-3 Return/Add/Customer button'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Customer'))
 
+WebUI.click(findTestObject('1 In/1-3 Return/Add/Purchasedate'))
+
+WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date 1 next month_10', [('xxx') : abc(0)]))
+
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment select'))
 
 WebUI.selectOptionByValue(findTestObject('1 In/1-3 Return/Add/Payment'), '0: 1', true)

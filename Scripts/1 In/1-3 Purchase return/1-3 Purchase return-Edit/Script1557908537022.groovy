@@ -19,7 +19,7 @@ WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Sort button b
 
 String XXX = GlobalVariable.Time
 
-WebUI.click(findTestObject('1 In/1-3 Return/Edit/Select Purchase R$eturn by note', [('xxx') : XXX]))
+WebUI.click(findTestObject('1 In/1-3 Return/Edit/Select Purchase Return by note', [('xxx') : XXX]))
 
 WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Edit button'))
 
