@@ -47,6 +47,8 @@ WebUI.setText(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item QTY'), 
 
 not_run: WebUI.setText(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Item Batch number'), '88888888')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('3 Stock/3-4 Transfer/3-4 Transfer-add/Save button'))
 
 def time() {

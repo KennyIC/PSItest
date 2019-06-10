@@ -63,6 +63,8 @@ WebUI.setText(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - add/Stock 
 
 WebUI.selectOptionByValue(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - add/Done select'), 'Y', true)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - add/Done'))
 
 def time() {

@@ -136,5 +136,7 @@ WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item warehouse 0testware
 
 WebUI.setText(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Item note'), 'item testing')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('2 Out/2-1 Sale/2-1 Sale-add/Sale save button'))
 

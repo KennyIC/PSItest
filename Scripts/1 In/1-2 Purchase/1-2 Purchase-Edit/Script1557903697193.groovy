@@ -39,6 +39,8 @@ WebUI.click(findTestObject('Object Repository/1 In/1-2 Purchase/Edit/Warehouse b
 
 WebUI.click(findTestObject('Object Repository/1 In/1-2 Purchase/Edit/Warehouse 111'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/1 In/1-2 Purchase/Edit/Save button'))
 
 

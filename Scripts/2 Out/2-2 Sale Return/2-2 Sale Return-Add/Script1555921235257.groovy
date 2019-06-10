@@ -108,5 +108,7 @@ WebUI.click(findTestObject('2 Out/2-2 Sale Return/2-2 Sale Return-add/Item wareh
 
 WebUI.setText(findTestObject('2 Out/2-2 Sale Return/2-2 Sale Return-add/Item tax'), '30')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('2 Out/2-2 Sale Return/2-2 Sale Return-add/Sale return save'))
 

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/Sort by order no'))
 
@@ -24,7 +24,6 @@ WebUI.click(findTestObject('1 In/1-1 Order/Edit/Sort by order no'))
 //KeywordUtil.logInfo(GlobalVariable.Time)
 //KeywordUtil.logInfo(findTestObject('1 In/1-1 Order/Edit/Select order by note'))
 //String ZZZ = WebUI.getText(findTestObject('1 In/1-1 Order/Edit/Select order by note'))
-
 String XXX = GlobalVariable.Time
 
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/Select order by note', [('xxx') : XXX]))
@@ -42,6 +41,8 @@ WebUI.setText(findTestObject('1 In/1-1 Order/Edit/number text'), '5')
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/total price button'))
 
 WebUI.setText(findTestObject('1 In/1-1 Order/Edit/total price text'), '5')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/save button'))
 

@@ -17,6 +17,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.Keys as Keys
 import java.lang.Integer as Integer
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - edit/Sort by no'))
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - edit/Sort by no'))
@@ -48,6 +50,8 @@ WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit
 WebUI.sendKeys(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit note'), Keys.chord(Keys.DELETE))
 
 WebUI.setText(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - edit/Edit note'), '-20')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('3 Stock/3-1 Stock take/3-1 Stock take - edit/Save button'))
 

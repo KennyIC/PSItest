@@ -40,6 +40,8 @@ WebUI.selectOptionByValue(findTestObject('3 Stock/3-5 Btach number maintain/3-5 
 
 WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Item note'), time())
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-add/Save button'))
 
 def time() {

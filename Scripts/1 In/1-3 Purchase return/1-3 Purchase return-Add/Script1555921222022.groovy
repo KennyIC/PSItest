@@ -77,6 +77,8 @@ WebUI.click(findTestObject('1 In/1-3 Return/Add/Warehouse button'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Warehouse 111'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Save'))
 
 def time() {

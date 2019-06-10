@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/2 Out/2-2 Sale Return/2-2 Sale Return-edit/Sort by number'))
 
 WebUI.click(findTestObject('Object Repository/2 Out/2-2 Sale Return/2-2 Sale Return-edit/Sort by number'))
@@ -37,5 +39,9 @@ WebUI.click(findTestObject('2 Out/2-2 Sale Return/2-2 Sale Return-edit/Item ware
 
 WebUI.click(findTestObject('Object Repository/2 Out/2-2 Sale Return/2-2 Sale Return-edit/Select warehouse'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/2 Out/2-2 Sale Return/2-2 Sale Return-edit/Save button'))
+
+
 

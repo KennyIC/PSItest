@@ -47,6 +47,8 @@ WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item price'), 
 
 WebUI.setText(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/item price 1'), '150')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('3 Stock/3-3 Adjuset/3-3 Adjuset-add/save'))
 
 def time() {

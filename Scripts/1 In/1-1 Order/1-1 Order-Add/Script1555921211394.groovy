@@ -54,13 +54,9 @@ WebUI.setText(findTestObject('1 In/1-1 Order/Add/Price'), '200')
 
 WebUI.setText(findTestObject('1 In/1-1 Order/Add/Total Price'), '2000')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('1 In/1-1 Order/Add/Save'))
-
-WebUI.delay(1)
-
-not_run: WebUI.acceptAlert()
-
-not_run: WebUI.verifyElementClickable(findTestObject('1 In/1-1 Order/Add/Order button'))
 
 def time() {
     def date = new Date()
@@ -73,15 +69,16 @@ def time() {
 }
 
 def abc(def num) {
-	Date today = new Date()
+    Date today = new Date()
 
-	Date day1 = new Date().plus(num)
+    Date day1 = new Date().plus(num)
 
-	if (day1.format('MM') > today.format('MM')) {
-		WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
+    if (day1.format('MM') > today.format('MM')) {
+        WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
 
-		return day1.format('d')
-	} else {
-		return day1.format('d')
-	}
+        return day1.format('d')
+    } else {
+        return day1.format('d')
+    }
 }
+

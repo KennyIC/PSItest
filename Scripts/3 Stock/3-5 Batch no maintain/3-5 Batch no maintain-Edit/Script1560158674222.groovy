@@ -17,6 +17,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.Keys as Keys
 import java.lang.Integer as Integer
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-edit/Sort by number'))
 
 WebUI.click(findTestObject('Object Repository/3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-edit/Sort by number'))
@@ -36,6 +38,8 @@ WebUI.sendKeys(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach numbe
 
 WebUI.setText(findTestObject('3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-edit/Life days'), 
     '60')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/3 Stock/3-5 Btach number maintain/3-5 Btach number maintain-edit/Save button'))
 
