@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+2-1 Sale Test Suite,Chrome 74.0.3729.169,,2019-07-03 10:37:24,2019-07-03 10:38:19,54.917s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-07-03 10:37:25,2019-07-03 10:37:39,14.451s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-07-03 10:37:26,2019-07-03 10:37:31,5.086s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-07-03 10:37:31,2019-07-03 10:37:36,5.551s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-07-03 10:37:36,2019-07-03 10:37:38,1.214s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-07-03 10:37:38,2019-07-03 10:37:38,0.400s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-07-03 10:37:38,2019-07-03 10:37:38,0.466s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:38,2019-07-03 10:37:39,0.289s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:39,2019-07-03 10:37:39,0.582s,PASSED
+,,,,,,
+Test Cases/2 Out/2-1 Sale/Add,Chrome 74.0.3729.169,,2019-07-03 10:37:39,2019-07-03 10:37:53,14.068s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:40,2019-07-03 10:37:40,0.378s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale add button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:40,2019-07-03 10:37:41,0.549s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale customer button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:41,2019-07-03 10:37:42,0.591s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale customer 95230""))",Chrome 74.0.3729.169,,2019-07-03 10:37:42,2019-07-03 10:37:42,0.790s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale date button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:42,2019-07-03 10:37:43,0.226s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale date today"", [""date"":today_check()]))",Chrome 74.0.3729.169,,2019-07-03 10:37:43,2019-07-03 10:37:43,0.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 10:37:43,2019-07-03 10:37:43,0.010s,PASSED
+return today.format(d),Chrome 74.0.3729.169,,2019-07-03 10:37:43,2019-07-03 10:37:43,0.168s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale sales button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:43,2019-07-03 10:37:43,0.180s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale sales 0001""))",Chrome 74.0.3729.169,,2019-07-03 10:37:43,2019-07-03 10:37:44,0.704s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale ship type button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:44,2019-07-03 10:37:44,0.186s,PASSED
+"selectOptionByValue(findTestObject(""2 Out/2-1 Sale/Add/Sale ship type select""), ""0: 2"", true)",Chrome 74.0.3729.169,,2019-07-03 10:37:44,2019-07-03 10:37:44,0.402s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment type button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:44,2019-07-03 10:37:44,0.161s,PASSED
+"selectOptionByValue(findTestObject(""2 Out/2-1 Sale/Add/Sale payment type select""), ""0: 4"", true)",Chrome 74.0.3729.169,,2019-07-03 10:37:44,2019-07-03 10:37:45,0.325s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment 1""))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.166s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment 1 next month 10"", [""xxx"":month_check(5)]))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.002s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.000s,PASSED
+day1 = Date().plus(num),Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+else,Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.132s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment 2""))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.128s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment 2 next month 15"", [""xxx"":month_check(10)]))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+day1 = Date().plus(num),Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+else,Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.120s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment 3""))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.140s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale payment 3 next month 20"", [""xxx"":month_check(15)]))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+day1 = Date().plus(num),Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:45,0.001s,PASSED
+else,Chrome 74.0.3729.169,,2019-07-03 10:37:45,2019-07-03 10:37:46,0.098s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale invoice number""))",Chrome 74.0.3729.169,,2019-07-03 10:37:46,2019-07-03 10:37:46,0.094s,PASSED
+"selectOptionByValue(findTestObject(""2 Out/2-1 Sale/Add/Sale invoice select""), ""3: 4"", true)",Chrome 74.0.3729.169,,2019-07-03 10:37:46,2019-07-03 10:37:46,0.292s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale TAX button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:46,2019-07-03 10:37:46,0.125s,PASSED
+"selectOptionByValue(findTestObject(""2 Out/2-1 Sale/Add/Sale TAX select""), ""1: 2"", true)",Chrome 74.0.3729.169,,2019-07-03 10:37:46,2019-07-03 10:37:46,0.218s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Sale invoice number""), Invoice_number)",Chrome 74.0.3729.169,,2019-07-03 10:37:46,2019-07-03 10:37:47,0.235s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Sale GUI number""), ""12345678"")",Chrome 74.0.3729.169,,2019-07-03 10:37:47,2019-07-03 10:37:47,0.162s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale contact window button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:47,2019-07-03 10:37:47,0.096s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale contact window 0001""))",Chrome 74.0.3729.169,,2019-07-03 10:37:47,2019-07-03 10:37:47,0.592s,PASSED
+"selectOptionByValue(findTestObject(""2 Out/2-1 Sale/Add/Sale city select""), ""1: 2"", true)",Chrome 74.0.3729.169,,2019-07-03 10:37:47,2019-07-03 10:37:48,0.332s,PASSED
+"selectOptionByValue(findTestObject(""2 Out/2-1 Sale/Add/Sale dist select""), ""9: 17"", true)",Chrome 74.0.3729.169,,2019-07-03 10:37:48,2019-07-03 10:37:49,0.816s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Sale address""), ""瑞光路584號"")",Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.152s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Sale note""), time())",Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.003s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.001s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.009s,PASSED
+Time = Note + sdf.format(date),Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.004s,PASSED
+return internal.GlobalVariable.Time,Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.229s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Item add button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:49,0.074s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Item ipad""))",Chrome 74.0.3729.169,,2019-07-03 10:37:49,2019-07-03 10:37:50,0.752s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Item number""), ""2"")",Chrome 74.0.3729.169,,2019-07-03 10:37:50,2019-07-03 10:37:50,0.451s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Item price""), ""300"")",Chrome 74.0.3729.169,,2019-07-03 10:37:50,2019-07-03 10:37:50,0.288s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Item total price""), ""600"")",Chrome 74.0.3729.169,,2019-07-03 10:37:50,2019-07-03 10:37:51,0.318s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Item discount""), ""0.9"")",Chrome 74.0.3729.169,,2019-07-03 10:37:51,2019-07-03 10:37:51,0.277s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Item warehouse button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:51,2019-07-03 10:37:51,0.218s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Item warehouse 0testwarehous0""))",Chrome 74.0.3729.169,,2019-07-03 10:37:51,2019-07-03 10:37:52,0.782s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Add/Item note""), ""item testing"")",Chrome 74.0.3729.169,,2019-07-03 10:37:52,2019-07-03 10:37:52,0.399s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 10:37:52,2019-07-03 10:37:53,0.772s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Add/Sale save button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:53,2019-07-03 10:37:53,0.161s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-07-03 10:37:53,2019-07-03 10:37:55,1.815s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-07-03 10:37:54,2019-07-03 10:37:55,1.060s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-07-03 10:37:55,2019-07-03 10:37:55,0.035s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-07-03 10:37:55,2019-07-03 10:37:55,0.055s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:55,2019-07-03 10:37:55,0.177s,PASSED
+,,,,,,
+Test Cases/2 Out/2-1 Sale/Edit,Chrome 74.0.3729.169,,2019-07-03 10:37:55,2019-07-03 10:38:02,6.383s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-07-03 10:37:56,2019-07-03 10:37:57,1.002s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Sort by number""))",Chrome 74.0.3729.169,,2019-07-03 10:37:57,2019-07-03 10:37:57,0.196s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Sort by number""))",Chrome 74.0.3729.169,,2019-07-03 10:37:57,2019-07-03 10:37:57,0.148s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-07-03 10:37:57,2019-07-03 10:37:57,0.001s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Select by note"", [""xxx"":XXX]))",Chrome 74.0.3729.169,,2019-07-03 10:37:57,2019-07-03 10:37:57,0.228s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Edit button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:57,2019-07-03 10:37:58,0.353s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/New item button""))",Chrome 74.0.3729.169,,2019-07-03 10:37:58,2019-07-03 10:37:58,0.284s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Select item""))",Chrome 74.0.3729.169,,2019-07-03 10:37:58,2019-07-03 10:37:59,0.835s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Edit/Item number""), ""5"")",Chrome 74.0.3729.169,,2019-07-03 10:37:59,2019-07-03 10:37:59,0.343s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Edit/Item price""), ""1"")",Chrome 74.0.3729.169,,2019-07-03 10:37:59,2019-07-03 10:37:59,0.280s,PASSED
+"setText(findTestObject(""2 Out/2-1 Sale/Edit/Item total price""), ""5"")",Chrome 74.0.3729.169,,2019-07-03 10:37:59,2019-07-03 10:38:00,0.292s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Item warehouse button""))",Chrome 74.0.3729.169,,2019-07-03 10:38:00,2019-07-03 10:38:00,0.228s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Select warehouse""))",Chrome 74.0.3729.169,,2019-07-03 10:38:00,2019-07-03 10:38:01,0.855s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 10:38:01,2019-07-03 10:38:01,0.684s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Edit/Save button""))",Chrome 74.0.3729.169,,2019-07-03 10:38:01,2019-07-03 10:38:02,0.164s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-07-03 10:38:02,2019-07-03 10:38:03,1.233s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-07-03 10:38:02,2019-07-03 10:38:03,1.007s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-07-03 10:38:03,2019-07-03 10:38:03,0.006s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-07-03 10:38:03,2019-07-03 10:38:03,0.011s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-07-03 10:38:03,2019-07-03 10:38:03,0.193s,PASSED
+,,,,,,
+Test Cases/2 Out/2-1 Sale/Delete,Chrome 74.0.3729.169,,2019-07-03 10:38:03,2019-07-03 10:38:18,15.125s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Delete/Sort by sale no""))",Chrome 74.0.3729.169,,2019-07-03 10:38:03,2019-07-03 10:38:04,0.175s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Delete/Sort by sale no""))",Chrome 74.0.3729.169,,2019-07-03 10:38:04,2019-07-03 10:38:04,0.155s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-07-03 10:38:04,2019-07-03 10:38:04,0.002s,PASSED
+"click(findTestObject(""Object Repository/2 Out/2-1 Sale/Delete/Select sale by note"", [""xxx"":XXX]))",Chrome 74.0.3729.169,,2019-07-03 10:38:04,2019-07-03 10:38:04,0.168s,PASSED
+"click(findTestObject(""Object Repository/2 Out/2-1 Sale/Delete/Sale delete button""))",Chrome 74.0.3729.169,,2019-07-03 10:38:04,2019-07-03 10:38:04,0.173s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 10:38:04,2019-07-03 10:38:05,0.694s,PASSED
+"click(findTestObject(""Object Repository/2 Out/2-1 Sale/Delete/Ok button""))",Chrome 74.0.3729.169,,2019-07-03 10:38:05,2019-07-03 10:38:05,0.158s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-07-03 10:38:05,2019-07-03 10:38:07,2.002s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Delete/Sort by sale no""))",Chrome 74.0.3729.169,,2019-07-03 10:38:07,2019-07-03 10:38:07,0.127s,PASSED
+"click(findTestObject(""2 Out/2-1 Sale/Delete/Sort by sale no""))",Chrome 74.0.3729.169,,2019-07-03 10:38:07,2019-07-03 10:38:07,0.110s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 10:38:07,2019-07-03 10:38:08,0.646s,PASSED
+"ZZZ = getText(findTestObject(""Object Repository/2 Out/2-1 Sale/Delete/Select sale by note""))",Chrome 74.0.3729.169,,2019-07-03 10:38:08,2019-07-03 10:38:08,0.105s,PASSED
+"verifyNotMatch(XXX, ZZZ, true)",Chrome 74.0.3729.169,,2019-07-03 10:38:08,2019-07-03 10:38:08,0.016s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-07-03 10:38:08,2019-07-03 10:38:18,10.021s,PASSED

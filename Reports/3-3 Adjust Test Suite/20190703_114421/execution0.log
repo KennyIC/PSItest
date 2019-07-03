@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-03T11:44:26</date>
+  <millis>1562125466603</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/3-3 Adjust Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">3-3 Adjust Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/3-3 Adjust Test Suite</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:26</date>
+  <millis>1562125466641</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = KennyIC_Chen - Larry_Chen.compal.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">KennyIC_Chen - Larry_Chen.compal.com</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:26</date>
+  <millis>1562125466647</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:26</date>
+  <millis>1562125466650</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.109.102.145</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.109.102.145</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:26</date>
+  <millis>1562125466653</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:27</date>
+  <millis>1562125467662</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Others/Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Others/Login</property>
+  <property name="description">Login process in PSI</property>
+  <property name="id">Test Cases/Others/Login</property>
+  <property name="source">D:\\Kenny\\D\\Katalon Studio\\PSI\\PSItest\\Test Cases\\Others\\Login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:28</date>
+  <millis>1562125468393</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-03T11:44:29</date>
+  <millis>1562125469321</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-03T11:44:29</date>
+  <millis>1562125469405</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>

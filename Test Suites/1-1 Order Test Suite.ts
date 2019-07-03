@@ -25,19 +25,25 @@
    <testCaseLink>
       <guid>9b65866f-4fa8-4aad-973c-d5e12967a6cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9aec45f5-4113-4f82-908a-f0c9322f183f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/1 In/1-1 Order/1-1 Order-Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16fce865-38df-49a2-850c-02154ff93ee7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3e735ef-70bd-45a6-9946-a69089345133</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1 In/1-1 Order/1-1 Order-Delete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

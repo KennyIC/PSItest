@@ -20,7 +20,7 @@
       <guid>291fcefd-fdc5-415c-8acb-8a9c17377d34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-add</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8709ba75-3f89-4844-96a7-53c4503aaabc</guid>
@@ -32,12 +32,18 @@
       <guid>7de36977-9691-46df-970b-cfd955094205</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-edit</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>69cc4092-72fc-404d-b03f-baee8dd09eae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c18dee88-f4df-48e0-84fd-76bc9e69db30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3 Stock/3-3 Adjust/3-3 Adjust-Delete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

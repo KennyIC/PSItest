@@ -20,7 +20,7 @@
       <guid>3288f91f-e404-44c2-829b-1e9ad03c80ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-add</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>daf495a0-118e-4b6f-b20a-1fb3c69a9284</guid>
@@ -32,12 +32,18 @@
       <guid>118a049a-97fc-4cb0-8fbf-c31a098ce76d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-edit</testCaseId>
+      <testCaseId>Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c85eb5b9-77f5-4a5c-8928-eb484c61abf9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>036fafbc-93c9-4e9c-bcfc-033300306d88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3 Stock/3-1 Stock Take/3-1 Stock Take-Delete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

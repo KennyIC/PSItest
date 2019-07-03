@@ -29,7 +29,7 @@ WebUI.delay(1)
 
 //KeywordUtil.logInfo('XXXXXXXXXXXX' + extractInt)
 
-WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Replenishment execute button'))
+WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Replenishment execute button'))
 
 WebUI.delay(1)
 count_number = extractInt.length()
@@ -55,30 +55,30 @@ for (count_cycle = 1; count_cycle < a; count_cycle++) {
 	
 	KeywordUtil.logInfo('XXXXXXXXXXXX11-===' + count_cycle)
 	int www = count_cycle * 8
-    WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 button', [('sss') : www]))
+    WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Vendor 1 button', [('sss') : www]))
 	
 	
 
-    WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 select'))
+    WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Vendor 1 select'))
 
-    WebUI.setText(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 1 order qty'), '10')
+    WebUI.setText(findTestObject('3 Stock/3-2 Replenishment/Add/Vendor 1 order qty'), '10')
 }
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Employee button'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Employee button'))
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Employee select'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Employee select'))
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Ship type button'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Ship type button'))
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Ship type select'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Ship type select'))
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 2 button'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Vendor 2 button'))
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 2 select'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Vendor 2 select'))
 
-not_run: WebUI.setText(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Vendor 2 order qty'), '10')
+not_run: WebUI.setText(findTestObject('3 Stock/3-2 Replenishment/Add/Vendor 2 order qty'), '10')
 
-not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/3-2 Replenishment-add/Save'))
+not_run: WebUI.click(findTestObject('3 Stock/3-2 Replenishment/Add/Save'))
 
 //variable = WebUI.getText(findTestObject('Others/test/div_1-8  8'))
 //WebUI.getText(findTestObject('Others/test/div_1-8  8')).substring(3, 4)

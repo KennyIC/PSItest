@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3-5 Batch number maintain,Chrome 74.0.3729.169,,2019-07-03 12:01:44,2019-07-03 12:02:18,34.346s,PASSED
+,,,,,,
+Test Cases/Others/Login,Chrome 74.0.3729.169,Login process in PSI,2019-07-03 12:01:44,2019-07-03 12:02:01,16.323s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-07-03 12:01:45,2019-07-03 12:01:51,6.146s,PASSED
+"navigateToUrl(""https://psi-azcldap.unicore.com.tw/login"")",Chrome 74.0.3729.169,,2019-07-03 12:01:51,2019-07-03 12:01:58,6.321s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-07-03 12:01:58,2019-07-03 12:01:59,1.218s,PASSED
+"setText(findTestObject(""Others/Login/ID-QWE""), ""QWE"")",Chrome 74.0.3729.169,,2019-07-03 12:01:59,2019-07-03 12:01:59,0.591s,PASSED
+"setEncryptedText(findTestObject(""Others/Login/PW-QWE""), ""5opu+sh6ATw="")",Chrome 74.0.3729.169,,2019-07-03 12:01:59,2019-07-03 12:02:00,0.521s,PASSED
+"click(findTestObject(""Others/Login/Login Button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:00,2019-07-03 12:02:00,0.323s,PASSED
+"verifyElementClickable(findTestObject(""Others/Login/Verify button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:00,2019-07-03 12:02:01,0.432s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-5 Batch no maintain/3-5 Batch no maintain-Add,Chrome 74.0.3729.169,,2019-07-03 12:02:01,2019-07-03 12:02:06,5.008s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Batch maintain button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:01,2019-07-03 12:02:02,0.304s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Batch maintain add button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:02,2019-07-03 12:02:02,0.541s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:02,2019-07-03 12:02:03,0.245s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item select""))",Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:03,0.725s,PASSED
+"setText(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item life day""), ""30"")",Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:03,0.183s,PASSED
+"setText(findTestObject(""3 Stock/3-5 Batch number maintain/Add/item batch code""), time())",Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:03,0.005s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:03,0.007s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:03,0.018s,PASSED
+Time = Note + sdf.format(date),Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:03,0.029s,PASSED
+return internal.GlobalVariable.Time,Chrome 74.0.3729.169,,2019-07-03 12:02:03,2019-07-03 12:02:04,0.440s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/item life date""))",Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.169s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item life date next month 23"", [""xxx"":abc(0)]))",Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.002s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.002s,PASSED
+day1 = Date().plus(num),Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.002s,PASSED
+"if (day1.format(""MM"") > today.format(""MM""))",Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.002s,PASSED
+else,Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.181s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item enable""))",Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:04,0.153s,PASSED
+"selectOptionByValue(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item enable select""), ""0: Y"", true)",Chrome 74.0.3729.169,,2019-07-03 12:02:04,2019-07-03 12:02:05,0.276s,PASSED
+"setText(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Item note""), time())",Chrome 74.0.3729.169,,2019-07-03 12:02:05,2019-07-03 12:02:05,0.004s,PASSED
+date = new java.util.Date(),Chrome 74.0.3729.169,,2019-07-03 12:02:05,2019-07-03 12:02:05,0.000s,PASSED
+sdf = new java.text.SimpleDateFormat(yyyyMMddHHmm),Chrome 74.0.3729.169,,2019-07-03 12:02:05,2019-07-03 12:02:05,0.000s,PASSED
+Time = Note + sdf.format(date),Chrome 74.0.3729.169,,2019-07-03 12:02:05,2019-07-03 12:02:05,0.002s,PASSED
+return internal.GlobalVariable.Time,Chrome 74.0.3729.169,,2019-07-03 12:02:05,2019-07-03 12:02:05,0.363s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 12:02:05,2019-07-03 12:02:06,0.516s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Add/Save button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:06,2019-07-03 12:02:06,0.158s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-07-03 12:02:06,2019-07-03 12:02:07,1.379s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-07-03 12:02:06,2019-07-03 12:02:07,1.032s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-07-03 12:02:07,2019-07-03 12:02:07,0.028s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-07-03 12:02:07,2019-07-03 12:02:07,0.042s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:07,2019-07-03 12:02:07,0.076s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-5 Batch no maintain/3-5 Batch no maintain-Edit,Chrome 74.0.3729.169,,2019-07-03 12:02:07,2019-07-03 12:02:10,3.283s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-07-03 12:02:07,2019-07-03 12:02:08,1.002s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Sort by number""))",Chrome 74.0.3729.169,,2019-07-03 12:02:08,2019-07-03 12:02:09,0.207s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Sort by number""))",Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:09,0.147s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:09,0.002s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Select by number"", [""xxx"":XXX]))",Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:09,0.175s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Edit button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:09,0.216s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Life days""), Keys.chord(CONTROL, ""a""))",Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:09,0.196s,PASSED
+"sendKeys(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Life days""), Keys.chord(DELETE))",Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:09,0.120s,PASSED
+"setText(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Life days""), ""60"")",Chrome 74.0.3729.169,,2019-07-03 12:02:09,2019-07-03 12:02:10,0.198s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 12:02:10,2019-07-03 12:02:10,0.634s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Edit/Save button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:10,2019-07-03 12:02:10,0.203s,PASSED
+,,,,,,
+Test Cases/Others/Accept and verify,Chrome 74.0.3729.169,,2019-07-03 12:02:10,2019-07-03 12:02:12,1.314s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-07-03 12:02:10,2019-07-03 12:02:11,1.002s,PASSED
+waitForAlert(5),Chrome 74.0.3729.169,,2019-07-03 12:02:11,2019-07-03 12:02:11,0.008s,PASSED
+acceptAlert(),Chrome 74.0.3729.169,,2019-07-03 12:02:11,2019-07-03 12:02:11,0.019s,PASSED
+"verifyElementClickable(findTestObject(""Others/Accept and verify/Verify button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:11,2019-07-03 12:02:12,0.271s,PASSED
+,,,,,,
+Test Cases/3 Stock/3-5 Batch no maintain/3-5 Batch no maintain-Delete,Chrome 74.0.3729.169,,2019-07-03 12:02:12,2019-07-03 12:02:17,5.290s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Sort by batch number no""))",Chrome 74.0.3729.169,,2019-07-03 12:02:12,2019-07-03 12:02:13,0.205s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Sort by batch number no""))",Chrome 74.0.3729.169,,2019-07-03 12:02:13,2019-07-03 12:02:13,0.216s,PASSED
+XXX = Time,Chrome 74.0.3729.169,,2019-07-03 12:02:13,2019-07-03 12:02:13,0.001s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Select batch number by note""))",Chrome 74.0.3729.169,,2019-07-03 12:02:13,2019-07-03 12:02:13,0.169s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Batch number delete button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:13,2019-07-03 12:02:13,0.208s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 12:02:13,2019-07-03 12:02:14,0.693s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Ok button""))",Chrome 74.0.3729.169,,2019-07-03 12:02:14,2019-07-03 12:02:14,0.161s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-07-03 12:02:14,2019-07-03 12:02:16,2.003s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Sort by batch number no""))",Chrome 74.0.3729.169,,2019-07-03 12:02:16,2019-07-03 12:02:16,0.154s,PASSED
+"click(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Sort by batch number no""))",Chrome 74.0.3729.169,,2019-07-03 12:02:16,2019-07-03 12:02:16,0.133s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-07-03 12:02:16,2019-07-03 12:02:17,0.643s,PASSED
+"ZZZ = getText(findTestObject(""3 Stock/3-5 Batch number maintain/Delete/Select batch number by note""))",Chrome 74.0.3729.169,,2019-07-03 12:02:17,2019-07-03 12:02:17,0.111s,PASSED
+"verifyNotMatch(XXX, ZZZ, true)",Chrome 74.0.3729.169,,2019-07-03 12:02:17,2019-07-03 12:02:17,0.015s,PASSED

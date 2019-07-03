@@ -40,4 +40,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Others/Accept and verify</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d47e054d-c8f4-45ed-a8e5-8d166d6943df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3 Stock/3-4 Transfer/3-4 Transfer-Delete</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
