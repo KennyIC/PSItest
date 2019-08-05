@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'ipad' or . = 'ipad')]</value>
+         <value>//*[(text() = '0測試商品0' or . = '0測試商品0')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ipad</value>
+      <value>0測試商品0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

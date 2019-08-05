@@ -65,11 +65,11 @@ WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Unit button'))
 
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Unit Change'))
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Qty'), '10')
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Qty'), GlobalVariable.Qty1)
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Price'), '200')
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Price'), GlobalVariable.Price1)
 
-WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Total price'), '2000')
+WebUI.setText(findTestObject('1 In/1-2 Purchase/Add/Tprice'), GlobalVariable.TPrice1)
 
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Warehouse button'))
 
@@ -80,6 +80,7 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Save'))
 
 def time() {
+	
     def date = new Date()
 
     sdf = new SimpleDateFormat('yyyyMMddHHmm')
@@ -90,15 +91,19 @@ def time() {
 }
 
 def abc(def num) {
+	
     Date today = new Date()
 
     Date day1 = new Date().plus(num)
 
     if (day1.format('MM') > today.format('MM')) {
+		
         WebUI.click(findTestObject('1 In/1-2 Purchase/Add/Payment date next month'))
 
         return day1.format('d')
+		
     } else {
+	
         return day1.format('d')
     }
 }

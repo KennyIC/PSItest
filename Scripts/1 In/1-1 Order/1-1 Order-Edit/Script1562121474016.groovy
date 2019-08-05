@@ -25,19 +25,31 @@ String XXX = GlobalVariable.Time
 
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/Select order by note', [('xxx') : XXX]))
 
-WebUI.click(findTestObject('1 In/1-1 Order/Edit/Order edit button'))
+WebUI.click(findTestObject('1 In/1-1 Order/Edit/Edit button'))
+
+WebUI.verifyElementText(findTestObject('1 In/1-1 Order/Add/Vendor button'), '(0000)0測試廠商0')
+
+WebUI.verifyElementText(findTestObject('1 In/1-1 Order/Add/Employee button'), '(0000)0測試員工0')
+
+WebUI.verifyElementText(findTestObject('1 In/1-1 Order/Add/Ship button'), '測試運送方式1')
+
+WebUI.verifyElementText(findTestObject('1 In/1-1 Order/Add/TAX select'), '應稅外加')
+
+WebUI.verifyElementPresent(findTestObject('1 In/1-1 Order/Add/Qty'), 10)
+
+WebUI.verifyElementPresent(findTestObject('1 In/1-1 Order/Add/Price'), 200)
+
+WebUI.verifyElementPresent(findTestObject('1 In/1-1 Order/Add/TPrice'), 2000)
 
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/Add item button'))
 
 WebUI.click(findTestObject('1 In/1-1 Order/Edit/Select item button'))
 
-WebUI.click(findTestObject('1 In/1-1 Order/Edit/number button'))
+WebUI.setText(findTestObject('1 In/1-1 Order/Edit/Qty'), GlobalVariable.Qty2)
 
-WebUI.setText(findTestObject('1 In/1-1 Order/Edit/number text'), '5')
+WebUI.setText(findTestObject('1 In/1-1 Order/Edit/Price'), GlobalVariable.Price2)
 
-WebUI.click(findTestObject('1 In/1-1 Order/Edit/total price button'))
-
-WebUI.setText(findTestObject('1 In/1-1 Order/Edit/total price text'), '5')
+WebUI.setText(findTestObject('1 In/1-1 Order/Edit/Tprice'), GlobalVariable.TPrice2)
 
 WebUI.takeScreenshot()
 

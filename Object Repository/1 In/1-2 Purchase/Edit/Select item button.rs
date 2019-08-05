@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select item</name>
+   <name>Select item button</name>
    <tag></tag>
-   <elementGuidId>d0b034ab-eed9-4de8-ac66-ef8041061613</elementGuidId>
+   <elementGuidId>aa275407-19e3-4a8d-bdc7-31ea3ddb5591</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -31,13 +31,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_19&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[2]</value>
+      <value>id(&quot;DataTables_Table_3&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//table[@id='DataTables_Table_19']/tbody/tr[9]/td[2]</value>
+      <value>//table[@id='DataTables_Table_3']/tbody/tr[9]/td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

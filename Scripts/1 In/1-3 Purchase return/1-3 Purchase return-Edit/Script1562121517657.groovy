@@ -25,15 +25,15 @@ WebUI.click(findTestObject('1 In/1-3 Return/Edit/Select Purchase Return by note'
 
 WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Edit button'))
 
-WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Add item button'))
+WebUI.click(findTestObject('1 In/1-3 Return/Edit/Select item button'))
 
 WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Select item'))
 
-WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Number button'))
+WebUI.setText(findTestObject('1 In/1-3 Return/Edit/Qty'), GlobalVariable.Qty2)
 
-WebUI.setText(findTestObject('Object Repository/1 In/1-3 Return/Edit/Number text'), '5')
+WebUI.setText(findTestObject('1 In/1-3 Return/Edit/Price'), GlobalVariable.Price2)
 
-WebUI.setText(findTestObject('Object Repository/1 In/1-3 Return/Edit/Total price text'), '5')
+WebUI.setText(findTestObject('1 In/1-3 Return/Edit/Tprice'), GlobalVariable.TPrice2)
 
 WebUI.click(findTestObject('Object Repository/1 In/1-3 Return/Edit/Warehouse button'))
 

@@ -4,6 +4,12 @@
    <name>Select item</name>
    <tag></tag>
    <elementGuidId>b3b0b46d-6e8b-42a9-956f-bf60b1e9c454</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '1測試商品1' or . = '1測試商品1')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>補貨測試專用 勿補滿</value>
+      <value>1測試商品1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

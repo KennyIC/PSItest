@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Others/Login/Login Button'))
 
 WebUI.verifyElementClickable(findTestObject('Others/Login/Verify button'))
 
+WebUI.delay(2)
+

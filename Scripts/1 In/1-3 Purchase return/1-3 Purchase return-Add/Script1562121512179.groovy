@@ -32,17 +32,14 @@ WebUI.selectOptionByValue(findTestObject('1 In/1-3 Return/Add/Payment'), '0: 1',
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment Date 1'))
 
-//WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date next month'))
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date 1 next month 10', [('xxx') : abc(5)]))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment Date 2'))
 
-//WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date 2 next month'))
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date 2 next month 15', [('xxx') : abc(10)]))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment Date 3'))
 
-//WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date 3 next month'))
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date 3 next month 20', [('xxx') : abc(15)]))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Invoice select'))
@@ -67,11 +64,11 @@ WebUI.click(findTestObject('1 In/1-3 Return/Add/Unit button'))
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Unit Change'))
 
-WebUI.setText(findTestObject('1 In/1-3 Return/Add/Number'), '10')
+WebUI.setText(findTestObject('1 In/1-3 Return/Add/Number'), GlobalVariable.Qty1)
 
-WebUI.setText(findTestObject('1 In/1-3 Return/Add/Price'), '200')
+WebUI.setText(findTestObject('1 In/1-3 Return/Add/Price'), GlobalVariable.Price1)
 
-WebUI.setText(findTestObject('1 In/1-3 Return/Add/Total price'), '2000')
+WebUI.setText(findTestObject('1 In/1-3 Return/Add/Tprice'), GlobalVariable.TPrice1)
 
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Warehouse button'))
 
@@ -82,6 +79,7 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1 In/1-3 Return/Add/Save'))
 
 def time() {
+	
     def date = new Date()
 
     sdf = new SimpleDateFormat('yyyyMMddHHmm')
@@ -92,15 +90,19 @@ def time() {
 }
 
 def abc(def num) {
+	
     Date today = new Date()
 
     Date day1 = new Date().plus(num)
 
     if (day1.format('MM') > today.format('MM')) {
+		
         WebUI.click(findTestObject('1 In/1-3 Return/Add/Payment date next month'))
 
         return day1.format('d')
+		
     } else {
+	
         return day1.format('d')
     }
 }

@@ -14,32 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-def time() {
-    def date = new Date()
 
-    sdf = new SimpleDateFormat('yyyyMMddHHmm')
-
-    GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
-
-    return GlobalVariable.Time
-	
-	}
-
-
-def abc(num){
-Date today = new Date()
-Date day1 = new Date().plus(num)
-if(day1.format('MM') > today.format('MM')){
-	WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Sale return payment next month'))
-	return day1.format('d')}
-else{
-	return day1.format('d')}
-}
-
-def today_check(){
-	Date today = new Date()
-	return today.format('d')
-}
 WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Sale return button'))
 
 WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Add button'))
@@ -96,11 +71,11 @@ WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Item add button'))
 
 WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Item good'))
 
-WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Item number'), '2')
+WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Qty'), GlobalVariable.Qty1)
 
-WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Item price'), '300')
+WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Price'), GlobalVariable.Price1)
 
-WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Item total price'), '600')
+WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Tprice'), GlobalVariable.TPrice1)
 
 WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Item warehouse button'))
 
@@ -111,4 +86,31 @@ WebUI.setText(findTestObject('2 Out/2-2 Sale Return/Add/Item tax'), '30')
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Sale return save'))
+
+def time() {
+	def date = new Date()
+
+	sdf = new SimpleDateFormat('yyyyMMddHHmm')
+
+	GlobalVariable.Time = (GlobalVariable.Note + sdf.format(date))
+
+	return GlobalVariable.Time
+	
+	}
+
+
+def abc(num){
+Date today = new Date()
+Date day1 = new Date().plus(num)
+if(day1.format('MM') > today.format('MM')){
+	WebUI.click(findTestObject('2 Out/2-2 Sale Return/Add/Sale return payment next month'))
+	return day1.format('d')}
+else{
+	return day1.format('d')}
+}
+
+def today_check(){
+	Date today = new Date()
+	return today.format('d')
+}
 

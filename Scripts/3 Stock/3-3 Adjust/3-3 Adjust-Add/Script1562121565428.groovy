@@ -41,7 +41,7 @@ WebUI.click(findTestObject('3 Stock/3-3 Adjust/Add/item warehouse button'))
 
 WebUI.click(findTestObject('3 Stock/3-3 Adjust/Add/item warehouse'))
 
-WebUI.setText(findTestObject('3 Stock/3-3 Adjust/Add/item qty'), '10')
+WebUI.setText(findTestObject('3 Stock/3-3 Adjust/Add/item qty'), GlobalVariable.Qty1)
 
 WebUI.setText(findTestObject('3 Stock/3-3 Adjust/Add/item price'), '120')
 

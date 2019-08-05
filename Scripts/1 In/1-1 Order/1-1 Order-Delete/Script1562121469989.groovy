@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/1 In/1-1 Order/Delete/Sort by order no'))
 
 WebUI.click(findTestObject('Object Repository/1 In/1-1 Order/Delete/Sort by order no'))

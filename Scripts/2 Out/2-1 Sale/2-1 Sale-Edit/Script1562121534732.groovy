@@ -29,11 +29,11 @@ WebUI.click(findTestObject('2 Out/2-1 Sale/Edit/New item button'))
 
 WebUI.click(findTestObject('2 Out/2-1 Sale/Edit/Select item'))
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Edit/Item number'), '5')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/Edit/Qty'), GlobalVariable.Qty2)
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Edit/Item price'), '1')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/Edit/Price'), GlobalVariable.Price2)
 
-WebUI.setText(findTestObject('2 Out/2-1 Sale/Edit/Item total price'), '5')
+WebUI.setText(findTestObject('2 Out/2-1 Sale/Edit/Tprice'), GlobalVariable.TPrice2)
 
 WebUI.click(findTestObject('2 Out/2-1 Sale/Edit/Item warehouse button'))
 

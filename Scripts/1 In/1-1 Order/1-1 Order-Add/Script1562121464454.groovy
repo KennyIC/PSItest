@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.click(findTestObject('1 In/1-1 Order/Add/New button'))
 
@@ -20,7 +21,7 @@ WebUI.click(findTestObject('1 In/1-1 Order/Add/Order button'))
 
 WebUI.click(findTestObject('1 In/1-1 Order/Add/Vendor button'))
 
-WebUI.click(findTestObject('1 In/1-1 Order/Add/Vendor 2324'))
+WebUI.click(findTestObject('1 In/1-1 Order/Add/Vendor'))
 
 WebUI.click(findTestObject('1 In/1-1 Order/Add/OrderDate'))
 
@@ -48,11 +49,11 @@ WebUI.click(findTestObject('1 In/1-1 Order/Add/Unit button'))
 
 WebUI.click(findTestObject('1 In/1-1 Order/Add/Unit Change'))
 
-WebUI.setText(findTestObject('1 In/1-1 Order/Add/Qty'), '10')
+WebUI.setText(findTestObject('1 In/1-1 Order/Add/Qty'), GlobalVariable.Qty1)
 
-WebUI.setText(findTestObject('1 In/1-1 Order/Add/Price'), '200')
+WebUI.setText(findTestObject('1 In/1-1 Order/Add/Price'), GlobalVariable.Price1)
 
-WebUI.setText(findTestObject('1 In/1-1 Order/Add/Total Price'), '2000')
+WebUI.setText(findTestObject('1 In/1-1 Order/Add/TPrice'), GlobalVariable.TPrice1)
 
 WebUI.takeScreenshot()
 
